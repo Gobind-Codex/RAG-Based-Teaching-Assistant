@@ -1,0 +1,1951 @@
+{
+    "chunks": [
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Dear students, Welcome to Gate Smashers"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 2.0,
+            "end": 4.0,
+            "text": " In today's video I am going to explain"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 4.0,
+            "end": 8.0,
+            "text": " MapReduce which is one of the core component of Apache Hadoop"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 8.0,
+            "end": 12.0,
+            "text": " As I told you in the last video about HDFS"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 12.0,
+            "end": 14.0,
+            "text": " What is the purpose of HDFS"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 14.0,
+            "end": 17.0,
+            "text": " That my big data, large amount of data"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 17.0,
+            "end": 20.0,
+            "text": " Instead of storing it in one place"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 20.0,
+            "end": 22.0,
+            "text": " I am storing it in a distributed way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 22.0,
+            "end": 26.0,
+            "text": " Means I am partitioning it in different places and storing it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 26.0,
+            "end": 28.0,
+            "text": " So when my processing unit will come"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 28.0,
+            "end": 31.0,
+            "text": " Processing unit means that data is stored"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 31.0,
+            "end": 33.0,
+            "text": " Now what to do after storing it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 33.0,
+            "end": 36.0,
+            "text": " We have to extract some important information or insights from it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 36.0,
+            "end": 38.0,
+            "text": " So who will extract it?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 38.0,
+            "end": 40.0,
+            "text": " The processing unit will extract it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 40.0,
+            "end": 42.0,
+            "text": " Means the one who will process this data"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 42.0,
+            "end": 44.0,
+            "text": " So the processing unit should also be such"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 44.0,
+            "end": 53.0,
+            "text": " Which can process this whole data in a distributed way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 53.0,
+            "end": 57.0,
+            "text": " So for that purpose, MapReduce was specially designed"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 57.0,
+            "end": 59.0,
+            "text": " So what is MapReduce?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 59.0,
+            "end": 64.0,
+            "text": " MapReduce performs the processing of large amount of data set"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 64.0,
+            "end": 67.0,
+            "text": " In a distributed and parallel manner"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 67.0,
+            "end": 69.0,
+            "text": " Data is already distributed"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 69.0,
+            "end": 72.0,
+            "text": " Data is already stored in a distributed way by HDFS"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 72.0,
+            "end": 77.0,
+            "text": " Now I need a system which can process this data in parallel"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 77.0,
+            "end": 80.0,
+            "text": " So that my time is less and I get more efficiency"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 80.0,
+            "end": 83.0,
+            "text": " So that is the purpose of MapReduce"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 83.0,
+            "end": 86.0,
+            "text": " So we call it as Processing Unit of Apache Hadoop"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 86.0,
+            "end": 90.0,
+            "text": " So see, in MapReduce, you can say two main classes"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 90.0,
+            "end": 92.0,
+            "text": " You can say two main tasks"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 92.0,
+            "end": 95.0,
+            "text": " One is Map and the other is Reduce"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 95.0,
+            "end": 99.0,
+            "text": " We generally say that there is one class that is Mapper class"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 99.0,
+            "end": 102.0,
+            "text": " And another class that is Reduce"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 102.0,
+            "end": 106.0,
+            "text": " Because this works on divide and conquer approach"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 106.0,
+            "end": 108.0,
+            "text": " Maybe if you have heard in the algorithm"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 108.0,
+            "end": 110.0,
+            "text": " What is divide and conquer approach?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 110.0,
+            "end": 112.0,
+            "text": " That I have a very big problem"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 112.0,
+            "end": 116.0,
+            "text": " First you divide it in small partitions, small portions"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 116.0,
+            "end": 118.0,
+            "text": " Keep dividing it, keep dividing it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 118.0,
+            "end": 121.0,
+            "text": " Till it comes on a very small level"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 121.0,
+            "end": 124.0,
+            "text": " When it is split, divided"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 124.0,
+            "end": 128.0,
+            "text": " Finally, what we do is process it and then reduce it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 128.0,
+            "end": 134.0,
+            "text": " Reduce means combine the intermediate results and generate the final output"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 134.0,
+            "end": 135.0,
+            "text": " So what is the work of Mapper?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 135.0,
+            "end": 139.0,
+            "text": " To solve the big problem in small problems"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 139.0,
+            "end": 143.0,
+            "text": " And then convert them into key value pairs"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 143.0,
+            "end": 146.0,
+            "text": " Means what is the key and what is its value?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 146.0,
+            "end": 149.0,
+            "text": " So it converts the data into key value pair after splitting"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 149.0,
+            "end": 152.0,
+            "text": " Then after that, it is processed"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 152.0,
+            "end": 156.0,
+            "text": " Whatever we write, whatever program we write here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 156.0,
+            "end": 160.0,
+            "text": " So based on that program, whatever work I have to do, that work will be performed"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 160.0,
+            "end": 165.0,
+            "text": " But it will be parallel to all the split we have done on all the programs"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 165.0,
+            "end": 168.0,
+            "text": " And then the intermediate result will come"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 168.0,
+            "end": 170.0,
+            "text": " What will we do to that result?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 170.0,
+            "end": 173.0,
+            "text": " By combining, which is called reducer class"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 173.0,
+            "end": 178.0,
+            "text": " By reducing the reducer, the intermediate result converts it into the final result"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 178.0,
+            "end": 182.0,
+            "text": " I will explain this to you with real life example here, don't worry"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 182.0,
+            "end": 185.0,
+            "text": " Then another important point comes here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 185.0,
+            "end": 189.0,
+            "text": " That two main daemons come here who work on the background"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 189.0,
+            "end": 190.0,
+            "text": " What are daemons?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 190.0,
+            "end": 192.0,
+            "text": " Those processes that work on the background"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 192.0,
+            "end": 196.0,
+            "text": " So there we have a job tracker and a task tracker"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 196.0,
+            "end": 197.0,
+            "text": " So what is the job tracker?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 197.0,
+            "end": 198.0,
+            "text": " It is the boss"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 198.0,
+            "end": 200.0,
+            "text": " Here the job tracker is the boss"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 200.0,
+            "end": 202.0,
+            "text": " Whose work is to schedule the process"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 202.0,
+            "end": 205.0,
+            "text": " That which job will be scheduled, where will it be scheduled"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 205.0,
+            "end": 207.0,
+            "text": " Provide resources"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 207.0,
+            "end": 209.0,
+            "text": " Means this is the operating system kind of"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 209.0,
+            "end": 212.0,
+            "text": " This is the boss who manages all the things"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 212.0,
+            "end": 216.0,
+            "text": " And the one who actually works is your task tracker"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 216.0,
+            "end": 219.0,
+            "text": " Like we did in HDFS, this is the name node"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 219.0,
+            "end": 221.0,
+            "text": " So what is the purpose of the name node?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 221.0,
+            "end": 223.0,
+            "text": " It is a kind of boss who stores all the metadata"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 223.0,
+            "end": 226.0,
+            "text": " Who tells which data to be stored where"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 226.0,
+            "end": 227.0,
+            "text": " But where is the data stored?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 227.0,
+            "end": 228.0,
+            "text": " In the data node"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 228.0,
+            "end": 230.0,
+            "text": " I am telling you the same thing here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 230.0,
+            "end": 233.0,
+            "text": " That you will be clear from my diagram"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 233.0,
+            "end": 235.0,
+            "text": " What is the job tracker here?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 235.0,
+            "end": 237.0,
+            "text": " It works like a master node"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 237.0,
+            "end": 238.0,
+            "text": " Works like a boss"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 238.0,
+            "end": 241.0,
+            "text": " Like HDFS, what is this HDFS component?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 241.0,
+            "end": 244.0,
+            "text": " What is this? Map reduce component"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 244.0,
+            "end": 246.0,
+            "text": " So here this is the master"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 246.0,
+            "end": 249.0,
+            "text": " You can say this is your slave node"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 249.0,
+            "end": 251.0,
+            "text": " Whose actual work is to do"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 251.0,
+            "end": 252.0,
+            "text": " This is the employee"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 252.0,
+            "end": 254.0,
+            "text": " Like this is the employee of the company who is actually working"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 254.0,
+            "end": 257.0,
+            "text": " And this is the boss, the master who is managing all the things"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 257.0,
+            "end": 260.0,
+            "text": " Like in HDFS, the name node and data node are the same thing here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 260.0,
+            "end": 261.0,
+            "text": " So what is its job?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 261.0,
+            "end": 263.0,
+            "text": " Its job is to schedule things"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 263.0,
+            "end": 266.0,
+            "text": " That which thing will be scheduled at what time"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 266.0,
+            "end": 268.0,
+            "text": " Provide resources"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 268.0,
+            "end": 271.0,
+            "text": " Provide resources"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 271.0,
+            "end": 273.0,
+            "text": " The resources I need"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 273.0,
+            "end": 275.0,
+            "text": " The resources that the task tracker needs"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 275.0,
+            "end": 276.0,
+            "text": " It provides"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 276.0,
+            "end": 278.0,
+            "text": " Monitoring along with it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 278.0,
+            "end": 281.0,
+            "text": " Means things are running properly or not"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 281.0,
+            "end": 282.0,
+            "text": " Any fault has occurred"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 282.0,
+            "end": 284.0,
+            "text": " Any task tracker is not working"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 284.0,
+            "end": 286.0,
+            "text": " So all these things are managed"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 286.0,
+            "end": 288.0,
+            "text": " All this is your job tracker"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 288.0,
+            "end": 291.0,
+            "text": " And then the task tracker actually works"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 291.0,
+            "end": 293.0,
+            "text": " Where the data is lying"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 293.0,
+            "end": 295.0,
+            "text": " Now here is a very important point"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 295.0,
+            "end": 299.0,
+            "text": " That we say that how do we parallel access such a large amount of data?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 299.0,
+            "end": 301.0,
+            "text": " So a very important concept comes here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 301.0,
+            "end": 304.0,
+            "text": " What usually happens is that my data"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 304.0,
+            "end": 308.0,
+            "text": " We have kept it on different data nodes here in this way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 308.0,
+            "end": 310.0,
+            "text": " What do we do here?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 310.0,
+            "end": 313.0,
+            "text": " Like you have any question from any of the billets"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 313.0,
+            "end": 316.0,
+            "text": " That you have to find out state-wise of dominoes"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 316.0,
+            "end": 320.0,
+            "text": " At which place most of it is sold"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 320.0,
+            "end": 321.0,
+            "text": " Okay"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 321.0,
+            "end": 323.0,
+            "text": " So if I have to find out this thing here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 323.0,
+            "end": 327.0,
+            "text": " Then there are more than 1500 outlets all over India of dominoes"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 327.0,
+            "end": 330.0,
+            "text": " How much sale will be there on a daily basis?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " So if I have to find out"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 332.0,
+            "end": 336.0,
+            "text": " At which particular state has the most sale at the month end"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 336.0,
+            "end": 337.0,
+            "text": " So what I have to do"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 337.0,
+            "end": 342.0,
+            "text": " First of all, that data has to be kept in a parallel distributed way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 342.0,
+            "end": 346.0,
+            "text": " And here we keep that data in the local disk"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 346.0,
+            "end": 349.0,
+            "text": " We do not keep it far in the remote disk"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 349.0,
+            "end": 353.0,
+            "text": " We keep the data in the local disk, in the nearby disk"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 353.0,
+            "end": 354.0,
+            "text": " What is the reason for that?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 354.0,
+            "end": 356.0,
+            "text": " Network utilization"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 356.0,
+            "end": 358.0,
+            "text": " Because the farther you keep it here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 358.0,
+            "end": 359.0,
+            "text": " We have a formula"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 359.0,
+            "end": 361.0,
+            "text": " Propagation delay in the network"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 361.0,
+            "end": 364.0,
+            "text": " Propagation delay which is distance upon velocity"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 364.0,
+            "end": 367.0,
+            "text": " So propagation delay is directly proportional to distance"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 367.0,
+            "end": 370.0,
+            "text": " The farther we keep the data, the more delay will be there"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 370.0,
+            "end": 371.0,
+            "text": " So what we do"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 371.0,
+            "end": 372.0,
+            "text": " We keep the data local"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 372.0,
+            "end": 378.0,
+            "text": " You can say that the data node is storing the data here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 378.0,
+            "end": 382.0,
+            "text": " And the processing unit is going to the data nodes itself"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 382.0,
+            "end": 383.0,
+            "text": " And processing"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 383.0,
+            "end": 384.0,
+            "text": " Generally what happens"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 384.0,
+            "end": 387.0,
+            "text": " That we call the data to the processing unit"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 387.0,
+            "end": 388.0,
+            "text": " Like it happens in our laptop"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 388.0,
+            "end": 390.0,
+            "text": " Data is called to RAM"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 390.0,
+            "end": 393.0,
+            "text": " CPU then works on it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 393.0,
+            "end": 394.0,
+            "text": " What is here?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 394.0,
+            "end": 395.0,
+            "text": " Here is the opposite"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 395.0,
+            "end": 397.0,
+            "text": " Here your processing unit"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 397.0,
+            "end": 400.0,
+            "text": " It goes to the data nodes and works parallelly"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 400.0,
+            "end": 403.0,
+            "text": " So that you do not have to call the data again and again"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 403.0,
+            "end": 405.0,
+            "text": " Because the more data you call again and again"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 405.0,
+            "end": 407.0,
+            "text": " The more delay you will have"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 407.0,
+            "end": 410.0,
+            "text": " So that's why this is a very important concept"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 410.0,
+            "end": 412.0,
+            "text": " So we keep the data locally"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 412.0,
+            "end": 413.0,
+            "text": " Then"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 413.0,
+            "end": 414.0,
+            "text": " Now here the different"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 414.0,
+            "end": 416.0,
+            "text": " Here I tell you with an example"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 416.0,
+            "end": 417.0,
+            "text": " How it is actually working"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 417.0,
+            "end": 420.0,
+            "text": " So I have brought an example of word count"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 420.0,
+            "end": 422.0,
+            "text": " All the examples you will get"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 422.0,
+            "end": 424.0,
+            "text": " All similar kind of examples will be found"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 424.0,
+            "end": 425.0,
+            "text": " Whenever you see online"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 425.0,
+            "end": 427.0,
+            "text": " I have brought a very good example for you"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 427.0,
+            "end": 430.0,
+            "text": " Let's say there is a paragraph"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 430.0,
+            "end": 431.0,
+            "text": " Your paragraph is given here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 431.0,
+            "end": 433.0,
+            "text": " Now what is in this paragraph"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 433.0,
+            "end": 436.0,
+            "text": " A good cook could cook as much as cookies"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 436.0,
+            "end": 438.0,
+            "text": " As a good cook who would cook cookies"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 438.0,
+            "end": 440.0,
+            "text": " I have brought this tongue twister"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 440.0,
+            "end": 442.0,
+            "text": " So that you can understand the story well"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 442.0,
+            "end": 444.0,
+            "text": " So see what is the first input"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 444.0,
+            "end": 445.0,
+            "text": " We have this input"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 445.0,
+            "end": 447.0,
+            "text": " What do we have to do with this input"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 447.0,
+            "end": 448.0,
+            "text": " Split"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 448.0,
+            "end": 450.0,
+            "text": " The first thing to do is to divide"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 450.0,
+            "end": 451.0,
+            "text": " To split"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 451.0,
+            "end": 453.0,
+            "text": " So I broke it into four pieces"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 453.0,
+            "end": 455.0,
+            "text": " And what did you do here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 455.0,
+            "end": 457.0,
+            "text": " You can say that data was put on node 1"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 457.0,
+            "end": 459.0,
+            "text": " This data was put on node 2"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 459.0,
+            "end": 460.0,
+            "text": " This data was put on node 3"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " This data was put on node 4"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 462.0,
+            "end": 463.0,
+            "text": " You can say it this way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 463.0,
+            "end": 467.0,
+            "text": " That we have kept the data in different places in the local disk"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 467.0,
+            "end": 468.0,
+            "text": " Okay"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 468.0,
+            "end": 469.0,
+            "text": " Now this was my first work"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 469.0,
+            "end": 470.0,
+            "text": " Splitting"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 470.0,
+            "end": 471.0,
+            "text": " Then came the mapping"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 471.0,
+            "end": 472.0,
+            "text": " What did I tell in mapping"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 472.0,
+            "end": 473.0,
+            "text": " Key value pair"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 473.0,
+            "end": 474.0,
+            "text": " So what is here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 474.0,
+            "end": 475.0,
+            "text": " Key and value"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 475.0,
+            "end": 476.0,
+            "text": " See first pick this"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 476.0,
+            "end": 478.0,
+            "text": " Pick only this portion"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 478.0,
+            "end": 479.0,
+            "text": " A"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 479.0,
+            "end": 480.0,
+            "text": " How many times has A come"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 480.0,
+            "end": 481.0,
+            "text": " A is the key here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 481.0,
+            "end": 483.0,
+            "text": " And value means how many times has A come"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 483.0,
+            "end": 484.0,
+            "text": " Its count has come once"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 484.0,
+            "end": 485.0,
+            "text": " So key value"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 485.0,
+            "end": 487.0,
+            "text": " Good key value cook"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 487.0,
+            "end": 488.0,
+            "text": " Key value"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 488.0,
+            "end": 489.0,
+            "text": " Good cook key value"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 489.0,
+            "end": 490.0,
+            "text": " Okay"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 490.0,
+            "end": 492.0,
+            "text": " In the same way we wrote all the key values"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 492.0,
+            "end": 493.0,
+            "text": " Key value in this way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 493.0,
+            "end": 496.0,
+            "text": " Which thing has come how many times in this particular place"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 496.0,
+            "end": 497.0,
+            "text": " This is done"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 497.0,
+            "end": 498.0,
+            "text": " This work is happening parallel"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 498.0,
+            "end": 500.0,
+            "text": " All this work is happening parallel"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 500.0,
+            "end": 502.0,
+            "text": " Means this is doing a different task tracker on a different machine"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 502.0,
+            "end": 503.0,
+            "text": " This is different task tracker"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 503.0,
+            "end": 504.0,
+            "text": " This is different and this is different"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 504.0,
+            "end": 508.0,
+            "text": " So see how big the concept of parallel processing is going on here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 508.0,
+            "end": 510.0,
+            "text": " With which efficiency will get a lot"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 510.0,
+            "end": 511.0,
+            "text": " Then"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 511.0,
+            "end": 512.0,
+            "text": " Now this happened here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 512.0,
+            "end": 513.0,
+            "text": " Then shuffling"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 513.0,
+            "end": 514.0,
+            "text": " What is the funda of shuffling"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 514.0,
+            "end": 518.0,
+            "text": " That we will compare all these together"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 518.0,
+            "end": 519.0,
+            "text": " We will shuffle"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 519.0,
+            "end": 521.0,
+            "text": " So after shuffling, they call me shuffling here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 521.0,
+            "end": 522.0,
+            "text": " They also call ordering"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 522.0,
+            "end": 523.0,
+            "text": " You can take it as you like"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 523.0,
+            "end": 525.0,
+            "text": " So what did we do in shuffling here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 525.0,
+            "end": 529.0,
+            "text": " Combining all the places where A was"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 529.0,
+            "end": 531.0,
+            "text": " We have written it by combining it in this way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 531.0,
+            "end": 532.0,
+            "text": " So what is here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 532.0,
+            "end": 533.0,
+            "text": " A"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 533.0,
+            "end": 534.0,
+            "text": " What is written here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 534.0,
+            "end": 535.0,
+            "text": " A1,1"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 535.0,
+            "end": 536.0,
+            "text": " Because A is also here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 536.0,
+            "end": 538.0,
+            "text": " And my one A is also here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 538.0,
+            "end": 540.0,
+            "text": " So the key is the same"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 540.0,
+            "end": 541.0,
+            "text": " So why repeat the key again and again"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 541.0,
+            "end": 543.0,
+            "text": " Why write A1, A1"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 543.0,
+            "end": 544.0,
+            "text": " So the key is the same"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 544.0,
+            "end": 545.0,
+            "text": " A11"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 545.0,
+            "end": 546.0,
+            "text": " I wrote here twice"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 546.0,
+            "end": 547.0,
+            "text": " Because it came twice"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 547.0,
+            "end": 548.0,
+            "text": " Okay"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 548.0,
+            "end": 549.0,
+            "text": " So we checked here like this"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 549.0,
+            "end": 550.0,
+            "text": " Same cook"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 550.0,
+            "end": 551.0,
+            "text": " Cook is also here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 551.0,
+            "end": 552.0,
+            "text": " If it is in different places"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 552.0,
+            "end": 553.0,
+            "text": " So everywhere"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 553.0,
+            "end": 555.0,
+            "text": " In this way we combined by shuffling"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 555.0,
+            "end": 558.0,
+            "text": " So an intermediate result came"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 558.0,
+            "end": 560.0,
+            "text": " What did the intermediate result do further"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 560.0,
+            "end": 561.0,
+            "text": " Reduce"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 561.0,
+            "end": 563.0,
+            "text": " What did we do by reducing"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 563.0,
+            "end": 564.0,
+            "text": " Counted"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 564.0,
+            "end": 565.0,
+            "text": " So how many times is A"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 565.0,
+            "end": 566.0,
+            "text": " Twice"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 566.0,
+            "end": 567.0,
+            "text": " Good twice"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 567.0,
+            "end": 568.0,
+            "text": " Cook is four times"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 568.0,
+            "end": 569.0,
+            "text": " So in this way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 569.0,
+            "end": 570.0,
+            "text": " Intermediate result"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 570.0,
+            "end": 571.0,
+            "text": " What is also happening"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 571.0,
+            "end": 573.0,
+            "text": " Your is being executed parallelly"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 573.0,
+            "end": 574.0,
+            "text": " And finally"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 574.0,
+            "end": 575.0,
+            "text": " My final result"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 575.0,
+            "end": 576.0,
+            "text": " Final"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 576.0,
+            "end": 578.0,
+            "text": " By further reducing it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 578.0,
+            "end": 580.0,
+            "text": " Converted it into one output"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 580.0,
+            "end": 581.0,
+            "text": " And from which we got to know"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 581.0,
+            "end": 582.0,
+            "text": " That my input"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 582.0,
+            "end": 585.0,
+            "text": " How many times which word has come in it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 585.0,
+            "end": 586.0,
+            "text": " So this work"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 586.0,
+            "end": 587.0,
+            "text": " Parallelly"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 587.0,
+            "end": 589.0,
+            "text": " MapReduce works in this way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 589.0,
+            "end": 590.0,
+            "text": " So this is all about the"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 590.0,
+            "end": 591.0,
+            "text": " MapReduce"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 591.0,
+            "end": 592.0,
+            "text": " In your competitive exam"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 592.0,
+            "end": 593.0,
+            "text": " In interviews"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 593.0,
+            "end": 594.0,
+            "text": " Ask anywhere"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 594.0,
+            "end": 595.0,
+            "text": " This is more than sufficient"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 595.0,
+            "end": 596.0,
+            "text": " Thank you"
+        }
+    ],
+    "text": " Dear students, Welcome to Gate Smashers In today's video I am going to explain MapReduce which is one of the core component of Apache Hadoop As I told you in the last video about HDFS What is the purpose of HDFS That my big data, large amount of data Instead of storing it in one place I am storing it in a distributed way Means I am partitioning it in different places and storing it So when my processing unit will come Processing unit means that data is stored Now what to do after storing it We have to extract some important information or insights from it So who will extract it? The processing unit will extract it Means the one who will process this data So the processing unit should also be such Which can process this whole data in a distributed way So for that purpose, MapReduce was specially designed So what is MapReduce? MapReduce performs the processing of large amount of data set In a distributed and parallel manner Data is already distributed Data is already stored in a distributed way by HDFS Now I need a system which can process this data in parallel So that my time is less and I get more efficiency So that is the purpose of MapReduce So we call it as Processing Unit of Apache Hadoop So see, in MapReduce, you can say two main classes You can say two main tasks One is Map and the other is Reduce We generally say that there is one class that is Mapper class And another class that is Reduce Because this works on divide and conquer approach Maybe if you have heard in the algorithm What is divide and conquer approach? That I have a very big problem First you divide it in small partitions, small portions Keep dividing it, keep dividing it Till it comes on a very small level When it is split, divided Finally, what we do is process it and then reduce it Reduce means combine the intermediate results and generate the final output So what is the work of Mapper? To solve the big problem in small problems And then convert them into key value pairs Means what is the key and what is its value? So it converts the data into key value pair after splitting Then after that, it is processed Whatever we write, whatever program we write here So based on that program, whatever work I have to do, that work will be performed But it will be parallel to all the split we have done on all the programs And then the intermediate result will come What will we do to that result? By combining, which is called reducer class By reducing the reducer, the intermediate result converts it into the final result I will explain this to you with real life example here, don't worry Then another important point comes here That two main daemons come here who work on the background What are daemons? Those processes that work on the background So there we have a job tracker and a task tracker So what is the job tracker? It is the boss Here the job tracker is the boss Whose work is to schedule the process That which job will be scheduled, where will it be scheduled Provide resources Means this is the operating system kind of This is the boss who manages all the things And the one who actually works is your task tracker Like we did in HDFS, this is the name node So what is the purpose of the name node? It is a kind of boss who stores all the metadata Who tells which data to be stored where But where is the data stored? In the data node I am telling you the same thing here That you will be clear from my diagram What is the job tracker here? It works like a master node Works like a boss Like HDFS, what is this HDFS component? What is this? Map reduce component So here this is the master You can say this is your slave node Whose actual work is to do This is the employee Like this is the employee of the company who is actually working And this is the boss, the master who is managing all the things Like in HDFS, the name node and data node are the same thing here So what is its job? Its job is to schedule things That which thing will be scheduled at what time Provide resources Provide resources The resources I need The resources that the task tracker needs It provides Monitoring along with it Means things are running properly or not Any fault has occurred Any task tracker is not working So all these things are managed All this is your job tracker And then the task tracker actually works Where the data is lying Now here is a very important point That we say that how do we parallel access such a large amount of data? So a very important concept comes here What usually happens is that my data We have kept it on different data nodes here in this way What do we do here? Like you have any question from any of the billets That you have to find out state-wise of dominoes At which place most of it is sold Okay So if I have to find out this thing here Then there are more than 1500 outlets all over India of dominoes How much sale will be there on a daily basis? So if I have to find out At which particular state has the most sale at the month end So what I have to do First of all, that data has to be kept in a parallel distributed way And here we keep that data in the local disk We do not keep it far in the remote disk We keep the data in the local disk, in the nearby disk What is the reason for that? Network utilization Because the farther you keep it here We have a formula Propagation delay in the network Propagation delay which is distance upon velocity So propagation delay is directly proportional to distance The farther we keep the data, the more delay will be there So what we do We keep the data local You can say that the data node is storing the data here And the processing unit is going to the data nodes itself And processing Generally what happens That we call the data to the processing unit Like it happens in our laptop Data is called to RAM CPU then works on it What is here? Here is the opposite Here your processing unit It goes to the data nodes and works parallelly So that you do not have to call the data again and again Because the more data you call again and again The more delay you will have So that's why this is a very important concept So we keep the data locally Then Now here the different Here I tell you with an example How it is actually working So I have brought an example of word count All the examples you will get All similar kind of examples will be found Whenever you see online I have brought a very good example for you Let's say there is a paragraph Your paragraph is given here Now what is in this paragraph A good cook could cook as much as cookies As a good cook who would cook cookies I have brought this tongue twister So that you can understand the story well So see what is the first input We have this input What do we have to do with this input Split The first thing to do is to divide To split So I broke it into four pieces And what did you do here You can say that data was put on node 1 This data was put on node 2 This data was put on node 3 This data was put on node 4 You can say it this way That we have kept the data in different places in the local disk Okay Now this was my first work Splitting Then came the mapping What did I tell in mapping Key value pair So what is here Key and value See first pick this Pick only this portion A How many times has A come A is the key here And value means how many times has A come Its count has come once So key value Good key value cook Key value Good cook key value Okay In the same way we wrote all the key values Key value in this way Which thing has come how many times in this particular place This is done This work is happening parallel All this work is happening parallel Means this is doing a different task tracker on a different machine This is different task tracker This is different and this is different So see how big the concept of parallel processing is going on here With which efficiency will get a lot Then Now this happened here Then shuffling What is the funda of shuffling That we will compare all these together We will shuffle So after shuffling, they call me shuffling here They also call ordering You can take it as you like So what did we do in shuffling here Combining all the places where A was We have written it by combining it in this way So what is here A What is written here A1,1 Because A is also here And my one A is also here So the key is the same So why repeat the key again and again Why write A1, A1 So the key is the same A11 I wrote here twice Because it came twice Okay So we checked here like this Same cook Cook is also here If it is in different places So everywhere In this way we combined by shuffling So an intermediate result came What did the intermediate result do further Reduce What did we do by reducing Counted So how many times is A Twice Good twice Cook is four times So in this way Intermediate result What is also happening Your is being executed parallelly And finally My final result Final By further reducing it Converted it into one output And from which we got to know That my input How many times which word has come in it So this work Parallelly MapReduce works in this way So this is all about the MapReduce In your competitive exam In interviews Ask anywhere This is more than sufficient Thank you"
+}

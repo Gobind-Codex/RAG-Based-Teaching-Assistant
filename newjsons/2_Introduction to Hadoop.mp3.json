@@ -1,0 +1,257 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 0.0,
+            "end": 16.0,
+            "text": " Dear students, welcome to Gate Smashers  In today's video, I am going to explain  Introduction to Hadoop  The story of Hadoop starts  from the beginning of 21st century  Means if we talk about  2001  So from there its story starts"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 16.0,
+            "end": 32.0,
+            "text": " When the internet  started becoming popular  Means at that time, the internet  was in the market and  there were a lot of users  who were increasing on a daily basis  So what happened because of that  Because of that, there was a big difference"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 32.0,
+            "end": 48.0,
+            "text": " on the data  Means before that  What we were doing generally  We were storing data in rows and columns  Means it was a proper structured data  And we were storing that only  And we were processing that only  and finding the answer"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 48.0,
+            "end": 64.0,
+            "text": " Now if my data is structured  Then I had a lot of good solutions  available so that I can easily  store the data  The value of the data  If we talk about the volume or  the size of the data, it was very limited  So I could store it in single storage devices"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 64.0,
+            "end": 80.0,
+            "text": " And I could process it  with single processing elements  So the work was going very easily  But as soon as the concept of internet came  So from there, the type of data  changed first  So in data, we started using  text data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 80.0,
+            "end": 96.0,
+            "text": " We started using images  Videos, emails  All these things became very popular  So when this change came in data  So actually its size  and volume also increased  Because a huge amount of data started  being generated"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 96.0,
+            "end": 112.0,
+            "text": " Because if I talk about 2003 and 2004  So at that time I was in 9th and 10th class  So for the first time  I saw mobile for the first time  I saw it for the first time  Nokia 3310 and Nokia 1100  I started using it at that time  So in that we could send simple text messages"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 112.0,
+            "end": 130.0,
+            "text": " And then in 2004  Nokia 6600 had come in 2003  But it became very popular in 2004-05  And it had a camera  You can also do images with the camera  And at the same time  you can also make videos  So from there, a normal person"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 130.0,
+            "end": 146.0,
+            "text": " We were a simple medium family  And we also  started dealing with videos, images  and this type of data  on a daily basis  So in this world, it became so revolutionized  that all the people  started using different types of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 146.0,
+            "end": 162.0,
+            "text": " So that's why this type of data  we call Big Data  So what happened?  Parallelly at the same time, if we talk about 2002  So at the same time  Dog Cutting, which is  called the father of Big Data or the father of Hadoop  So that is Dog Cutting and Mike"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 162.0,
+            "end": 178.0,
+            "text": " Both of them started working on a project  That is Hadoop  And basically what was its purpose?  How can we  store Big Data, large amount of data  easily  and process it  So they"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 178.0,
+            "end": 194.0,
+            "text": " started working on this thing in 2002  And then later  in 2008  Yahoo declared it as an open source  Hadoop project  And then in 2012  Apache made it available for the public  So then"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 194.0,
+            "end": 210.0,
+            "text": " it became popular by the name of Apache Hadoop  And it is open source  and freely available  So let's ask you the purpose of Hadoop  So Hadoop is an open  source framework  It is not a software  You can't say it is only a software like"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 210.0,
+            "end": 226.0,
+            "text": " RDBMS or like we are talking about  simple database, no  This is actually a whole framework  This is not just DBMS or this is not just a database  This is actually a whole framework  which allows  how to store data  properly"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 226.0,
+            "end": 242.0,
+            "text": " and then how to  access that data  And for this we use  distributed manner  Distributed manner means rather than keeping  all the data in a single area  in a single device, Hadoop says  that store that data in different"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 242.0,
+            "end": 258.0,
+            "text": " different areas, different different clusters  store it so that  it can be accessed parallelly  So this story is brought by Hadoop  So its whole concept  and whole framework was initially  written in Java programming  But if you are comfortable in C++"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 258.0,
+            "end": 274.0,
+            "text": " Python, Java  then you can use its programs  in Hadoop framework  So see, if we talk here  that there are many components in Hadoop  There are many components in this  whole framework but  the two most basic components in the framework"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 274.0,
+            "end": 290.0,
+            "text": " that is HDFS  and MapReduce  These two you can say are the life of this system  Because HDFS is  Hadoop Distributed File System  Like we use in normal Windows  Linux file system  whose purpose is to manage files"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 290.0,
+            "end": 306.0,
+            "text": " So all these things are okay in local system  But when we use  the concept of Big Data  where we are dealing with huge amount of data  So there we can't keep  one data in a single place  We have to  keep it in distributed manner"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 306.0,
+            "end": 322.0,
+            "text": " So for that HDFS  HDFS is specially  designed that rather than  keeping the data on a single area  Like you have a file  of 1280 MB  So what it has to do  It has to"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 322.0,
+            "end": 338.0,
+            "text": " not store this whole file  of 1280 MB in one place  What it has to do  First it has to divide  It has to divide  And it divides  by default 128 MB  So you can"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 338.0,
+            "end": 354.0,
+            "text": " guess from here that  In Oracle, in SQL Server  We partition 8 KB  We partition 16 KB  Or we partition 64 KB  or Kilobyte  Here one partition  is of 128 MB"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 354.0,
+            "end": 370.0,
+            "text": " So partition  is so big in itself  So obviously it deals with huge amount of data  So this is how it partitions  And then what it does to these partitions  It saves them  in different places  Which we call data nodes"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 370.0,
+            "end": 386.0,
+            "text": " So in different places  it keeps these data  in clusters  And for this it is not like  new devices are used  We use already existing commodity  hardware only  Means it has tried to save cost"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 386.0,
+            "end": 402.0,
+            "text": " And then when we  store it, then how do we  know which data  is stored on which node  So for that there is a master node  In that master node  I will tell you separately when  I will explain HDFS and MapReduce"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 402.0,
+            "end": 418.0,
+            "text": " But still I am telling you an idea  So in this all the metadata  is stored in master node  Which tells which data  is stored on which node, its location  Its file size, all its characteristics  So that is called a metadata  So it is stored in this place"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 418.0,
+            "end": 434.0,
+            "text": " Now here students can think  It is stored in different places  But let's say if one data  node fails, there is corruption  in the data, there is a problem, then what will we do  This data is gone and how much is gone  128 MB data is lost  So data loss cannot happen"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 434.0,
+            "end": 450.0,
+            "text": " So yes, data loss is not done here  HDFS partitions and stores it  in different places  Along with that it uses the concept of  duplication or replication  Which we call, so what is the concept of replication  That this whole  block is kept here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 450.0,
+            "end": 466.0,
+            "text": " The whole data block is kept here and here  Along with that the data I am keeping  here on this data node  Not one of it, at least  2 to 3 copies  will be kept on different data nodes  So that in case of  failure, we can use"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 466.0,
+            "end": 482.0,
+            "text": " secondary data nodes  They are called secondary data nodes  One will be primary, where your  whole front phase is done, like  In any company, you go to any showroom  So showroom has a front phase  So in front phase, all the things are there  They also have a godown"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 482.0,
+            "end": 498.0,
+            "text": " That if let's say, if there is a problem here  Then they will bring the thing from the godown  If it is over here, then they will bring the thing from the godown  So they have kept the godown separately  So the same thing is here, secondary data nodes  Where their copies are kept so that  In case of failure, we can pick it up from there  So see how powerful tool is designed here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 498.0,
+            "end": 514.0,
+            "text": " Second thing  Now the data is stored  The data is stored in a properly distributed way  Now how to access it  So to access it  It is used here, that is a processing  element of a Hadoop  Which we call MapReduce"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 514.0,
+            "end": 530.0,
+            "text": " This is a processing element of it  You can call it CPU, so what is its work  This query, if any user  writes a query that I want a particular data  So it can access  the data parallelly  And after accessing it, it finds out  And MapReduce does the concept"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 530.0,
+            "end": 546.0,
+            "text": " of key value pair  So it reduces a big problem  into small problems  and converts it into key value pairs  And finally it works like  divide and conquer  So I will tell you the whole story  But mainly what is MapReduce"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 546.0,
+            "end": 562.0,
+            "text": " Its processing element  Which actually converts the query  that the user asked  So these are the two main components  Other than this, there is Hive, Yarn,  There are many ZooKeeper, we will discuss them one by one  But if you want to ask an introduction to Hadoop  Ask about Hadoop, why it came, how it came"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 562.0,
+            "end": 566.0,
+            "text": " So I have explained it in this video  Thank you"
+        }
+    ],
+    "text": " Dear students, welcome to Gate Smashers In today's video, I am going to explain Introduction to Hadoop The story of Hadoop starts from the beginning of 21st century Means if we talk about 2001 So from there its story starts When the internet started becoming popular Means at that time, the internet was in the market and there were a lot of users who were increasing on a daily basis So what happened because of that Because of that, there was a big difference on the data Means before that What we were doing generally We were storing data in rows and columns Means it was a proper structured data And we were storing that only And we were processing that only and finding the answer Now if my data is structured Then I had a lot of good solutions available so that I can easily store the data The value of the data If we talk about the volume or the size of the data, it was very limited So I could store it in single storage devices And I could process it with single processing elements So the work was going very easily But as soon as the concept of internet came So from there, the type of data changed first So in data, we started using text data We started using images Videos, emails All these things became very popular So when this change came in data So actually its size and volume also increased Because a huge amount of data started being generated Because if I talk about 2003 and 2004 So at that time I was in 9th and 10th class So for the first time I saw mobile for the first time I saw it for the first time Nokia 3310 and Nokia 1100 I started using it at that time So in that we could send simple text messages And then in 2004 Nokia 6600 had come in 2003 But it became very popular in 2004-05 And it had a camera You can also do images with the camera And at the same time you can also make videos So from there, a normal person We were a simple medium family And we also started dealing with videos, images and this type of data on a daily basis So in this world, it became so revolutionized that all the people started using different types of data So that's why this type of data we call Big Data So what happened? Parallelly at the same time, if we talk about 2002 So at the same time Dog Cutting, which is called the father of Big Data or the father of Hadoop So that is Dog Cutting and Mike Both of them started working on a project That is Hadoop And basically what was its purpose? How can we store Big Data, large amount of data easily and process it So they started working on this thing in 2002 And then later in 2008 Yahoo declared it as an open source Hadoop project And then in 2012 Apache made it available for the public So then it became popular by the name of Apache Hadoop And it is open source and freely available So let's ask you the purpose of Hadoop So Hadoop is an open source framework It is not a software You can't say it is only a software like RDBMS or like we are talking about simple database, no This is actually a whole framework This is not just DBMS or this is not just a database This is actually a whole framework which allows how to store data properly and then how to access that data And for this we use distributed manner Distributed manner means rather than keeping all the data in a single area in a single device, Hadoop says that store that data in different different areas, different different clusters store it so that it can be accessed parallelly So this story is brought by Hadoop So its whole concept and whole framework was initially written in Java programming But if you are comfortable in C++ Python, Java then you can use its programs in Hadoop framework So see, if we talk here that there are many components in Hadoop There are many components in this whole framework but the two most basic components in the framework that is HDFS and MapReduce These two you can say are the life of this system Because HDFS is Hadoop Distributed File System Like we use in normal Windows Linux file system whose purpose is to manage files So all these things are okay in local system But when we use the concept of Big Data where we are dealing with huge amount of data So there we can't keep one data in a single place We have to keep it in distributed manner So for that HDFS HDFS is specially designed that rather than keeping the data on a single area Like you have a file of 1280 MB So what it has to do It has to not store this whole file of 1280 MB in one place What it has to do First it has to divide It has to divide And it divides by default 128 MB So you can guess from here that In Oracle, in SQL Server We partition 8 KB We partition 16 KB Or we partition 64 KB or Kilobyte Here one partition is of 128 MB So partition is so big in itself So obviously it deals with huge amount of data So this is how it partitions And then what it does to these partitions It saves them in different places Which we call data nodes So in different places it keeps these data in clusters And for this it is not like new devices are used We use already existing commodity hardware only Means it has tried to save cost And then when we store it, then how do we know which data is stored on which node So for that there is a master node In that master node I will tell you separately when I will explain HDFS and MapReduce But still I am telling you an idea So in this all the metadata is stored in master node Which tells which data is stored on which node, its location Its file size, all its characteristics So that is called a metadata So it is stored in this place Now here students can think It is stored in different places But let's say if one data node fails, there is corruption in the data, there is a problem, then what will we do This data is gone and how much is gone 128 MB data is lost So data loss cannot happen So yes, data loss is not done here HDFS partitions and stores it in different places Along with that it uses the concept of duplication or replication Which we call, so what is the concept of replication That this whole block is kept here The whole data block is kept here and here Along with that the data I am keeping here on this data node Not one of it, at least 2 to 3 copies will be kept on different data nodes So that in case of failure, we can use secondary data nodes They are called secondary data nodes One will be primary, where your whole front phase is done, like In any company, you go to any showroom So showroom has a front phase So in front phase, all the things are there They also have a godown That if let's say, if there is a problem here Then they will bring the thing from the godown If it is over here, then they will bring the thing from the godown So they have kept the godown separately So the same thing is here, secondary data nodes Where their copies are kept so that In case of failure, we can pick it up from there So see how powerful tool is designed here Second thing Now the data is stored The data is stored in a properly distributed way Now how to access it So to access it It is used here, that is a processing element of a Hadoop Which we call MapReduce This is a processing element of it You can call it CPU, so what is its work This query, if any user writes a query that I want a particular data So it can access the data parallelly And after accessing it, it finds out And MapReduce does the concept of key value pair So it reduces a big problem into small problems and converts it into key value pairs And finally it works like divide and conquer So I will tell you the whole story But mainly what is MapReduce Its processing element Which actually converts the query that the user asked So these are the two main components Other than this, there is Hive, Yarn, There are many ZooKeeper, we will discuss them one by one But if you want to ask an introduction to Hadoop Ask about Hadoop, why it came, how it came So I have explained it in this video Thank you"
+}

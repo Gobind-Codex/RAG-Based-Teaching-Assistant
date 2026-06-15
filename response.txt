@@ -1,0 +1,5 @@
+Based on the provided video chunks, I was unable to find specific information on where Rack awareness is taught. The video mentions Rack awareness as a concept in HDFS (Hadoop Distributed File System), but it doesn't provide a timestamp for when it's specifically discussed.
+
+However, the relevant video chunk for HDFS can be found from 7:22 to 7:51 and again from 8:23 to 8:41. These timestamps cover the explanation of how Rack awareness is used in HDFS.
+
+If you're interested in learning more about Rack awareness, I recommend watching these video chunks.

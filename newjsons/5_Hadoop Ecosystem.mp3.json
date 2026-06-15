@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 0.0,
+            "end": 25.5,
+            "text": " Dear students, Welcome to Gate Smashers  In today's video I'm going to explain Hadoop ecosystem  So in Hadoop ecosystem there are many different components  Some components are mandatory, which are very important  Without them it won't work  But for some extra functionalities we use different components  What are the components, how are they, why are they used  I'll explain all of them one by one with example"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 25.5,
+            "end": 59.5,
+            "text": " So basically what we need is that main work of Hadoop is going on  But what extra functionalities are needed along with it  Which has proper monitoring, proper management  We need security feature, we need scalability feature  So for these different features we use different components  So let's start, first of all we get the mandatory component  That is HDFS, Hadoop Distributed File System  Whose main purpose is to manage and store data in a distributed manner"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 59.7,
+            "end": 85.5,
+            "text": " So that we can easily access it  So all this storage work is handled by HDFS  This is a file system like in our normal laptop, in our computer  Like Windows is using, so in Windows there's a file system NTFS  If Linux is using then NFS, there are different file systems  Similarly this is Hadoop's file system, so this is mandatory part  By the way I have made a video on it separately  Which components it works with, so you must check that video"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 85.7,
+            "end": 112.5,
+            "text": " Then we get second, YARN  What is YARN? Yet Another Resource Negotiator  So what is the purpose of YARN here  Actually before explaining YARN, let me tell you about MapReduce  MapReduce is actually used for data processing  Because we kept data in distributed way  So we need a component which can access data parallelly  And process it and convert it in output"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 112.7,
+            "end": 143.5,
+            "text": " So MapReduce is used for that purpose  But when Hadoop's first version came 1.0  So Hadoop's MapReduce feature was  Which had data processing  That how to process data and at the same time how to manage resources  So all those purposes of data processing and management was of this only  But in later versions they did  That we brought many things on MapReduce"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 143.7,
+            "end": 164.5,
+            "text": " So because of that it got slow  Data kept increasing and it got slow  So that's why it was removed from here  And after removing it, a separate component was made, that is YARN  So what is the purpose of YARN  How to manage resources, how to schedule jobs  All that work is now seen by YARN  You can understand with a simple example"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 164.5,
+            "end": 195.5,
+            "text": " So in our laptop, the CPU is MapReduce  In our laptop, the operating system like Windows, Linux, we use that is YARN  In our laptop, the file system which we use  Which comes inside Windows, like it comes inside our operating system  But if you're using NTFS or NFS  So that file system is its work  So you can understand it with this example  So you know these three purposes, it's a mandatory portion"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 195.7,
+            "end": 217.5,
+            "text": " After that comes the story of Flume and Scoop  Now both of these are used for data collection  Used for data ingestion  Like as an example, take the same laptop example  You're using a laptop, you're using your computer  Where does data come from in that laptop computer  Where does data input come from  You're downloading, you're inserting from a pen drive"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 217.7,
+            "end": 239.5,
+            "text": " You're inserting from an external hard drive  Data comes like this only  So that is called data ingestion, data coming in your system  So where is the data coming from in your system, in Hadoop system  It's coming from these two components  One is Flume and the other is Scoop  Scoop is for structured data  And Flume is for unstructured or semi-structured data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 239.7,
+            "end": 264.5,
+            "text": " Means you're using an application of MySQL  You're using SQL server and you're using ACL  So it generates structured data  Now I have to bring that structured data in Hadoop, in HDFS  So whom I'll use? Scoop  I have to take it from HDFS to SQL server  In MySQL, whom I'll use? Scoop  But now a days we're dealing more with unstructured data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 264.7,
+            "end": 287.5,
+            "text": " Photos, videos, live streaming we're doing  So where live streaming comes, streaming data comes  From where continuously data is coming, log files are coming  So there Flume helps  So Flume unstructured, data streaming  Collectively the real time data that is coming  For that we use Flume and it is used for structured data  So this is the main point here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 287.7,
+            "end": 307.5,
+            "text": " Then HBase  What is HBase? We store data in column base  What happens is, generally in relational database DBMS  We read that if I have to store data  Then first I have to make a structure  You know we make table, create table, table name  We make all those rows and columns  Then we store the data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 307.7,
+            "end": 330.5,
+            "text": " Here there is no such rule  Here there is no restriction that first make structure then data  It says bring data and store it without any structure  That's why we use NoSQL concept here  And here this HBase is actually column oriented  This was row, we used to store data in rows in RDBMS  Here columns are formed  This is taken, Google's big table project"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 330.5,
+            "end": 355.5,
+            "text": " This was specially designed by modeling it  So that large amount of data can be stored  Then Cloud Era  Now see here we have all these features  That it processes data, manages data, stores data  In which way data has to be stored in the form of columns  Where data is coming from, that is also known  Now here the output that came after processing my data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 355.7,
+            "end": 377.5,
+            "text": " How to analyze that output?  How to see that output?  Or you can say data analysis  Or for different purposes like Hive  Why is Hive used?  For SQL query  Normally we do Java coding here  So in Java coding, we have to write very big codes of mapper, reducer, driver"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 377.7,
+            "end": 400.5,
+            "text": " If I have to write a command in the form of SQL  Means I know SQL and I want to use it in Hadoop  Then I can use Hive  So for structured data you can use Hive  If your data is structured then only Hive can be used  Because it is based on SQL commands  Then what is Pig?  Pig is also a component that is used for scripting"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 400.7,
+            "end": 422.5,
+            "text": " What is the purpose of scripting?  The same thing I told you that when we write mapper, reducer, driver class  Then we have to write very big codes  So what Pig tells you  That the code you are writing in 200 lines, 300 lines  Finish it in 10 to 20 lines  So somewhere your programming line of code is very big  It is trying to reduce it, that is a Pig"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 422.7,
+            "end": 439.5,
+            "text": " Then similar Impala is also used  Similarly we have Mahout  What is Mahout?  It is of machine learning  There are different libraries  In which all the machine learning algorithms are there  So if I want to make such an application  Based on Hadoop that I have to use machine learning there"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 439.7,
+            "end": 455.5,
+            "text": " Then I will use Apache Mahout there  What is Mahout?  See the Hadoop that we are using  If you have seen its symbol, then what is its symbol?  Elephant  What is Mahout?  This is a Hindi word  Which runs the elephant sitting on top"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 455.7,
+            "end": 471.5,
+            "text": " So actually Mahout is doing the same thing  That you have to make your system scalable  You have to put machine learning features in it  So Mahout is used there  Then Cloudera  Now what I told you here  That I have 4 phases here  What is the first phase?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 471.5,
+            "end": 489.5,
+            "text": " Getting the data input  Getting the data ingestion  So to get the data ingestion, to get the data input  I used flume, I used scoop  So the data came inside  Now if the data came inside, then who is managing it?  Your HBase is managing it  What is HBase?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 489.7,
+            "end": 505.5,
+            "text": " How do you store the data?  What is the model of that data?  So you defined it in HBase  And who is managing it in action?  It is managing your HDFS  So it kept all the data in distributed form  Now what is to be done with that data?  That data has to be processed"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 505.7,
+            "end": 518.5,
+            "text": " So who is doing that process?  It is MapReduce  Now there is more  Now there is Storm  Even Spark has come  Which is 100 times faster than MapReduce  So I will tell you that further  So this is for data processing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 518.7,
+            "end": 532.5,
+            "text": " Now it generated some output  It generated some output  That output has to be analyzed properly  Has to be seen properly  Data has to be visualized  In the form of tables, the data that came  Or any raw data that came to me  I have to show it properly"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 532.7,
+            "end": 549.5,
+            "text": " So for analysis I have different  Like Pig, Impala, Mahout  We are using all of these here  And finally, the user  The user sitting here  How will the user put his data?  And how will he see that data?  How will he search in such a big system?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 549.7,
+            "end": 567.5,
+            "text": " Because the clusters of Hadoop are very big  So how will he search?  So to search and explore his data  Cloud Era is used  So it provides a big platform  Where you can manage data properly  You can monitor things  Such Apache Ambari also comes"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 567.7,
+            "end": 579.5,
+            "text": " HUE also comes  All your different components  More also comes  Then we get Uzi  What is the purpose of Uzi?  Basically it works on workflow  Scheduling jobs  Like in your whole system"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 579.7,
+            "end": 595.5,
+            "text": " If I have to put alarm  Put a clock  At what time should a job be done?  How much time should it be completed?  Automation is done  That this job should be executed at 5 in the evening  So I can execute those things through Uzi  Then comes Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 595.7,
+            "end": 608.5,
+            "text": " Zookeeper means  You can tell by the name  That you have elephant, pig, all of these  Who is managing all of these?  Zookeeper  So this is Zookeeper  If I have to manage things on a very big level  Then Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 608.7,
+            "end": 624.5,
+            "text": " Here you can get a little confused  That sir, the same was being done by Yarn  It was also managing the same resources  And Zookeeper is also doing the same work  Doing proper monitoring  Doing proper managing  You can understand this by this  That if I have to manage a laptop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 624.7,
+            "end": 640.5,
+            "text": " Then in a way you can use Yarn  If you have a very big Hadoop  Combining different ecosystems  There are very big clusters  Then in very big clusters  You can use Zookeeper  Means like in a normal laptop  We use Windows"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 640.7,
+            "end": 654.5,
+            "text": " So it is working properly there  But if I talk on the server level  Where different users are accessing  Thousands and lakhs of users  Then that purpose fails there  Then I have to put extra features  So Zookeeper  In that case you can say that it will work"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 654.7,
+            "end": 661.5,
+            "text": " Its work is the same as management  So these different components  Are used in your Hadoop ecosystem  Thank you"
+        }
+    ],
+    "text": " Dear students, Welcome to Gate Smashers In today's video I'm going to explain Hadoop ecosystem So in Hadoop ecosystem there are many different components Some components are mandatory, which are very important Without them it won't work But for some extra functionalities we use different components What are the components, how are they, why are they used I'll explain all of them one by one with example So basically what we need is that main work of Hadoop is going on But what extra functionalities are needed along with it Which has proper monitoring, proper management We need security feature, we need scalability feature So for these different features we use different components So let's start, first of all we get the mandatory component That is HDFS, Hadoop Distributed File System Whose main purpose is to manage and store data in a distributed manner So that we can easily access it So all this storage work is handled by HDFS This is a file system like in our normal laptop, in our computer Like Windows is using, so in Windows there's a file system NTFS If Linux is using then NFS, there are different file systems Similarly this is Hadoop's file system, so this is mandatory part By the way I have made a video on it separately Which components it works with, so you must check that video Then we get second, YARN What is YARN? Yet Another Resource Negotiator So what is the purpose of YARN here Actually before explaining YARN, let me tell you about MapReduce MapReduce is actually used for data processing Because we kept data in distributed way So we need a component which can access data parallelly And process it and convert it in output So MapReduce is used for that purpose But when Hadoop's first version came 1.0 So Hadoop's MapReduce feature was Which had data processing That how to process data and at the same time how to manage resources So all those purposes of data processing and management was of this only But in later versions they did That we brought many things on MapReduce So because of that it got slow Data kept increasing and it got slow So that's why it was removed from here And after removing it, a separate component was made, that is YARN So what is the purpose of YARN How to manage resources, how to schedule jobs All that work is now seen by YARN You can understand with a simple example So in our laptop, the CPU is MapReduce In our laptop, the operating system like Windows, Linux, we use that is YARN In our laptop, the file system which we use Which comes inside Windows, like it comes inside our operating system But if you're using NTFS or NFS So that file system is its work So you can understand it with this example So you know these three purposes, it's a mandatory portion After that comes the story of Flume and Scoop Now both of these are used for data collection Used for data ingestion Like as an example, take the same laptop example You're using a laptop, you're using your computer Where does data come from in that laptop computer Where does data input come from You're downloading, you're inserting from a pen drive You're inserting from an external hard drive Data comes like this only So that is called data ingestion, data coming in your system So where is the data coming from in your system, in Hadoop system It's coming from these two components One is Flume and the other is Scoop Scoop is for structured data And Flume is for unstructured or semi-structured data Means you're using an application of MySQL You're using SQL server and you're using ACL So it generates structured data Now I have to bring that structured data in Hadoop, in HDFS So whom I'll use? Scoop I have to take it from HDFS to SQL server In MySQL, whom I'll use? Scoop But now a days we're dealing more with unstructured data Photos, videos, live streaming we're doing So where live streaming comes, streaming data comes From where continuously data is coming, log files are coming So there Flume helps So Flume unstructured, data streaming Collectively the real time data that is coming For that we use Flume and it is used for structured data So this is the main point here Then HBase What is HBase? We store data in column base What happens is, generally in relational database DBMS We read that if I have to store data Then first I have to make a structure You know we make table, create table, table name We make all those rows and columns Then we store the data Here there is no such rule Here there is no restriction that first make structure then data It says bring data and store it without any structure That's why we use NoSQL concept here And here this HBase is actually column oriented This was row, we used to store data in rows in RDBMS Here columns are formed This is taken, Google's big table project This was specially designed by modeling it So that large amount of data can be stored Then Cloud Era Now see here we have all these features That it processes data, manages data, stores data In which way data has to be stored in the form of columns Where data is coming from, that is also known Now here the output that came after processing my data How to analyze that output? How to see that output? Or you can say data analysis Or for different purposes like Hive Why is Hive used? For SQL query Normally we do Java coding here So in Java coding, we have to write very big codes of mapper, reducer, driver If I have to write a command in the form of SQL Means I know SQL and I want to use it in Hadoop Then I can use Hive So for structured data you can use Hive If your data is structured then only Hive can be used Because it is based on SQL commands Then what is Pig? Pig is also a component that is used for scripting What is the purpose of scripting? The same thing I told you that when we write mapper, reducer, driver class Then we have to write very big codes So what Pig tells you That the code you are writing in 200 lines, 300 lines Finish it in 10 to 20 lines So somewhere your programming line of code is very big It is trying to reduce it, that is a Pig Then similar Impala is also used Similarly we have Mahout What is Mahout? It is of machine learning There are different libraries In which all the machine learning algorithms are there So if I want to make such an application Based on Hadoop that I have to use machine learning there Then I will use Apache Mahout there What is Mahout? See the Hadoop that we are using If you have seen its symbol, then what is its symbol? Elephant What is Mahout? This is a Hindi word Which runs the elephant sitting on top So actually Mahout is doing the same thing That you have to make your system scalable You have to put machine learning features in it So Mahout is used there Then Cloudera Now what I told you here That I have 4 phases here What is the first phase? Getting the data input Getting the data ingestion So to get the data ingestion, to get the data input I used flume, I used scoop So the data came inside Now if the data came inside, then who is managing it? Your HBase is managing it What is HBase? How do you store the data? What is the model of that data? So you defined it in HBase And who is managing it in action? It is managing your HDFS So it kept all the data in distributed form Now what is to be done with that data? That data has to be processed So who is doing that process? It is MapReduce Now there is more Now there is Storm Even Spark has come Which is 100 times faster than MapReduce So I will tell you that further So this is for data processing Now it generated some output It generated some output That output has to be analyzed properly Has to be seen properly Data has to be visualized In the form of tables, the data that came Or any raw data that came to me I have to show it properly So for analysis I have different Like Pig, Impala, Mahout We are using all of these here And finally, the user The user sitting here How will the user put his data? And how will he see that data? How will he search in such a big system? Because the clusters of Hadoop are very big So how will he search? So to search and explore his data Cloud Era is used So it provides a big platform Where you can manage data properly You can monitor things Such Apache Ambari also comes HUE also comes All your different components More also comes Then we get Uzi What is the purpose of Uzi? Basically it works on workflow Scheduling jobs Like in your whole system If I have to put alarm Put a clock At what time should a job be done? How much time should it be completed? Automation is done That this job should be executed at 5 in the evening So I can execute those things through Uzi Then comes Zookeeper Zookeeper means You can tell by the name That you have elephant, pig, all of these Who is managing all of these? Zookeeper So this is Zookeeper If I have to manage things on a very big level Then Zookeeper Here you can get a little confused That sir, the same was being done by Yarn It was also managing the same resources And Zookeeper is also doing the same work Doing proper monitoring Doing proper managing You can understand this by this That if I have to manage a laptop Then in a way you can use Yarn If you have a very big Hadoop Combining different ecosystems There are very big clusters Then in very big clusters You can use Zookeeper Means like in a normal laptop We use Windows So it is working properly there But if I talk on the server level Where different users are accessing Thousands and lakhs of users Then that purpose fails there Then I have to put extra features So Zookeeper In that case you can say that it will work Its work is the same as management So these different components Are used in your Hadoop ecosystem Thank you"
+}

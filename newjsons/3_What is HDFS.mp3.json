@@ -1,0 +1,411 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 0.0,
+            "end": 17.0,
+            "text": " Hello students, Welcome to GITsmeasures  In today's video I am going to explain HDFS  that is Hadoop Distributed File System  How does its whole architecture works  characteristics, all the points  I will explain you in this video with example  So guys quickly like the video  Subscribe to the channel"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 17.0,
+            "end": 35.0,
+            "text": " If you haven't done it yet, if you have done it  Then you can make a subscriber from the device  Subscribers are very important  So let's start  First of all, what is the purpose of HDFS that is Hadoop Distributed File System?  What is its main role?  Its role is that we talk about big data  That we have a huge amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 35.0,
+            "end": 54.0,
+            "text": " How to store a large amount of data?  The way to store it is HDFS tells us  Because whenever we talk about data processing  So two things are very important  Two big challenges come  The first challenge comes  How to store data?  Because we have a huge amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 54.0,
+            "end": 77.0,
+            "text": " So storing it is a challenge in itself  Now when stored  So how to process it?  So that we can get some important information from it  So the processing part is seen by MapReduce  And the storage part is how to store efficiently  So that is actually HDFS  So it is a very robust file system"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 77.0,
+            "end": 99.0,
+            "text": " And it is based on your traditional file system  Means the file system we normally use  Like we use in Windows and Linux  We use hierarchical file system  In which we make directories  We make files in directories  The same hierarchical architecture is used in HDFS  But you can say that it is designed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 99.0,
+            "end": 117.0,
+            "text": " Like we use NTFS in Windows  Or use NFS  What is it actually?  Small data is designed for a limited amount of data  But it is designed for a huge amount of data  Now let's talk about its structure first  So in the structure of your HDFS  What is this HDFS client?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 117.0,
+            "end": 130.0,
+            "text": " You can say that it is a client  Who has to put data  Who has to extract data  All those things  Who will read the data  Who will write the data  But if we talk about the structure of HDFS  So here two main components come"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 130.0,
+            "end": 142.0,
+            "text": " The first component comes  Name node  Name node  Load it  It is a name node  You can also call it a boss  You can also call it a master node  Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 142.0,
+            "end": 155.0,
+            "text": " This is the boss here  That is a name node  And then we come to the employees  Like there are employees in companies  Who work under the boss  And what is here?  Data nodes  Where data is actually stored"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 155.0,
+            "end": 167.0,
+            "text": " Like we say that I have  Let's say I have some data  I have to store that data  In it, you can say any file  There is text data, images, videos  The actual data that will be stored  It will be here  It will be on these servers"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 167.0,
+            "end": 182.0,
+            "text": " But the data that will be stored  How to do it  Which data will go where  All those things are your name node  And a very important thing here  That many people think  Sir, because it is a new thing  So maybe we need new devices"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 182.0,
+            "end": 196.0,
+            "text": " We have to buy new hardware  New devices  No  This is also the biggest thing about HDFS  That the commodity  The already existing hardware  It also works properly on them  You don't need to buy new devices"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 196.0,
+            "end": 209.0,
+            "text": " So it is also cost effective  Okay  So here  Let's say a file comes  Let's say I have a file  520 MB file  Okay  Now what will it do to the file of 520 MB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 209.0,
+            "end": 224.0,
+            "text": " It will not store it directly  Let's divide it  Like we normally divide the file  Let's store it  Whether you talk about Windows in your laptop  Let's talk about Linux  There too we divide the file  If I have a huge amount of file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 224.0,
+            "end": 237.0,
+            "text": " So what will we do to it  Let's not store it directly  Let's divide it  Okay  By partitioning  Here we have a partition  By default 128 MB  In our normal systems"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 237.0,
+            "end": 252.0,
+            "text": " Partition is 4 KB  8 KB  Because we talk about limited amount of data in it  Here is a huge amount of data  So the partition of the file in itself  The smallest block  Which you can call  What will be the size of a block"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 252.0,
+            "end": 265.0,
+            "text": " 128 MB  So let's say if I have a file of 520 MB  So you can say  128 MB is one  128 MB is second  128 MB is third  128 MB is fourth  Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 265.0,
+            "end": 278.0,
+            "text": " So these four  How many will be 512 MB  How many are left later  Later your 8 more are left  So 8 MB will come in the next one  So that means  The first 128 MB block will come  I will store it in this data node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 278.0,
+            "end": 295.0,
+            "text": " That's why you are saying distributed  HDFS is distributed  Not in one place  You can store all 520 here  But don't store here  It is a distributed  So that I can access it parallelly during processing  If I store it in one place"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 295.0,
+            "end": 306.0,
+            "text": " Then the whole burden will come on it  So 128 MB here  128 MB here  128 MB here  128 MB here  And the last 8 MB is here  So in this way  Distributed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 306.0,
+            "end": 318.0,
+            "text": " Stores data in a distributed way  Now how will you know  The user said that I have to read the file  I have to read a particular block  So how do I know  I kept it here  I kept it here  Where did I keep it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 318.0,
+            "end": 334.0,
+            "text": " So it has metadata  Every file has a metadata  Means the information related to that file  What is the file name  What are the permissions on the file  Which data node did you keep  How many replications of it were made  Means the information related to that data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 334.0,
+            "end": 347.0,
+            "text": " It is stored in the name node  So what happens here  File system name space  Name space  Where all the metadata related to the file  Which is stored  Name of the file  Size"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 347.0,
+            "end": 361.0,
+            "text": " Permissions  How many replications you made  How many you kept  Which place where you kept  All those things are stored here  So this is how the structure actually works  Now next here  The concept of replication comes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 361.0,
+            "end": 375.0,
+            "text": " Means we are here in HDFS  Let's say I have a block of 128  So I stored that block here  I kept its name here  Let's say I stored it here  Is my work over  No  HDFS says"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 375.0,
+            "end": 395.0,
+            "text": " I work on the replication factor  Replication means  That I will not store this whole block  In one place  Its same copy  Will be stored somewhere else  Means the data is the same  I copied the same data to three places"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 395.0,
+            "end": 409.0,
+            "text": " I picked up the second block  I stored it here too  I stored it here too  I stored it here too  So by default  Replication factor is 3  Means one block is stored in three places  What did it get"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 409.0,
+            "end": 423.0,
+            "text": " It got fault tolerance  Fault tolerance means  If one of the data node is down  Then how will I get data  The client will keep waiting  When will I get data  No  We need to get data accessed 24x7 fast"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 423.0,
+            "end": 432.0,
+            "text": " Need speed  So I'm there  Okay it's down  So get the data from here  Now how did you know  There is a store here and here  How did you know  My data was here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 432.0,
+            "end": 442.0,
+            "text": " And the same data was here  Name node will tell  So this is the story of name node  That's why we are calling it boss  We are calling it master  Okay  So this is your replication  So that I get fault tolerance"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 442.0,
+            "end": 457.0,
+            "text": " So this is how it works  Then  One more concept comes in this  Rack awareness  Rack awareness  Now what is the concept of rack awareness  Now we don't have one or two data nodes  We have thousands of data nodes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 457.0,
+            "end": 471.0,
+            "text": " Because we are storing a very large amount of data  Like Google, Facebook  They have limited store  They have a lot of store  So what they have to do  Like I have these three nodes  So I made a rack of them  Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 471.0,
+            "end": 485.0,
+            "text": " Like here you will have more clarity from this diagram  Rack means  Your rack is like this  Your rack is like this  Like this is a rack  Like we keep rack in the house  So that rack  I put the first block in this rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 485.0,
+            "end": 503.0,
+            "text": " Now I will not keep the copy of it again in this  I will keep its copy in some other rack  So that the same type of data does not come in one rack  Because if there is a problem in the rack  Then all the data will be lost  Will not be able to access all the data  So I put one block here  I put one block here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 503.0,
+            "end": 521.0,
+            "text": " Put the third of the second block here  Put the next here  Now the second copy of one  They will put it in some other rack  And the third copy is in some other remote area  And what do we do here  The one copy is that we present the data locally  What does local mean"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 521.0,
+            "end": 540.0,
+            "text": " Rather than  That I have to access the data again and again  I go to the remote place and access  No, I keep that data locally  And whenever the user says that I want data  So do you know what HDFS will do  He will give the address of that nearest rack  Or the nearest data node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 540.0,
+            "end": 554.0,
+            "text": " Will give the IP address  So that you do not have to travel too much  Data does not have to travel too much  See, it is a simple example  Let's say I live in Chandigarh  I booked a Royal Enfield bike  Now what will happen here  I booked a bike"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 554.0,
+            "end": 566.0,
+            "text": " Now where is the bike being made  Royal Enfield bike actually what is made  Made in Tamil Nadu  Made near Chennai  Now my order will go there  From there the bike will be transported  Chandigarh will come here  Then I will get"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 566.0,
+            "end": 581.0,
+            "text": " It will take a lot of time  So what did Royal Enfield do  Made it there  But they have made outlets in Chandigarh, Mumbai, Delhi  You go to Chandigarh  You booked there  You got it immediately  So you have kept the data locally"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 581.0,
+            "end": 598.0,
+            "text": " Rather than it remotely  Yes, the copies are kept remotely  So that if there is a problem in the local  Then we have a place in the remote  So this is actually the story  It works like this  Then we have the function of NameNode  Now we have two things in NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 598.0,
+            "end": 612.0,
+            "text": " One is FS image  And one is EditLog  What is FS image  Which is my entire file system  You can say its image  Now this is the entire file system  Its image  Image means which file is in which file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 612.0,
+            "end": 626.0,
+            "text": " Which directory  Size  An image of all things is made  And it actually stores a file here  You can say it as a primary file  Along with this, there is an EditLog  Now what is this EditLog  You deleted the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 626.0,
+            "end": 639.0,
+            "text": " So it will become a log  That yes you deleted a file  Changed the location  Changed the path  All those things will be edited by you  At this place  So it actually works like this  And along with that"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 639.0,
+            "end": 654.0,
+            "text": " Let me tell you one more point here  That another functionality works here  That is Secondary NameNode  Secondary NameNode  Secondary NameNode is also here  Like NameNode and DataNode  There is another third component  Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 654.0,
+            "end": 669.0,
+            "text": " What is Secondary NameNode  Actually  It is its PA  That is the boss  It has a PA  Whatever changes you are doing  It keeps on doing those changes  It keeps on updating the file image"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 669.0,
+            "end": 685.0,
+            "text": " Means this FS file  This file FS  It will keep on updating this file  Because NameNode is busy  NameNode is busy  So as soon as it gets time  It will save this updated file in NameNode  So what is Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 685.0,
+            "end": 698.0,
+            "text": " It is a PA  Which is scheduling all the meetings  Keeping all the changes  And what is this  Whatever changes I have done  All those changes  It has stored here  By taking all those changes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 698.0,
+            "end": 712.0,
+            "text": " It updated the FS image file  And by updating that file  It put it in NameNode  So that NameNode is completely updated  But who does this work  Secondary NameNode  Because it is its PA  You can call it its Assistant Helper"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 712.0,
+            "end": 723.0,
+            "text": " So in this way  The whole story runs  And here a heartbeat message  It has another responsibility  Checking the heartbeat message  Means  DataNode  After every 3 seconds"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 723.0,
+            "end": 736.0,
+            "text": " It sends a heartbeat message to NameNode  So that NameNode knows  That my DataNode is running properly  It is live  If after 3 seconds  No message has come from any DataNode  So it is its replication  It runs"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 736.0,
+            "end": 749.0,
+            "text": " So that data is available  So this is how  Because it is distributed  Data is not lying in one place  Everything is distributed  So I told you the functionality of DataNode  Now here  When we have to read and write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 749.0,
+            "end": 761.0,
+            "text": " So read and write  Obviously you know  How will all of them work  Read and write  If I want to read data  How will we read the data  The client said I want to read a particular data  So on NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 761.0,
+            "end": 774.0,
+            "text": " First it will get permission  Can it read?  If it can read  So where have we stored that data  So by checking with metadata  We will find out where it is stored  Let's say it is stored here  So its address"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 774.0,
+            "end": 787.0,
+            "text": " Will give it to the client  The client will not access the DataNode directly  Will access through NameNode  And then we will read the data  It has  There is a little problem in the case of write  You are doing write once  But you can read many times"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 787.0,
+            "end": 797.0,
+            "text": " There is no problem  What is the problem in write  That you are changing in data  Now see  The client said  I have to change in data  Let's say the value of x was 100  It has to be changed to 200"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 797.0,
+            "end": 809.0,
+            "text": " Now do you know what is the problem  It will be here too  Its copy is lying here  It will be here too  And its copy is lying here  It will be here too  So write  You have to do it all in parallel"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 809.0,
+            "end": 820.0,
+            "text": " So in this case  Write  You can say a little expensive  Because not at once  You have to do it all at once  Parallel simultaneously  Have to update  So this is how"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 820.0,
+            "end": 827.0,
+            "text": " Read and write  Is actually performed in HDFS  So this is full information about HDFS  Thank you"
+        }
+    ],
+    "text": " Hello students, Welcome to GITsmeasures In today's video I am going to explain HDFS that is Hadoop Distributed File System How does its whole architecture works characteristics, all the points I will explain you in this video with example So guys quickly like the video Subscribe to the channel If you haven't done it yet, if you have done it Then you can make a subscriber from the device Subscribers are very important So let's start First of all, what is the purpose of HDFS that is Hadoop Distributed File System? What is its main role? Its role is that we talk about big data That we have a huge amount of data How to store a large amount of data? The way to store it is HDFS tells us Because whenever we talk about data processing So two things are very important Two big challenges come The first challenge comes How to store data? Because we have a huge amount of data So storing it is a challenge in itself Now when stored So how to process it? So that we can get some important information from it So the processing part is seen by MapReduce And the storage part is how to store efficiently So that is actually HDFS So it is a very robust file system And it is based on your traditional file system Means the file system we normally use Like we use in Windows and Linux We use hierarchical file system In which we make directories We make files in directories The same hierarchical architecture is used in HDFS But you can say that it is designed Like we use NTFS in Windows Or use NFS What is it actually? Small data is designed for a limited amount of data But it is designed for a huge amount of data Now let's talk about its structure first So in the structure of your HDFS What is this HDFS client? You can say that it is a client Who has to put data Who has to extract data All those things Who will read the data Who will write the data But if we talk about the structure of HDFS So here two main components come The first component comes Name node Name node Load it It is a name node You can also call it a boss You can also call it a master node Okay This is the boss here That is a name node And then we come to the employees Like there are employees in companies Who work under the boss And what is here? Data nodes Where data is actually stored Like we say that I have Let's say I have some data I have to store that data In it, you can say any file There is text data, images, videos The actual data that will be stored It will be here It will be on these servers But the data that will be stored How to do it Which data will go where All those things are your name node And a very important thing here That many people think Sir, because it is a new thing So maybe we need new devices We have to buy new hardware New devices No This is also the biggest thing about HDFS That the commodity The already existing hardware It also works properly on them You don't need to buy new devices So it is also cost effective Okay So here Let's say a file comes Let's say I have a file 520 MB file Okay Now what will it do to the file of 520 MB It will not store it directly Let's divide it Like we normally divide the file Let's store it Whether you talk about Windows in your laptop Let's talk about Linux There too we divide the file If I have a huge amount of file So what will we do to it Let's not store it directly Let's divide it Okay By partitioning Here we have a partition By default 128 MB In our normal systems Partition is 4 KB 8 KB Because we talk about limited amount of data in it Here is a huge amount of data So the partition of the file in itself The smallest block Which you can call What will be the size of a block 128 MB So let's say if I have a file of 520 MB So you can say 128 MB is one 128 MB is second 128 MB is third 128 MB is fourth Okay So these four How many will be 512 MB How many are left later Later your 8 more are left So 8 MB will come in the next one So that means The first 128 MB block will come I will store it in this data node That's why you are saying distributed HDFS is distributed Not in one place You can store all 520 here But don't store here It is a distributed So that I can access it parallelly during processing If I store it in one place Then the whole burden will come on it So 128 MB here 128 MB here 128 MB here 128 MB here And the last 8 MB is here So in this way Distributed Stores data in a distributed way Now how will you know The user said that I have to read the file I have to read a particular block So how do I know I kept it here I kept it here Where did I keep it So it has metadata Every file has a metadata Means the information related to that file What is the file name What are the permissions on the file Which data node did you keep How many replications of it were made Means the information related to that data It is stored in the name node So what happens here File system name space Name space Where all the metadata related to the file Which is stored Name of the file Size Permissions How many replications you made How many you kept Which place where you kept All those things are stored here So this is how the structure actually works Now next here The concept of replication comes Means we are here in HDFS Let's say I have a block of 128 So I stored that block here I kept its name here Let's say I stored it here Is my work over No HDFS says I work on the replication factor Replication means That I will not store this whole block In one place Its same copy Will be stored somewhere else Means the data is the same I copied the same data to three places I picked up the second block I stored it here too I stored it here too I stored it here too So by default Replication factor is 3 Means one block is stored in three places What did it get It got fault tolerance Fault tolerance means If one of the data node is down Then how will I get data The client will keep waiting When will I get data No We need to get data accessed 24x7 fast Need speed So I'm there Okay it's down So get the data from here Now how did you know There is a store here and here How did you know My data was here too And the same data was here Name node will tell So this is the story of name node That's why we are calling it boss We are calling it master Okay So this is your replication So that I get fault tolerance So this is how it works Then One more concept comes in this Rack awareness Rack awareness Now what is the concept of rack awareness Now we don't have one or two data nodes We have thousands of data nodes Because we are storing a very large amount of data Like Google, Facebook They have limited store They have a lot of store So what they have to do Like I have these three nodes So I made a rack of them Okay Like here you will have more clarity from this diagram Rack means Your rack is like this Your rack is like this Like this is a rack Like we keep rack in the house So that rack I put the first block in this rack Now I will not keep the copy of it again in this I will keep its copy in some other rack So that the same type of data does not come in one rack Because if there is a problem in the rack Then all the data will be lost Will not be able to access all the data So I put one block here I put one block here Put the third of the second block here Put the next here Now the second copy of one They will put it in some other rack And the third copy is in some other remote area And what do we do here The one copy is that we present the data locally What does local mean Rather than That I have to access the data again and again I go to the remote place and access No, I keep that data locally And whenever the user says that I want data So do you know what HDFS will do He will give the address of that nearest rack Or the nearest data node Will give the IP address So that you do not have to travel too much Data does not have to travel too much See, it is a simple example Let's say I live in Chandigarh I booked a Royal Enfield bike Now what will happen here I booked a bike Now where is the bike being made Royal Enfield bike actually what is made Made in Tamil Nadu Made near Chennai Now my order will go there From there the bike will be transported Chandigarh will come here Then I will get It will take a lot of time So what did Royal Enfield do Made it there But they have made outlets in Chandigarh, Mumbai, Delhi You go to Chandigarh You booked there You got it immediately So you have kept the data locally Rather than it remotely Yes, the copies are kept remotely So that if there is a problem in the local Then we have a place in the remote So this is actually the story It works like this Then we have the function of NameNode Now we have two things in NameNode One is FS image And one is EditLog What is FS image Which is my entire file system You can say its image Now this is the entire file system Its image Image means which file is in which file Which directory Size An image of all things is made And it actually stores a file here You can say it as a primary file Along with this, there is an EditLog Now what is this EditLog You deleted the file So it will become a log That yes you deleted a file Changed the location Changed the path All those things will be edited by you At this place So it actually works like this And along with that Let me tell you one more point here That another functionality works here That is Secondary NameNode Secondary NameNode Secondary NameNode is also here Like NameNode and DataNode There is another third component Secondary NameNode What is Secondary NameNode Actually It is its PA That is the boss It has a PA Whatever changes you are doing It keeps on doing those changes It keeps on updating the file image Means this FS file This file FS It will keep on updating this file Because NameNode is busy NameNode is busy So as soon as it gets time It will save this updated file in NameNode So what is Secondary NameNode It is a PA Which is scheduling all the meetings Keeping all the changes And what is this Whatever changes I have done All those changes It has stored here By taking all those changes It updated the FS image file And by updating that file It put it in NameNode So that NameNode is completely updated But who does this work Secondary NameNode Because it is its PA You can call it its Assistant Helper So in this way The whole story runs And here a heartbeat message It has another responsibility Checking the heartbeat message Means DataNode After every 3 seconds It sends a heartbeat message to NameNode So that NameNode knows That my DataNode is running properly It is live If after 3 seconds No message has come from any DataNode So it is its replication It runs So that data is available So this is how Because it is distributed Data is not lying in one place Everything is distributed So I told you the functionality of DataNode Now here When we have to read and write So read and write Obviously you know How will all of them work Read and write If I want to read data How will we read the data The client said I want to read a particular data So on NameNode First it will get permission Can it read? If it can read So where have we stored that data So by checking with metadata We will find out where it is stored Let's say it is stored here So its address Will give it to the client The client will not access the DataNode directly Will access through NameNode And then we will read the data It has There is a little problem in the case of write You are doing write once But you can read many times There is no problem What is the problem in write That you are changing in data Now see The client said I have to change in data Let's say the value of x was 100 It has to be changed to 200 Now do you know what is the problem It will be here too Its copy is lying here It will be here too And its copy is lying here It will be here too So write You have to do it all in parallel So in this case Write You can say a little expensive Because not at once You have to do it all at once Parallel simultaneously Have to update So this is how Read and write Is actually performed in HDFS So this is full information about HDFS Thank you"
+}

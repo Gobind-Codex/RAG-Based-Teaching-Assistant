@@ -1,0 +1,3225 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Hello students, Welcome to GITsmeasures"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 2.0,
+            "end": 4.0,
+            "text": " In today's video I am going to explain HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 4.0,
+            "end": 7.0,
+            "text": " that is Hadoop Distributed File System"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 7.0,
+            "end": 9.0,
+            "text": " How does its whole architecture works"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 9.0,
+            "end": 12.0,
+            "text": " characteristics, all the points"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 12.0,
+            "end": 14.0,
+            "text": " I will explain you in this video with example"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 14.0,
+            "end": 16.0,
+            "text": " So guys quickly like the video"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 16.0,
+            "end": 17.0,
+            "text": " Subscribe to the channel"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 17.0,
+            "end": 19.0,
+            "text": " If you haven't done it yet, if you have done it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 19.0,
+            "end": 21.0,
+            "text": " Then you can make a subscriber from the device"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 21.0,
+            "end": 22.0,
+            "text": " Subscribers are very important"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 22.0,
+            "end": 23.0,
+            "text": " So let's start"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 23.0,
+            "end": 28.0,
+            "text": " First of all, what is the purpose of HDFS that is Hadoop Distributed File System?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 28.0,
+            "end": 30.0,
+            "text": " What is its main role?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 30.0,
+            "end": 33.0,
+            "text": " Its role is that we talk about big data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 33.0,
+            "end": 35.0,
+            "text": " That we have a huge amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 35.0,
+            "end": 38.0,
+            "text": " How to store a large amount of data?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 38.0,
+            "end": 43.0,
+            "text": " The way to store it is HDFS tells us"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 43.0,
+            "end": 45.0,
+            "text": " Because whenever we talk about data processing"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 45.0,
+            "end": 47.0,
+            "text": " So two things are very important"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 47.0,
+            "end": 48.0,
+            "text": " Two big challenges come"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 48.0,
+            "end": 50.0,
+            "text": " The first challenge comes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 50.0,
+            "end": 52.0,
+            "text": " How to store data?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 52.0,
+            "end": 54.0,
+            "text": " Because we have a huge amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 54.0,
+            "end": 57.0,
+            "text": " So storing it is a challenge in itself"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 57.0,
+            "end": 58.0,
+            "text": " Now when stored"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 58.0,
+            "end": 60.0,
+            "text": " So how to process it?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 60.0,
+            "end": 63.0,
+            "text": " So that we can get some important information from it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 63.0,
+            "end": 67.0,
+            "text": " So the processing part is seen by MapReduce"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 67.0,
+            "end": 71.0,
+            "text": " And the storage part is how to store efficiently"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 71.0,
+            "end": 73.0,
+            "text": " So that is actually HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 73.0,
+            "end": 77.0,
+            "text": " So it is a very robust file system"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 77.0,
+            "end": 81.0,
+            "text": " And it is based on your traditional file system"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 81.0,
+            "end": 84.0,
+            "text": " Means the file system we normally use"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 84.0,
+            "end": 86.0,
+            "text": " Like we use in Windows and Linux"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 86.0,
+            "end": 89.0,
+            "text": " We use hierarchical file system"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 89.0,
+            "end": 91.0,
+            "text": " In which we make directories"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 91.0,
+            "end": 92.0,
+            "text": " We make files in directories"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 92.0,
+            "end": 96.0,
+            "text": " The same hierarchical architecture is used in HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 96.0,
+            "end": 99.0,
+            "text": " But you can say that it is designed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 99.0,
+            "end": 101.0,
+            "text": " Like we use NTFS in Windows"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 101.0,
+            "end": 102.0,
+            "text": " Or use NFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 102.0,
+            "end": 104.0,
+            "text": " What is it actually?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 104.0,
+            "end": 107.0,
+            "text": " Small data is designed for a limited amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 107.0,
+            "end": 110.0,
+            "text": " But it is designed for a huge amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 110.0,
+            "end": 112.0,
+            "text": " Now let's talk about its structure first"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 112.0,
+            "end": 115.0,
+            "text": " So in the structure of your HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 115.0,
+            "end": 117.0,
+            "text": " What is this HDFS client?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 117.0,
+            "end": 118.0,
+            "text": " You can say that it is a client"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 118.0,
+            "end": 119.0,
+            "text": " Who has to put data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 119.0,
+            "end": 121.0,
+            "text": " Who has to extract data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 121.0,
+            "end": 122.0,
+            "text": " All those things"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 122.0,
+            "end": 123.0,
+            "text": " Who will read the data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 123.0,
+            "end": 124.0,
+            "text": " Who will write the data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 124.0,
+            "end": 127.0,
+            "text": " But if we talk about the structure of HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 127.0,
+            "end": 130.0,
+            "text": " So here two main components come"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 130.0,
+            "end": 132.0,
+            "text": " The first component comes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 132.0,
+            "end": 133.0,
+            "text": " Name node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 133.0,
+            "end": 134.0,
+            "text": " Name node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 134.0,
+            "end": 135.0,
+            "text": " Load it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 135.0,
+            "end": 136.0,
+            "text": " It is a name node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 136.0,
+            "end": 138.0,
+            "text": " You can also call it a boss"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 138.0,
+            "end": 141.0,
+            "text": " You can also call it a master node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 141.0,
+            "end": 142.0,
+            "text": " Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 142.0,
+            "end": 143.0,
+            "text": " This is the boss here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 143.0,
+            "end": 144.0,
+            "text": " That is a name node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 144.0,
+            "end": 146.0,
+            "text": " And then we come to the employees"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 146.0,
+            "end": 148.0,
+            "text": " Like there are employees in companies"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 148.0,
+            "end": 150.0,
+            "text": " Who work under the boss"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 150.0,
+            "end": 151.0,
+            "text": " And what is here?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 151.0,
+            "end": 152.0,
+            "text": " Data nodes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 152.0,
+            "end": 155.0,
+            "text": " Where data is actually stored"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 155.0,
+            "end": 156.0,
+            "text": " Like we say that I have"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 156.0,
+            "end": 158.0,
+            "text": " Let's say I have some data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 158.0,
+            "end": 159.0,
+            "text": " I have to store that data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 159.0,
+            "end": 161.0,
+            "text": " In it, you can say any file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 161.0,
+            "end": 163.0,
+            "text": " There is text data, images, videos"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 163.0,
+            "end": 165.0,
+            "text": " The actual data that will be stored"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 165.0,
+            "end": 166.0,
+            "text": " It will be here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 166.0,
+            "end": 167.0,
+            "text": " It will be on these servers"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 167.0,
+            "end": 170.0,
+            "text": " But the data that will be stored"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 170.0,
+            "end": 171.0,
+            "text": " How to do it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 171.0,
+            "end": 173.0,
+            "text": " Which data will go where"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 173.0,
+            "end": 175.0,
+            "text": " All those things are your name node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 175.0,
+            "end": 177.0,
+            "text": " And a very important thing here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 177.0,
+            "end": 178.0,
+            "text": " That many people think"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 178.0,
+            "end": 180.0,
+            "text": " Sir, because it is a new thing"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 180.0,
+            "end": 182.0,
+            "text": " So maybe we need new devices"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 182.0,
+            "end": 184.0,
+            "text": " We have to buy new hardware"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 184.0,
+            "end": 185.0,
+            "text": " New devices"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 185.0,
+            "end": 186.0,
+            "text": " No"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 186.0,
+            "end": 188.0,
+            "text": " This is also the biggest thing about HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 188.0,
+            "end": 190.0,
+            "text": " That the commodity"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 190.0,
+            "end": 192.0,
+            "text": " The already existing hardware"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 192.0,
+            "end": 194.0,
+            "text": " It also works properly on them"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 194.0,
+            "end": 196.0,
+            "text": " You don't need to buy new devices"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 196.0,
+            "end": 197.0,
+            "text": " So it is also cost effective"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 197.0,
+            "end": 198.0,
+            "text": " Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 198.0,
+            "end": 199.0,
+            "text": " So here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 199.0,
+            "end": 200.0,
+            "text": " Let's say a file comes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 200.0,
+            "end": 202.0,
+            "text": " Let's say I have a file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 202.0,
+            "end": 205.0,
+            "text": " 520 MB file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 205.0,
+            "end": 206.0,
+            "text": " Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 206.0,
+            "end": 209.0,
+            "text": " Now what will it do to the file of 520 MB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 209.0,
+            "end": 211.0,
+            "text": " It will not store it directly"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 211.0,
+            "end": 213.0,
+            "text": " Let's divide it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 213.0,
+            "end": 214.0,
+            "text": " Like we normally divide the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 214.0,
+            "end": 215.0,
+            "text": " Let's store it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 215.0,
+            "end": 218.0,
+            "text": " Whether you talk about Windows in your laptop"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 218.0,
+            "end": 219.0,
+            "text": " Let's talk about Linux"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 219.0,
+            "end": 222.0,
+            "text": " There too we divide the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 222.0,
+            "end": 224.0,
+            "text": " If I have a huge amount of file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 224.0,
+            "end": 225.0,
+            "text": " So what will we do to it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 225.0,
+            "end": 227.0,
+            "text": " Let's not store it directly"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 227.0,
+            "end": 228.0,
+            "text": " Let's divide it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 228.0,
+            "end": 229.0,
+            "text": " Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 229.0,
+            "end": 230.0,
+            "text": " By partitioning"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 230.0,
+            "end": 232.0,
+            "text": " Here we have a partition"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 232.0,
+            "end": 235.0,
+            "text": " By default 128 MB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 235.0,
+            "end": 237.0,
+            "text": " In our normal systems"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 237.0,
+            "end": 239.0,
+            "text": " Partition is 4 KB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 239.0,
+            "end": 240.0,
+            "text": " 8 KB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 240.0,
+            "end": 243.0,
+            "text": " Because we talk about limited amount of data in it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 243.0,
+            "end": 244.0,
+            "text": " Here is a huge amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 244.0,
+            "end": 247.0,
+            "text": " So the partition of the file in itself"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 247.0,
+            "end": 248.0,
+            "text": " The smallest block"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 248.0,
+            "end": 250.0,
+            "text": " Which you can call"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 250.0,
+            "end": 252.0,
+            "text": " What will be the size of a block"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 252.0,
+            "end": 254.0,
+            "text": " 128 MB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 254.0,
+            "end": 257.0,
+            "text": " So let's say if I have a file of 520 MB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 257.0,
+            "end": 259.0,
+            "text": " So you can say"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 259.0,
+            "end": 260.0,
+            "text": " 128 MB is one"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 260.0,
+            "end": 261.0,
+            "text": " 128 MB is second"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 261.0,
+            "end": 263.0,
+            "text": " 128 MB is third"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 263.0,
+            "end": 264.0,
+            "text": " 128 MB is fourth"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 264.0,
+            "end": 265.0,
+            "text": " Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 265.0,
+            "end": 266.0,
+            "text": " So these four"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 266.0,
+            "end": 267.0,
+            "text": " How many will be 512 MB"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 267.0,
+            "end": 269.0,
+            "text": " How many are left later"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 269.0,
+            "end": 271.0,
+            "text": " Later your 8 more are left"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 271.0,
+            "end": 273.0,
+            "text": " So 8 MB will come in the next one"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 273.0,
+            "end": 274.0,
+            "text": " So that means"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 274.0,
+            "end": 276.0,
+            "text": " The first 128 MB block will come"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 276.0,
+            "end": 278.0,
+            "text": " I will store it in this data node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 278.0,
+            "end": 280.0,
+            "text": " That's why you are saying distributed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 280.0,
+            "end": 282.0,
+            "text": " HDFS is distributed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 282.0,
+            "end": 283.0,
+            "text": " Not in one place"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 283.0,
+            "end": 286.0,
+            "text": " You can store all 520 here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 286.0,
+            "end": 288.0,
+            "text": " But don't store here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 288.0,
+            "end": 290.0,
+            "text": " It is a distributed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 290.0,
+            "end": 293.0,
+            "text": " So that I can access it parallelly during processing"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 293.0,
+            "end": 295.0,
+            "text": " If I store it in one place"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 295.0,
+            "end": 297.0,
+            "text": " Then the whole burden will come on it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 297.0,
+            "end": 298.0,
+            "text": " So 128 MB here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 298.0,
+            "end": 300.0,
+            "text": " 128 MB here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 300.0,
+            "end": 301.0,
+            "text": " 128 MB here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 301.0,
+            "end": 302.0,
+            "text": " 128 MB here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 302.0,
+            "end": 304.0,
+            "text": " And the last 8 MB is here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 304.0,
+            "end": 305.0,
+            "text": " So in this way"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 305.0,
+            "end": 306.0,
+            "text": " Distributed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 306.0,
+            "end": 308.0,
+            "text": " Stores data in a distributed way"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 308.0,
+            "end": 310.0,
+            "text": " Now how will you know"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 310.0,
+            "end": 312.0,
+            "text": " The user said that I have to read the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 312.0,
+            "end": 314.0,
+            "text": " I have to read a particular block"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 314.0,
+            "end": 315.0,
+            "text": " So how do I know"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 315.0,
+            "end": 316.0,
+            "text": " I kept it here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 316.0,
+            "end": 317.0,
+            "text": " I kept it here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 317.0,
+            "end": 318.0,
+            "text": " Where did I keep it"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 318.0,
+            "end": 320.0,
+            "text": " So it has metadata"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 320.0,
+            "end": 322.0,
+            "text": " Every file has a metadata"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 322.0,
+            "end": 324.0,
+            "text": " Means the information related to that file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 324.0,
+            "end": 326.0,
+            "text": " What is the file name"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 326.0,
+            "end": 328.0,
+            "text": " What are the permissions on the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 328.0,
+            "end": 330.0,
+            "text": " Which data node did you keep"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " How many replications of it were made"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " Means the information related to that data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " It is stored in the name node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 336.0,
+            "end": 337.0,
+            "text": " So what happens here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 337.0,
+            "end": 339.0,
+            "text": " File system name space"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 339.0,
+            "end": 341.0,
+            "text": " Name space"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 341.0,
+            "end": 344.0,
+            "text": " Where all the metadata related to the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 344.0,
+            "end": 345.0,
+            "text": " Which is stored"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 345.0,
+            "end": 346.0,
+            "text": " Name of the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 346.0,
+            "end": 347.0,
+            "text": " Size"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 347.0,
+            "end": 348.0,
+            "text": " Permissions"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 348.0,
+            "end": 350.0,
+            "text": " How many replications you made"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 350.0,
+            "end": 351.0,
+            "text": " How many you kept"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 351.0,
+            "end": 352.0,
+            "text": " Which place where you kept"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 352.0,
+            "end": 354.0,
+            "text": " All those things are stored here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 354.0,
+            "end": 357.0,
+            "text": " So this is how the structure actually works"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 357.0,
+            "end": 358.0,
+            "text": " Now next here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 358.0,
+            "end": 361.0,
+            "text": " The concept of replication comes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 361.0,
+            "end": 363.0,
+            "text": " Means we are here in HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 363.0,
+            "end": 366.0,
+            "text": " Let's say I have a block of 128"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 366.0,
+            "end": 369.0,
+            "text": " So I stored that block here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 369.0,
+            "end": 370.0,
+            "text": " I kept its name here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " Let's say I stored it here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 372.0,
+            "end": 373.0,
+            "text": " Is my work over"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 373.0,
+            "end": 374.0,
+            "text": " No"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 374.0,
+            "end": 375.0,
+            "text": " HDFS says"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 375.0,
+            "end": 377.0,
+            "text": " I work on the replication factor"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 377.0,
+            "end": 379.0,
+            "text": " Replication means"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 379.0,
+            "end": 382.0,
+            "text": " That I will not store this whole block"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 382.0,
+            "end": 384.0,
+            "text": " In one place"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 384.0,
+            "end": 386.0,
+            "text": " Its same copy"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 386.0,
+            "end": 389.0,
+            "text": " Will be stored somewhere else"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 389.0,
+            "end": 391.0,
+            "text": " Means the data is the same"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 391.0,
+            "end": 395.0,
+            "text": " I copied the same data to three places"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 395.0,
+            "end": 396.0,
+            "text": " I picked up the second block"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 396.0,
+            "end": 398.0,
+            "text": " I stored it here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 398.0,
+            "end": 400.0,
+            "text": " I stored it here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 400.0,
+            "end": 402.0,
+            "text": " I stored it here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 402.0,
+            "end": 403.0,
+            "text": " So by default"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 403.0,
+            "end": 405.0,
+            "text": " Replication factor is 3"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 405.0,
+            "end": 408.0,
+            "text": " Means one block is stored in three places"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 408.0,
+            "end": 409.0,
+            "text": " What did it get"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 409.0,
+            "end": 411.0,
+            "text": " It got fault tolerance"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 411.0,
+            "end": 412.0,
+            "text": " Fault tolerance means"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 412.0,
+            "end": 414.0,
+            "text": " If one of the data node is down"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 414.0,
+            "end": 416.0,
+            "text": " Then how will I get data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 416.0,
+            "end": 418.0,
+            "text": " The client will keep waiting"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 418.0,
+            "end": 419.0,
+            "text": " When will I get data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 419.0,
+            "end": 420.0,
+            "text": " No"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 420.0,
+            "end": 423.0,
+            "text": " We need to get data accessed 24x7 fast"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 423.0,
+            "end": 424.0,
+            "text": " Need speed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 424.0,
+            "end": 425.0,
+            "text": " So I'm there"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 425.0,
+            "end": 426.0,
+            "text": " Okay it's down"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 426.0,
+            "end": 427.0,
+            "text": " So get the data from here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 427.0,
+            "end": 428.0,
+            "text": " Now how did you know"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 428.0,
+            "end": 430.0,
+            "text": " There is a store here and here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 430.0,
+            "end": 431.0,
+            "text": " How did you know"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 431.0,
+            "end": 432.0,
+            "text": " My data was here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 432.0,
+            "end": 433.0,
+            "text": " And the same data was here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 433.0,
+            "end": 434.0,
+            "text": " Name node will tell"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 434.0,
+            "end": 436.0,
+            "text": " So this is the story of name node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 436.0,
+            "end": 437.0,
+            "text": " That's why we are calling it boss"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 437.0,
+            "end": 438.0,
+            "text": " We are calling it master"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 438.0,
+            "end": 439.0,
+            "text": " Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 439.0,
+            "end": 440.0,
+            "text": " So this is your replication"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 440.0,
+            "end": 442.0,
+            "text": " So that I get fault tolerance"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 442.0,
+            "end": 444.0,
+            "text": " So this is how it works"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 444.0,
+            "end": 445.0,
+            "text": " Then"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 445.0,
+            "end": 447.0,
+            "text": " One more concept comes in this"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 447.0,
+            "end": 449.0,
+            "text": " Rack awareness"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 449.0,
+            "end": 450.0,
+            "text": " Rack awareness"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 450.0,
+            "end": 452.0,
+            "text": " Now what is the concept of rack awareness"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 452.0,
+            "end": 455.0,
+            "text": " Now we don't have one or two data nodes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 455.0,
+            "end": 457.0,
+            "text": " We have thousands of data nodes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 457.0,
+            "end": 460.0,
+            "text": " Because we are storing a very large amount of data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 460.0,
+            "end": 461.0,
+            "text": " Like Google, Facebook"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 461.0,
+            "end": 462.0,
+            "text": " They have limited store"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 462.0,
+            "end": 464.0,
+            "text": " They have a lot of store"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 464.0,
+            "end": 466.0,
+            "text": " So what they have to do"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 466.0,
+            "end": 468.0,
+            "text": " Like I have these three nodes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 468.0,
+            "end": 470.0,
+            "text": " So I made a rack of them"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 470.0,
+            "end": 471.0,
+            "text": " Okay"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 471.0,
+            "end": 474.0,
+            "text": " Like here you will have more clarity from this diagram"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 474.0,
+            "end": 475.0,
+            "text": " Rack means"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 475.0,
+            "end": 477.0,
+            "text": " Your rack is like this"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 477.0,
+            "end": 479.0,
+            "text": " Your rack is like this"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 479.0,
+            "end": 480.0,
+            "text": " Like this is a rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 480.0,
+            "end": 482.0,
+            "text": " Like we keep rack in the house"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 482.0,
+            "end": 483.0,
+            "text": " So that rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 483.0,
+            "end": 485.0,
+            "text": " I put the first block in this rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 485.0,
+            "end": 488.0,
+            "text": " Now I will not keep the copy of it again in this"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 488.0,
+            "end": 490.0,
+            "text": " I will keep its copy in some other rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 490.0,
+            "end": 493.0,
+            "text": " So that the same type of data does not come in one rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 493.0,
+            "end": 495.0,
+            "text": " Because if there is a problem in the rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 495.0,
+            "end": 497.0,
+            "text": " Then all the data will be lost"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 497.0,
+            "end": 499.0,
+            "text": " Will not be able to access all the data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 499.0,
+            "end": 501.0,
+            "text": " So I put one block here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 501.0,
+            "end": 503.0,
+            "text": " I put one block here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 503.0,
+            "end": 505.0,
+            "text": " Put the third of the second block here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 505.0,
+            "end": 506.0,
+            "text": " Put the next here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 506.0,
+            "end": 508.0,
+            "text": " Now the second copy of one"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 508.0,
+            "end": 510.0,
+            "text": " They will put it in some other rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 510.0,
+            "end": 513.0,
+            "text": " And the third copy is in some other remote area"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 513.0,
+            "end": 515.0,
+            "text": " And what do we do here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 515.0,
+            "end": 519.0,
+            "text": " The one copy is that we present the data locally"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 519.0,
+            "end": 521.0,
+            "text": " What does local mean"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 521.0,
+            "end": 522.0,
+            "text": " Rather than"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 522.0,
+            "end": 524.0,
+            "text": " That I have to access the data again and again"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 524.0,
+            "end": 526.0,
+            "text": " I go to the remote place and access"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 526.0,
+            "end": 528.0,
+            "text": " No, I keep that data locally"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 528.0,
+            "end": 531.0,
+            "text": " And whenever the user says that I want data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 531.0,
+            "end": 533.0,
+            "text": " So do you know what HDFS will do"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 533.0,
+            "end": 537.0,
+            "text": " He will give the address of that nearest rack"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 538.0,
+            "end": 540.0,
+            "text": " Or the nearest data node"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 540.0,
+            "end": 541.0,
+            "text": " Will give the IP address"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 541.0,
+            "end": 544.0,
+            "text": " So that you do not have to travel too much"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 544.0,
+            "end": 546.0,
+            "text": " Data does not have to travel too much"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 546.0,
+            "end": 548.0,
+            "text": " See, it is a simple example"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 548.0,
+            "end": 549.0,
+            "text": " Let's say I live in Chandigarh"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 549.0,
+            "end": 551.0,
+            "text": " I booked a Royal Enfield bike"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 551.0,
+            "end": 553.0,
+            "text": " Now what will happen here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 553.0,
+            "end": 554.0,
+            "text": " I booked a bike"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 554.0,
+            "end": 555.0,
+            "text": " Now where is the bike being made"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 555.0,
+            "end": 557.0,
+            "text": " Royal Enfield bike actually what is made"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 557.0,
+            "end": 558.0,
+            "text": " Made in Tamil Nadu"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 558.0,
+            "end": 559.0,
+            "text": " Made near Chennai"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 559.0,
+            "end": 561.0,
+            "text": " Now my order will go there"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 561.0,
+            "end": 564.0,
+            "text": " From there the bike will be transported"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 564.0,
+            "end": 565.0,
+            "text": " Chandigarh will come here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 565.0,
+            "end": 566.0,
+            "text": " Then I will get"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 566.0,
+            "end": 567.0,
+            "text": " It will take a lot of time"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 567.0,
+            "end": 570.0,
+            "text": " So what did Royal Enfield do"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 570.0,
+            "end": 571.0,
+            "text": " Made it there"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 571.0,
+            "end": 575.0,
+            "text": " But they have made outlets in Chandigarh, Mumbai, Delhi"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 575.0,
+            "end": 577.0,
+            "text": " You go to Chandigarh"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 577.0,
+            "end": 578.0,
+            "text": " You booked there"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 578.0,
+            "end": 579.0,
+            "text": " You got it immediately"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 579.0,
+            "end": 581.0,
+            "text": " So you have kept the data locally"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 581.0,
+            "end": 582.0,
+            "text": " Rather than it remotely"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 582.0,
+            "end": 585.0,
+            "text": " Yes, the copies are kept remotely"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 585.0,
+            "end": 587.0,
+            "text": " So that if there is a problem in the local"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 587.0,
+            "end": 589.0,
+            "text": " Then we have a place in the remote"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 589.0,
+            "end": 591.0,
+            "text": " So this is actually the story"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 591.0,
+            "end": 593.0,
+            "text": " It works like this"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 593.0,
+            "end": 596.0,
+            "text": " Then we have the function of NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 596.0,
+            "end": 598.0,
+            "text": " Now we have two things in NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 598.0,
+            "end": 600.0,
+            "text": " One is FS image"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 600.0,
+            "end": 601.0,
+            "text": " And one is EditLog"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 601.0,
+            "end": 603.0,
+            "text": " What is FS image"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 603.0,
+            "end": 605.0,
+            "text": " Which is my entire file system"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 605.0,
+            "end": 607.0,
+            "text": " You can say its image"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 607.0,
+            "end": 608.0,
+            "text": " Now this is the entire file system"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 608.0,
+            "end": 610.0,
+            "text": " Its image"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 610.0,
+            "end": 612.0,
+            "text": " Image means which file is in which file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 612.0,
+            "end": 613.0,
+            "text": " Which directory"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 613.0,
+            "end": 614.0,
+            "text": " Size"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 614.0,
+            "end": 616.0,
+            "text": " An image of all things is made"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 616.0,
+            "end": 619.0,
+            "text": " And it actually stores a file here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 619.0,
+            "end": 621.0,
+            "text": " You can say it as a primary file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 621.0,
+            "end": 623.0,
+            "text": " Along with this, there is an EditLog"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 623.0,
+            "end": 624.0,
+            "text": " Now what is this EditLog"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 624.0,
+            "end": 626.0,
+            "text": " You deleted the file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 626.0,
+            "end": 628.0,
+            "text": " So it will become a log"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 628.0,
+            "end": 630.0,
+            "text": " That yes you deleted a file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 630.0,
+            "end": 631.0,
+            "text": " Changed the location"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 631.0,
+            "end": 632.0,
+            "text": " Changed the path"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 632.0,
+            "end": 634.0,
+            "text": " All those things will be edited by you"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 634.0,
+            "end": 635.0,
+            "text": " At this place"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 635.0,
+            "end": 638.0,
+            "text": " So it actually works like this"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 638.0,
+            "end": 639.0,
+            "text": " And along with that"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 639.0,
+            "end": 641.0,
+            "text": " Let me tell you one more point here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 641.0,
+            "end": 644.0,
+            "text": " That another functionality works here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 644.0,
+            "end": 646.0,
+            "text": " That is Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 646.0,
+            "end": 648.0,
+            "text": " Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 648.0,
+            "end": 650.0,
+            "text": " Secondary NameNode is also here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 650.0,
+            "end": 651.0,
+            "text": " Like NameNode and DataNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 651.0,
+            "end": 652.0,
+            "text": " There is another third component"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 652.0,
+            "end": 654.0,
+            "text": " Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 654.0,
+            "end": 655.0,
+            "text": " What is Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 655.0,
+            "end": 656.0,
+            "text": " Actually"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 656.0,
+            "end": 657.0,
+            "text": " It is its PA"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 657.0,
+            "end": 658.0,
+            "text": " That is the boss"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 658.0,
+            "end": 660.0,
+            "text": " It has a PA"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 660.0,
+            "end": 663.0,
+            "text": " Whatever changes you are doing"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 663.0,
+            "end": 666.0,
+            "text": " It keeps on doing those changes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 666.0,
+            "end": 669.0,
+            "text": " It keeps on updating the file image"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 669.0,
+            "end": 671.0,
+            "text": " Means this FS file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 671.0,
+            "end": 673.0,
+            "text": " This file FS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 673.0,
+            "end": 676.0,
+            "text": " It will keep on updating this file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 676.0,
+            "end": 678.0,
+            "text": " Because NameNode is busy"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 678.0,
+            "end": 679.0,
+            "text": " NameNode is busy"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 679.0,
+            "end": 680.0,
+            "text": " So as soon as it gets time"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 680.0,
+            "end": 684.0,
+            "text": " It will save this updated file in NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 684.0,
+            "end": 685.0,
+            "text": " So what is Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 685.0,
+            "end": 686.0,
+            "text": " It is a PA"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 686.0,
+            "end": 688.0,
+            "text": " Which is scheduling all the meetings"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 688.0,
+            "end": 690.0,
+            "text": " Keeping all the changes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 690.0,
+            "end": 691.0,
+            "text": " And what is this"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 691.0,
+            "end": 693.0,
+            "text": " Whatever changes I have done"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 693.0,
+            "end": 695.0,
+            "text": " All those changes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 695.0,
+            "end": 696.0,
+            "text": " It has stored here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 696.0,
+            "end": 698.0,
+            "text": " By taking all those changes"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 698.0,
+            "end": 700.0,
+            "text": " It updated the FS image file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 700.0,
+            "end": 702.0,
+            "text": " And by updating that file"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 702.0,
+            "end": 704.0,
+            "text": " It put it in NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 704.0,
+            "end": 706.0,
+            "text": " So that NameNode is completely updated"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 706.0,
+            "end": 708.0,
+            "text": " But who does this work"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 708.0,
+            "end": 709.0,
+            "text": " Secondary NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 709.0,
+            "end": 710.0,
+            "text": " Because it is its PA"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 710.0,
+            "end": 712.0,
+            "text": " You can call it its Assistant Helper"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 712.0,
+            "end": 714.0,
+            "text": " So in this way"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 714.0,
+            "end": 715.0,
+            "text": " The whole story runs"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 715.0,
+            "end": 717.0,
+            "text": " And here a heartbeat message"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 717.0,
+            "end": 719.0,
+            "text": " It has another responsibility"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 719.0,
+            "end": 720.0,
+            "text": " Checking the heartbeat message"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 720.0,
+            "end": 721.0,
+            "text": " Means"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 721.0,
+            "end": 722.0,
+            "text": " DataNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 722.0,
+            "end": 723.0,
+            "text": " After every 3 seconds"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 723.0,
+            "end": 726.0,
+            "text": " It sends a heartbeat message to NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 726.0,
+            "end": 727.0,
+            "text": " So that NameNode knows"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 727.0,
+            "end": 729.0,
+            "text": " That my DataNode is running properly"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 729.0,
+            "end": 730.0,
+            "text": " It is live"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 730.0,
+            "end": 731.0,
+            "text": " If after 3 seconds"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 731.0,
+            "end": 733.0,
+            "text": " No message has come from any DataNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 733.0,
+            "end": 735.0,
+            "text": " So it is its replication"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 735.0,
+            "end": 736.0,
+            "text": " It runs"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 736.0,
+            "end": 738.0,
+            "text": " So that data is available"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 738.0,
+            "end": 740.0,
+            "text": " So this is how"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 740.0,
+            "end": 741.0,
+            "text": " Because it is distributed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 741.0,
+            "end": 742.0,
+            "text": " Data is not lying in one place"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 742.0,
+            "end": 743.0,
+            "text": " Everything is distributed"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 743.0,
+            "end": 745.0,
+            "text": " So I told you the functionality of DataNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 745.0,
+            "end": 747.0,
+            "text": " Now here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 747.0,
+            "end": 749.0,
+            "text": " When we have to read and write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 749.0,
+            "end": 750.0,
+            "text": " So read and write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 750.0,
+            "end": 751.0,
+            "text": " Obviously you know"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 751.0,
+            "end": 753.0,
+            "text": " How will all of them work"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 753.0,
+            "end": 754.0,
+            "text": " Read and write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 754.0,
+            "end": 756.0,
+            "text": " If I want to read data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 756.0,
+            "end": 758.0,
+            "text": " How will we read the data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 758.0,
+            "end": 760.0,
+            "text": " The client said I want to read a particular data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 760.0,
+            "end": 761.0,
+            "text": " So on NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 761.0,
+            "end": 763.0,
+            "text": " First it will get permission"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 763.0,
+            "end": 764.0,
+            "text": " Can it read?"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 764.0,
+            "end": 765.0,
+            "text": " If it can read"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 765.0,
+            "end": 768.0,
+            "text": " So where have we stored that data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 768.0,
+            "end": 769.0,
+            "text": " So by checking with metadata"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 769.0,
+            "end": 771.0,
+            "text": " We will find out where it is stored"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 771.0,
+            "end": 773.0,
+            "text": " Let's say it is stored here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 773.0,
+            "end": 774.0,
+            "text": " So its address"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 774.0,
+            "end": 775.0,
+            "text": " Will give it to the client"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 775.0,
+            "end": 777.0,
+            "text": " The client will not access the DataNode directly"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 777.0,
+            "end": 779.0,
+            "text": " Will access through NameNode"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 779.0,
+            "end": 781.0,
+            "text": " And then we will read the data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 781.0,
+            "end": 782.0,
+            "text": " It has"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 782.0,
+            "end": 784.0,
+            "text": " There is a little problem in the case of write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 784.0,
+            "end": 786.0,
+            "text": " You are doing write once"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 786.0,
+            "end": 787.0,
+            "text": " But you can read many times"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 787.0,
+            "end": 788.0,
+            "text": " There is no problem"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 788.0,
+            "end": 790.0,
+            "text": " What is the problem in write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 790.0,
+            "end": 791.0,
+            "text": " That you are changing in data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 791.0,
+            "end": 792.0,
+            "text": " Now see"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 792.0,
+            "end": 793.0,
+            "text": " The client said"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 793.0,
+            "end": 794.0,
+            "text": " I have to change in data"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 794.0,
+            "end": 796.0,
+            "text": " Let's say the value of x was 100"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 796.0,
+            "end": 797.0,
+            "text": " It has to be changed to 200"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 797.0,
+            "end": 798.0,
+            "text": " Now do you know what is the problem"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 798.0,
+            "end": 800.0,
+            "text": " It will be here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 800.0,
+            "end": 801.0,
+            "text": " Its copy is lying here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 801.0,
+            "end": 802.0,
+            "text": " It will be here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 802.0,
+            "end": 804.0,
+            "text": " And its copy is lying here"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 804.0,
+            "end": 805.0,
+            "text": " It will be here too"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 805.0,
+            "end": 806.0,
+            "text": " So write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 806.0,
+            "end": 809.0,
+            "text": " You have to do it all in parallel"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 809.0,
+            "end": 810.0,
+            "text": " So in this case"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 810.0,
+            "end": 811.0,
+            "text": " Write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 811.0,
+            "end": 813.0,
+            "text": " You can say a little expensive"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 813.0,
+            "end": 814.0,
+            "text": " Because not at once"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 814.0,
+            "end": 816.0,
+            "text": " You have to do it all at once"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 816.0,
+            "end": 818.0,
+            "text": " Parallel simultaneously"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 818.0,
+            "end": 819.0,
+            "text": " Have to update"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 819.0,
+            "end": 820.0,
+            "text": " So this is how"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 820.0,
+            "end": 821.0,
+            "text": " Read and write"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 821.0,
+            "end": 823.0,
+            "text": " Is actually performed in HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 823.0,
+            "end": 826.0,
+            "text": " So this is full information about HDFS"
+        },
+        {
+            "number": "3",
+            "title": "What is HDFS",
+            "start": 826.0,
+            "end": 827.0,
+            "text": " Thank you"
+        }
+    ],
+    "text": " Hello students, Welcome to GITsmeasures In today's video I am going to explain HDFS that is Hadoop Distributed File System How does its whole architecture works characteristics, all the points I will explain you in this video with example So guys quickly like the video Subscribe to the channel If you haven't done it yet, if you have done it Then you can make a subscriber from the device Subscribers are very important So let's start First of all, what is the purpose of HDFS that is Hadoop Distributed File System? What is its main role? Its role is that we talk about big data That we have a huge amount of data How to store a large amount of data? The way to store it is HDFS tells us Because whenever we talk about data processing So two things are very important Two big challenges come The first challenge comes How to store data? Because we have a huge amount of data So storing it is a challenge in itself Now when stored So how to process it? So that we can get some important information from it So the processing part is seen by MapReduce And the storage part is how to store efficiently So that is actually HDFS So it is a very robust file system And it is based on your traditional file system Means the file system we normally use Like we use in Windows and Linux We use hierarchical file system In which we make directories We make files in directories The same hierarchical architecture is used in HDFS But you can say that it is designed Like we use NTFS in Windows Or use NFS What is it actually? Small data is designed for a limited amount of data But it is designed for a huge amount of data Now let's talk about its structure first So in the structure of your HDFS What is this HDFS client? You can say that it is a client Who has to put data Who has to extract data All those things Who will read the data Who will write the data But if we talk about the structure of HDFS So here two main components come The first component comes Name node Name node Load it It is a name node You can also call it a boss You can also call it a master node Okay This is the boss here That is a name node And then we come to the employees Like there are employees in companies Who work under the boss And what is here? Data nodes Where data is actually stored Like we say that I have Let's say I have some data I have to store that data In it, you can say any file There is text data, images, videos The actual data that will be stored It will be here It will be on these servers But the data that will be stored How to do it Which data will go where All those things are your name node And a very important thing here That many people think Sir, because it is a new thing So maybe we need new devices We have to buy new hardware New devices No This is also the biggest thing about HDFS That the commodity The already existing hardware It also works properly on them You don't need to buy new devices So it is also cost effective Okay So here Let's say a file comes Let's say I have a file 520 MB file Okay Now what will it do to the file of 520 MB It will not store it directly Let's divide it Like we normally divide the file Let's store it Whether you talk about Windows in your laptop Let's talk about Linux There too we divide the file If I have a huge amount of file So what will we do to it Let's not store it directly Let's divide it Okay By partitioning Here we have a partition By default 128 MB In our normal systems Partition is 4 KB 8 KB Because we talk about limited amount of data in it Here is a huge amount of data So the partition of the file in itself The smallest block Which you can call What will be the size of a block 128 MB So let's say if I have a file of 520 MB So you can say 128 MB is one 128 MB is second 128 MB is third 128 MB is fourth Okay So these four How many will be 512 MB How many are left later Later your 8 more are left So 8 MB will come in the next one So that means The first 128 MB block will come I will store it in this data node That's why you are saying distributed HDFS is distributed Not in one place You can store all 520 here But don't store here It is a distributed So that I can access it parallelly during processing If I store it in one place Then the whole burden will come on it So 128 MB here 128 MB here 128 MB here 128 MB here And the last 8 MB is here So in this way Distributed Stores data in a distributed way Now how will you know The user said that I have to read the file I have to read a particular block So how do I know I kept it here I kept it here Where did I keep it So it has metadata Every file has a metadata Means the information related to that file What is the file name What are the permissions on the file Which data node did you keep How many replications of it were made Means the information related to that data It is stored in the name node So what happens here File system name space Name space Where all the metadata related to the file Which is stored Name of the file Size Permissions How many replications you made How many you kept Which place where you kept All those things are stored here So this is how the structure actually works Now next here The concept of replication comes Means we are here in HDFS Let's say I have a block of 128 So I stored that block here I kept its name here Let's say I stored it here Is my work over No HDFS says I work on the replication factor Replication means That I will not store this whole block In one place Its same copy Will be stored somewhere else Means the data is the same I copied the same data to three places I picked up the second block I stored it here too I stored it here too I stored it here too So by default Replication factor is 3 Means one block is stored in three places What did it get It got fault tolerance Fault tolerance means If one of the data node is down Then how will I get data The client will keep waiting When will I get data No We need to get data accessed 24x7 fast Need speed So I'm there Okay it's down So get the data from here Now how did you know There is a store here and here How did you know My data was here too And the same data was here Name node will tell So this is the story of name node That's why we are calling it boss We are calling it master Okay So this is your replication So that I get fault tolerance So this is how it works Then One more concept comes in this Rack awareness Rack awareness Now what is the concept of rack awareness Now we don't have one or two data nodes We have thousands of data nodes Because we are storing a very large amount of data Like Google, Facebook They have limited store They have a lot of store So what they have to do Like I have these three nodes So I made a rack of them Okay Like here you will have more clarity from this diagram Rack means Your rack is like this Your rack is like this Like this is a rack Like we keep rack in the house So that rack I put the first block in this rack Now I will not keep the copy of it again in this I will keep its copy in some other rack So that the same type of data does not come in one rack Because if there is a problem in the rack Then all the data will be lost Will not be able to access all the data So I put one block here I put one block here Put the third of the second block here Put the next here Now the second copy of one They will put it in some other rack And the third copy is in some other remote area And what do we do here The one copy is that we present the data locally What does local mean Rather than That I have to access the data again and again I go to the remote place and access No, I keep that data locally And whenever the user says that I want data So do you know what HDFS will do He will give the address of that nearest rack Or the nearest data node Will give the IP address So that you do not have to travel too much Data does not have to travel too much See, it is a simple example Let's say I live in Chandigarh I booked a Royal Enfield bike Now what will happen here I booked a bike Now where is the bike being made Royal Enfield bike actually what is made Made in Tamil Nadu Made near Chennai Now my order will go there From there the bike will be transported Chandigarh will come here Then I will get It will take a lot of time So what did Royal Enfield do Made it there But they have made outlets in Chandigarh, Mumbai, Delhi You go to Chandigarh You booked there You got it immediately So you have kept the data locally Rather than it remotely Yes, the copies are kept remotely So that if there is a problem in the local Then we have a place in the remote So this is actually the story It works like this Then we have the function of NameNode Now we have two things in NameNode One is FS image And one is EditLog What is FS image Which is my entire file system You can say its image Now this is the entire file system Its image Image means which file is in which file Which directory Size An image of all things is made And it actually stores a file here You can say it as a primary file Along with this, there is an EditLog Now what is this EditLog You deleted the file So it will become a log That yes you deleted a file Changed the location Changed the path All those things will be edited by you At this place So it actually works like this And along with that Let me tell you one more point here That another functionality works here That is Secondary NameNode Secondary NameNode Secondary NameNode is also here Like NameNode and DataNode There is another third component Secondary NameNode What is Secondary NameNode Actually It is its PA That is the boss It has a PA Whatever changes you are doing It keeps on doing those changes It keeps on updating the file image Means this FS file This file FS It will keep on updating this file Because NameNode is busy NameNode is busy So as soon as it gets time It will save this updated file in NameNode So what is Secondary NameNode It is a PA Which is scheduling all the meetings Keeping all the changes And what is this Whatever changes I have done All those changes It has stored here By taking all those changes It updated the FS image file And by updating that file It put it in NameNode So that NameNode is completely updated But who does this work Secondary NameNode Because it is its PA You can call it its Assistant Helper So in this way The whole story runs And here a heartbeat message It has another responsibility Checking the heartbeat message Means DataNode After every 3 seconds It sends a heartbeat message to NameNode So that NameNode knows That my DataNode is running properly It is live If after 3 seconds No message has come from any DataNode So it is its replication It runs So that data is available So this is how Because it is distributed Data is not lying in one place Everything is distributed So I told you the functionality of DataNode Now here When we have to read and write So read and write Obviously you know How will all of them work Read and write If I want to read data How will we read the data The client said I want to read a particular data So on NameNode First it will get permission Can it read? If it can read So where have we stored that data So by checking with metadata We will find out where it is stored Let's say it is stored here So its address Will give it to the client The client will not access the DataNode directly Will access through NameNode And then we will read the data It has There is a little problem in the case of write You are doing write once But you can read many times There is no problem What is the problem in write That you are changing in data Now see The client said I have to change in data Let's say the value of x was 100 It has to be changed to 200 Now do you know what is the problem It will be here too Its copy is lying here It will be here too And its copy is lying here It will be here too So write You have to do it all in parallel So in this case Write You can say a little expensive Because not at once You have to do it all at once Parallel simultaneously Have to update So this is how Read and write Is actually performed in HDFS So this is full information about HDFS Thank you"
+}

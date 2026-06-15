@@ -1,0 +1,1825 @@
+{
+    "chunks": [
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Dear students, Welcome to Gate Smashers"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 2.2,
+            "end": 5.2,
+            "text": " In today's video I'm going to explain Hadoop ecosystem"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 5.4,
+            "end": 9.0,
+            "text": " So in Hadoop ecosystem there are many different components"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 9.200000000000001,
+            "end": 13.0,
+            "text": " Some components are mandatory, which are very important"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 13.200000000000001,
+            "end": 14.5,
+            "text": " Without them it won't work"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 14.700000000000001,
+            "end": 20.0,
+            "text": " But for some extra functionalities we use different components"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 20.2,
+            "end": 23.0,
+            "text": " What are the components, how are they, why are they used"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 23.2,
+            "end": 25.5,
+            "text": " I'll explain all of them one by one with example"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 25.5,
+            "end": 30.5,
+            "text": " So basically what we need is that main work of Hadoop is going on"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 30.7,
+            "end": 33.5,
+            "text": " But what extra functionalities are needed along with it"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 33.7,
+            "end": 36.5,
+            "text": " Which has proper monitoring, proper management"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 36.7,
+            "end": 39.5,
+            "text": " We need security feature, we need scalability feature"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 39.7,
+            "end": 44.5,
+            "text": " So for these different features we use different components"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 44.7,
+            "end": 49.5,
+            "text": " So let's start, first of all we get the mandatory component"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 49.7,
+            "end": 52.5,
+            "text": " That is HDFS, Hadoop Distributed File System"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 52.5,
+            "end": 59.5,
+            "text": " Whose main purpose is to manage and store data in a distributed manner"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 59.7,
+            "end": 61.5,
+            "text": " So that we can easily access it"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 61.7,
+            "end": 65.5,
+            "text": " So all this storage work is handled by HDFS"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 65.7,
+            "end": 68.5,
+            "text": " This is a file system like in our normal laptop, in our computer"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 68.7,
+            "end": 72.5,
+            "text": " Like Windows is using, so in Windows there's a file system NTFS"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 72.7,
+            "end": 75.5,
+            "text": " If Linux is using then NFS, there are different file systems"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 75.7,
+            "end": 79.5,
+            "text": " Similarly this is Hadoop's file system, so this is mandatory part"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 80.5,
+            "end": 82.5,
+            "text": " By the way I have made a video on it separately"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 82.7,
+            "end": 85.5,
+            "text": " Which components it works with, so you must check that video"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 85.7,
+            "end": 88.5,
+            "text": " Then we get second, YARN"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 88.7,
+            "end": 92.5,
+            "text": " What is YARN? Yet Another Resource Negotiator"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 92.7,
+            "end": 94.5,
+            "text": " So what is the purpose of YARN here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 94.7,
+            "end": 98.5,
+            "text": " Actually before explaining YARN, let me tell you about MapReduce"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 98.7,
+            "end": 101.5,
+            "text": " MapReduce is actually used for data processing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 101.7,
+            "end": 104.5,
+            "text": " Because we kept data in distributed way"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 104.7,
+            "end": 109.3,
+            "text": " So we need a component which can access data parallelly"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 109.5,
+            "end": 112.5,
+            "text": " And process it and convert it in output"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 112.7,
+            "end": 115.5,
+            "text": " So MapReduce is used for that purpose"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 115.7,
+            "end": 118.5,
+            "text": " But when Hadoop's first version came 1.0"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 118.7,
+            "end": 120.5,
+            "text": " So Hadoop's MapReduce feature was"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 120.7,
+            "end": 122.5,
+            "text": " Which had data processing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 122.7,
+            "end": 128.5,
+            "text": " That how to process data and at the same time how to manage resources"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 128.7,
+            "end": 136.5,
+            "text": " So all those purposes of data processing and management was of this only"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 136.5,
+            "end": 140.5,
+            "text": " But in later versions they did"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 140.7,
+            "end": 143.5,
+            "text": " That we brought many things on MapReduce"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 143.7,
+            "end": 146.5,
+            "text": " So because of that it got slow"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 146.7,
+            "end": 148.5,
+            "text": " Data kept increasing and it got slow"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 148.7,
+            "end": 150.5,
+            "text": " So that's why it was removed from here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 150.7,
+            "end": 154.5,
+            "text": " And after removing it, a separate component was made, that is YARN"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 154.7,
+            "end": 156.5,
+            "text": " So what is the purpose of YARN"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 156.7,
+            "end": 159.5,
+            "text": " How to manage resources, how to schedule jobs"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 159.7,
+            "end": 162.5,
+            "text": " All that work is now seen by YARN"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 162.7,
+            "end": 164.5,
+            "text": " You can understand with a simple example"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 164.5,
+            "end": 169.5,
+            "text": " So in our laptop, the CPU is MapReduce"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 169.7,
+            "end": 176.5,
+            "text": " In our laptop, the operating system like Windows, Linux, we use that is YARN"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 176.7,
+            "end": 179.5,
+            "text": " In our laptop, the file system which we use"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 179.7,
+            "end": 182.5,
+            "text": " Which comes inside Windows, like it comes inside our operating system"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 182.7,
+            "end": 185.5,
+            "text": " But if you're using NTFS or NFS"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 185.7,
+            "end": 189.5,
+            "text": " So that file system is its work"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 189.7,
+            "end": 192.5,
+            "text": " So you can understand it with this example"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 192.5,
+            "end": 195.5,
+            "text": " So you know these three purposes, it's a mandatory portion"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 195.7,
+            "end": 199.5,
+            "text": " After that comes the story of Flume and Scoop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 199.7,
+            "end": 202.5,
+            "text": " Now both of these are used for data collection"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 202.7,
+            "end": 205.5,
+            "text": " Used for data ingestion"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 205.7,
+            "end": 208.5,
+            "text": " Like as an example, take the same laptop example"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 208.7,
+            "end": 210.5,
+            "text": " You're using a laptop, you're using your computer"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 210.7,
+            "end": 213.5,
+            "text": " Where does data come from in that laptop computer"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 213.7,
+            "end": 214.5,
+            "text": " Where does data input come from"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 214.7,
+            "end": 217.5,
+            "text": " You're downloading, you're inserting from a pen drive"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 217.7,
+            "end": 219.5,
+            "text": " You're inserting from an external hard drive"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 219.7,
+            "end": 220.5,
+            "text": " Data comes like this only"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 220.7,
+            "end": 224.5,
+            "text": " So that is called data ingestion, data coming in your system"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 224.7,
+            "end": 228.5,
+            "text": " So where is the data coming from in your system, in Hadoop system"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 228.7,
+            "end": 230.5,
+            "text": " It's coming from these two components"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 230.7,
+            "end": 232.5,
+            "text": " One is Flume and the other is Scoop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 232.7,
+            "end": 235.5,
+            "text": " Scoop is for structured data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 235.7,
+            "end": 239.5,
+            "text": " And Flume is for unstructured or semi-structured data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 239.7,
+            "end": 242.5,
+            "text": " Means you're using an application of MySQL"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 242.7,
+            "end": 245.5,
+            "text": " You're using SQL server and you're using ACL"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 245.7,
+            "end": 247.5,
+            "text": " So it generates structured data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 247.5,
+            "end": 252.5,
+            "text": " Now I have to bring that structured data in Hadoop, in HDFS"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 252.7,
+            "end": 254.5,
+            "text": " So whom I'll use? Scoop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 254.7,
+            "end": 257.5,
+            "text": " I have to take it from HDFS to SQL server"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 257.7,
+            "end": 259.5,
+            "text": " In MySQL, whom I'll use? Scoop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 259.7,
+            "end": 264.5,
+            "text": " But now a days we're dealing more with unstructured data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 264.7,
+            "end": 267.5,
+            "text": " Photos, videos, live streaming we're doing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 267.7,
+            "end": 269.5,
+            "text": " So where live streaming comes, streaming data comes"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 269.7,
+            "end": 272.5,
+            "text": " From where continuously data is coming, log files are coming"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 272.7,
+            "end": 275.5,
+            "text": " So there Flume helps"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 275.5,
+            "end": 278.5,
+            "text": " So Flume unstructured, data streaming"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 278.7,
+            "end": 281.5,
+            "text": " Collectively the real time data that is coming"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 281.7,
+            "end": 285.5,
+            "text": " For that we use Flume and it is used for structured data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 285.7,
+            "end": 287.5,
+            "text": " So this is the main point here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 287.7,
+            "end": 288.5,
+            "text": " Then HBase"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 288.7,
+            "end": 293.5,
+            "text": " What is HBase? We store data in column base"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 293.7,
+            "end": 296.5,
+            "text": " What happens is, generally in relational database DBMS"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 296.7,
+            "end": 299.5,
+            "text": " We read that if I have to store data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 299.7,
+            "end": 301.5,
+            "text": " Then first I have to make a structure"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 301.7,
+            "end": 303.5,
+            "text": " You know we make table, create table, table name"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 303.5,
+            "end": 305.5,
+            "text": " We make all those rows and columns"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 305.7,
+            "end": 307.5,
+            "text": " Then we store the data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 307.7,
+            "end": 308.5,
+            "text": " Here there is no such rule"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 308.7,
+            "end": 311.5,
+            "text": " Here there is no restriction that first make structure then data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 311.7,
+            "end": 314.5,
+            "text": " It says bring data and store it without any structure"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 314.7,
+            "end": 317.5,
+            "text": " That's why we use NoSQL concept here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 317.7,
+            "end": 321.5,
+            "text": " And here this HBase is actually column oriented"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 321.7,
+            "end": 325.5,
+            "text": " This was row, we used to store data in rows in RDBMS"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 325.7,
+            "end": 327.5,
+            "text": " Here columns are formed"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 327.7,
+            "end": 330.5,
+            "text": " This is taken, Google's big table project"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 330.5,
+            "end": 334.5,
+            "text": " This was specially designed by modeling it"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 334.7,
+            "end": 337.5,
+            "text": " So that large amount of data can be stored"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 337.7,
+            "end": 339.5,
+            "text": " Then Cloud Era"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 339.7,
+            "end": 341.5,
+            "text": " Now see here we have all these features"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 341.7,
+            "end": 345.5,
+            "text": " That it processes data, manages data, stores data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 345.7,
+            "end": 348.5,
+            "text": " In which way data has to be stored in the form of columns"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 348.7,
+            "end": 351.5,
+            "text": " Where data is coming from, that is also known"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 351.7,
+            "end": 355.5,
+            "text": " Now here the output that came after processing my data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 355.7,
+            "end": 358.5,
+            "text": " How to analyze that output?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 358.5,
+            "end": 360.5,
+            "text": " How to see that output?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 360.7,
+            "end": 362.5,
+            "text": " Or you can say data analysis"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 362.7,
+            "end": 365.5,
+            "text": " Or for different purposes like Hive"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 365.7,
+            "end": 367.5,
+            "text": " Why is Hive used?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 367.7,
+            "end": 369.5,
+            "text": " For SQL query"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 369.7,
+            "end": 372.5,
+            "text": " Normally we do Java coding here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 372.7,
+            "end": 377.5,
+            "text": " So in Java coding, we have to write very big codes of mapper, reducer, driver"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 377.7,
+            "end": 380.5,
+            "text": " If I have to write a command in the form of SQL"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 380.7,
+            "end": 384.5,
+            "text": " Means I know SQL and I want to use it in Hadoop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 384.7,
+            "end": 386.5,
+            "text": " Then I can use Hive"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 386.5,
+            "end": 389.5,
+            "text": " So for structured data you can use Hive"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 389.7,
+            "end": 393.5,
+            "text": " If your data is structured then only Hive can be used"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 393.7,
+            "end": 395.5,
+            "text": " Because it is based on SQL commands"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 395.7,
+            "end": 397.5,
+            "text": " Then what is Pig?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 397.7,
+            "end": 400.5,
+            "text": " Pig is also a component that is used for scripting"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 400.7,
+            "end": 401.5,
+            "text": " What is the purpose of scripting?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 401.7,
+            "end": 405.5,
+            "text": " The same thing I told you that when we write mapper, reducer, driver class"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 405.7,
+            "end": 407.5,
+            "text": " Then we have to write very big codes"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 407.7,
+            "end": 409.5,
+            "text": " So what Pig tells you"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 409.7,
+            "end": 412.5,
+            "text": " That the code you are writing in 200 lines, 300 lines"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 412.7,
+            "end": 415.5,
+            "text": " Finish it in 10 to 20 lines"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 415.5,
+            "end": 419.5,
+            "text": " So somewhere your programming line of code is very big"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 419.7,
+            "end": 422.5,
+            "text": " It is trying to reduce it, that is a Pig"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 422.7,
+            "end": 424.5,
+            "text": " Then similar Impala is also used"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 424.7,
+            "end": 426.5,
+            "text": " Similarly we have Mahout"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 426.7,
+            "end": 428.5,
+            "text": " What is Mahout?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 428.7,
+            "end": 429.5,
+            "text": " It is of machine learning"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 429.7,
+            "end": 431.5,
+            "text": " There are different libraries"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 431.7,
+            "end": 434.5,
+            "text": " In which all the machine learning algorithms are there"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 434.7,
+            "end": 436.5,
+            "text": " So if I want to make such an application"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 436.7,
+            "end": 439.5,
+            "text": " Based on Hadoop that I have to use machine learning there"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 439.7,
+            "end": 442.5,
+            "text": " Then I will use Apache Mahout there"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 442.7,
+            "end": 443.5,
+            "text": " What is Mahout?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 443.5,
+            "end": 446.5,
+            "text": " See the Hadoop that we are using"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 446.7,
+            "end": 449.5,
+            "text": " If you have seen its symbol, then what is its symbol?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 449.7,
+            "end": 450.5,
+            "text": " Elephant"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 450.7,
+            "end": 451.5,
+            "text": " What is Mahout?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 451.7,
+            "end": 452.5,
+            "text": " This is a Hindi word"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 452.7,
+            "end": 455.5,
+            "text": " Which runs the elephant sitting on top"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 455.7,
+            "end": 457.5,
+            "text": " So actually Mahout is doing the same thing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 457.7,
+            "end": 460.5,
+            "text": " That you have to make your system scalable"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 460.7,
+            "end": 462.5,
+            "text": " You have to put machine learning features in it"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 462.7,
+            "end": 464.5,
+            "text": " So Mahout is used there"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 464.7,
+            "end": 466.5,
+            "text": " Then Cloudera"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 466.7,
+            "end": 467.5,
+            "text": " Now what I told you here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 467.7,
+            "end": 469.5,
+            "text": " That I have 4 phases here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 469.7,
+            "end": 471.5,
+            "text": " What is the first phase?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 471.5,
+            "end": 473.5,
+            "text": " Getting the data input"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 473.7,
+            "end": 475.5,
+            "text": " Getting the data ingestion"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 475.7,
+            "end": 478.5,
+            "text": " So to get the data ingestion, to get the data input"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 478.7,
+            "end": 481.5,
+            "text": " I used flume, I used scoop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 481.7,
+            "end": 482.5,
+            "text": " So the data came inside"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 482.7,
+            "end": 484.5,
+            "text": " Now if the data came inside, then who is managing it?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 484.7,
+            "end": 488.5,
+            "text": " Your HBase is managing it"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 488.7,
+            "end": 489.5,
+            "text": " What is HBase?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 489.7,
+            "end": 491.5,
+            "text": " How do you store the data?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 491.7,
+            "end": 492.5,
+            "text": " What is the model of that data?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 492.7,
+            "end": 494.5,
+            "text": " So you defined it in HBase"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 494.7,
+            "end": 496.5,
+            "text": " And who is managing it in action?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 496.7,
+            "end": 498.5,
+            "text": " It is managing your HDFS"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 498.7,
+            "end": 501.3,
+            "text": " So it kept all the data in distributed form"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 501.5,
+            "end": 503.5,
+            "text": " Now what is to be done with that data?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 503.7,
+            "end": 505.5,
+            "text": " That data has to be processed"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 505.7,
+            "end": 507.5,
+            "text": " So who is doing that process?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 507.7,
+            "end": 508.5,
+            "text": " It is MapReduce"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 508.7,
+            "end": 510.5,
+            "text": " Now there is more"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 510.7,
+            "end": 511.5,
+            "text": " Now there is Storm"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 511.7,
+            "end": 513.5,
+            "text": " Even Spark has come"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 513.7,
+            "end": 515.5,
+            "text": " Which is 100 times faster than MapReduce"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 515.7,
+            "end": 517.5,
+            "text": " So I will tell you that further"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 517.7,
+            "end": 518.5,
+            "text": " So this is for data processing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 518.7,
+            "end": 520.5,
+            "text": " Now it generated some output"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 520.7,
+            "end": 522.5,
+            "text": " It generated some output"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 522.7,
+            "end": 525.5,
+            "text": " That output has to be analyzed properly"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 525.7,
+            "end": 526.5,
+            "text": " Has to be seen properly"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 526.7,
+            "end": 527.5,
+            "text": " Data has to be visualized"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 527.7,
+            "end": 529.5,
+            "text": " In the form of tables, the data that came"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 529.5,
+            "end": 531.5,
+            "text": " Or any raw data that came to me"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 531.7,
+            "end": 532.5,
+            "text": " I have to show it properly"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 532.7,
+            "end": 534.5,
+            "text": " So for analysis I have different"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 534.7,
+            "end": 537.5,
+            "text": " Like Pig, Impala, Mahout"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 537.7,
+            "end": 539.5,
+            "text": " We are using all of these here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 539.7,
+            "end": 541.5,
+            "text": " And finally, the user"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 541.7,
+            "end": 543.5,
+            "text": " The user sitting here"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 543.7,
+            "end": 545.5,
+            "text": " How will the user put his data?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 545.7,
+            "end": 547.5,
+            "text": " And how will he see that data?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 547.7,
+            "end": 549.5,
+            "text": " How will he search in such a big system?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 549.7,
+            "end": 552.5,
+            "text": " Because the clusters of Hadoop are very big"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 552.7,
+            "end": 553.5,
+            "text": " So how will he search?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 553.7,
+            "end": 557.5,
+            "text": " So to search and explore his data"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 557.5,
+            "end": 559.5,
+            "text": " Cloud Era is used"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 559.7,
+            "end": 561.5,
+            "text": " So it provides a big platform"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 561.7,
+            "end": 563.5,
+            "text": " Where you can manage data properly"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 563.7,
+            "end": 565.5,
+            "text": " You can monitor things"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 565.7,
+            "end": 567.5,
+            "text": " Such Apache Ambari also comes"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 567.7,
+            "end": 568.5,
+            "text": " HUE also comes"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 568.7,
+            "end": 570.5,
+            "text": " All your different components"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 570.7,
+            "end": 571.5,
+            "text": " More also comes"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 571.7,
+            "end": 573.5,
+            "text": " Then we get Uzi"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 573.7,
+            "end": 574.5,
+            "text": " What is the purpose of Uzi?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 574.7,
+            "end": 576.5,
+            "text": " Basically it works on workflow"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 576.7,
+            "end": 578.5,
+            "text": " Scheduling jobs"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 578.7,
+            "end": 579.5,
+            "text": " Like in your whole system"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 579.7,
+            "end": 581.5,
+            "text": " If I have to put alarm"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 581.7,
+            "end": 582.5,
+            "text": " Put a clock"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 582.7,
+            "end": 584.5,
+            "text": " At what time should a job be done?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 584.7,
+            "end": 586.5,
+            "text": " How much time should it be completed?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 586.5,
+            "end": 587.5,
+            "text": " Automation is done"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 587.7,
+            "end": 589.5,
+            "text": " That this job should be executed at 5 in the evening"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 589.7,
+            "end": 593.5,
+            "text": " So I can execute those things through Uzi"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 593.7,
+            "end": 595.5,
+            "text": " Then comes Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 595.7,
+            "end": 596.5,
+            "text": " Zookeeper means"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 596.7,
+            "end": 597.5,
+            "text": " You can tell by the name"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 597.7,
+            "end": 599.5,
+            "text": " That you have elephant, pig, all of these"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 599.7,
+            "end": 601.5,
+            "text": " Who is managing all of these?"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 601.7,
+            "end": 602.5,
+            "text": " Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 602.7,
+            "end": 604.5,
+            "text": " So this is Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 604.7,
+            "end": 607.5,
+            "text": " If I have to manage things on a very big level"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 607.7,
+            "end": 608.5,
+            "text": " Then Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 608.7,
+            "end": 610.5,
+            "text": " Here you can get a little confused"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 610.7,
+            "end": 612.5,
+            "text": " That sir, the same was being done by Yarn"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 612.7,
+            "end": 615.5,
+            "text": " It was also managing the same resources"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 615.5,
+            "end": 617.5,
+            "text": " And Zookeeper is also doing the same work"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 617.7,
+            "end": 618.5,
+            "text": " Doing proper monitoring"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 618.7,
+            "end": 620.5,
+            "text": " Doing proper managing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 620.7,
+            "end": 621.5,
+            "text": " You can understand this by this"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 621.7,
+            "end": 624.5,
+            "text": " That if I have to manage a laptop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 624.7,
+            "end": 626.5,
+            "text": " Then in a way you can use Yarn"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 626.7,
+            "end": 628.5,
+            "text": " If you have a very big Hadoop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 628.7,
+            "end": 631.5,
+            "text": " Combining different ecosystems"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 631.7,
+            "end": 633.5,
+            "text": " There are very big clusters"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 633.7,
+            "end": 635.5,
+            "text": " Then in very big clusters"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 635.7,
+            "end": 636.5,
+            "text": " You can use Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 636.7,
+            "end": 638.5,
+            "text": " Means like in a normal laptop"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 638.7,
+            "end": 640.5,
+            "text": " We use Windows"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 640.7,
+            "end": 641.5,
+            "text": " So it is working properly there"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 641.7,
+            "end": 643.5,
+            "text": " But if I talk on the server level"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 643.5,
+            "end": 645.5,
+            "text": " Where different users are accessing"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 645.7,
+            "end": 646.5,
+            "text": " Thousands and lakhs of users"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 646.7,
+            "end": 648.5,
+            "text": " Then that purpose fails there"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 648.7,
+            "end": 651.5,
+            "text": " Then I have to put extra features"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 651.7,
+            "end": 652.5,
+            "text": " So Zookeeper"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 652.7,
+            "end": 654.5,
+            "text": " In that case you can say that it will work"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 654.7,
+            "end": 656.5,
+            "text": " Its work is the same as management"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 656.7,
+            "end": 658.5,
+            "text": " So these different components"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 658.7,
+            "end": 660.5,
+            "text": " Are used in your Hadoop ecosystem"
+        },
+        {
+            "number": "5",
+            "title": "Hadoop Ecosystem All Components",
+            "start": 660.7,
+            "end": 661.5,
+            "text": " Thank you"
+        }
+    ],
+    "text": " Dear students, Welcome to Gate Smashers In today's video I'm going to explain Hadoop ecosystem So in Hadoop ecosystem there are many different components Some components are mandatory, which are very important Without them it won't work But for some extra functionalities we use different components What are the components, how are they, why are they used I'll explain all of them one by one with example So basically what we need is that main work of Hadoop is going on But what extra functionalities are needed along with it Which has proper monitoring, proper management We need security feature, we need scalability feature So for these different features we use different components So let's start, first of all we get the mandatory component That is HDFS, Hadoop Distributed File System Whose main purpose is to manage and store data in a distributed manner So that we can easily access it So all this storage work is handled by HDFS This is a file system like in our normal laptop, in our computer Like Windows is using, so in Windows there's a file system NTFS If Linux is using then NFS, there are different file systems Similarly this is Hadoop's file system, so this is mandatory part By the way I have made a video on it separately Which components it works with, so you must check that video Then we get second, YARN What is YARN? Yet Another Resource Negotiator So what is the purpose of YARN here Actually before explaining YARN, let me tell you about MapReduce MapReduce is actually used for data processing Because we kept data in distributed way So we need a component which can access data parallelly And process it and convert it in output So MapReduce is used for that purpose But when Hadoop's first version came 1.0 So Hadoop's MapReduce feature was Which had data processing That how to process data and at the same time how to manage resources So all those purposes of data processing and management was of this only But in later versions they did That we brought many things on MapReduce So because of that it got slow Data kept increasing and it got slow So that's why it was removed from here And after removing it, a separate component was made, that is YARN So what is the purpose of YARN How to manage resources, how to schedule jobs All that work is now seen by YARN You can understand with a simple example So in our laptop, the CPU is MapReduce In our laptop, the operating system like Windows, Linux, we use that is YARN In our laptop, the file system which we use Which comes inside Windows, like it comes inside our operating system But if you're using NTFS or NFS So that file system is its work So you can understand it with this example So you know these three purposes, it's a mandatory portion After that comes the story of Flume and Scoop Now both of these are used for data collection Used for data ingestion Like as an example, take the same laptop example You're using a laptop, you're using your computer Where does data come from in that laptop computer Where does data input come from You're downloading, you're inserting from a pen drive You're inserting from an external hard drive Data comes like this only So that is called data ingestion, data coming in your system So where is the data coming from in your system, in Hadoop system It's coming from these two components One is Flume and the other is Scoop Scoop is for structured data And Flume is for unstructured or semi-structured data Means you're using an application of MySQL You're using SQL server and you're using ACL So it generates structured data Now I have to bring that structured data in Hadoop, in HDFS So whom I'll use? Scoop I have to take it from HDFS to SQL server In MySQL, whom I'll use? Scoop But now a days we're dealing more with unstructured data Photos, videos, live streaming we're doing So where live streaming comes, streaming data comes From where continuously data is coming, log files are coming So there Flume helps So Flume unstructured, data streaming Collectively the real time data that is coming For that we use Flume and it is used for structured data So this is the main point here Then HBase What is HBase? We store data in column base What happens is, generally in relational database DBMS We read that if I have to store data Then first I have to make a structure You know we make table, create table, table name We make all those rows and columns Then we store the data Here there is no such rule Here there is no restriction that first make structure then data It says bring data and store it without any structure That's why we use NoSQL concept here And here this HBase is actually column oriented This was row, we used to store data in rows in RDBMS Here columns are formed This is taken, Google's big table project This was specially designed by modeling it So that large amount of data can be stored Then Cloud Era Now see here we have all these features That it processes data, manages data, stores data In which way data has to be stored in the form of columns Where data is coming from, that is also known Now here the output that came after processing my data How to analyze that output? How to see that output? Or you can say data analysis Or for different purposes like Hive Why is Hive used? For SQL query Normally we do Java coding here So in Java coding, we have to write very big codes of mapper, reducer, driver If I have to write a command in the form of SQL Means I know SQL and I want to use it in Hadoop Then I can use Hive So for structured data you can use Hive If your data is structured then only Hive can be used Because it is based on SQL commands Then what is Pig? Pig is also a component that is used for scripting What is the purpose of scripting? The same thing I told you that when we write mapper, reducer, driver class Then we have to write very big codes So what Pig tells you That the code you are writing in 200 lines, 300 lines Finish it in 10 to 20 lines So somewhere your programming line of code is very big It is trying to reduce it, that is a Pig Then similar Impala is also used Similarly we have Mahout What is Mahout? It is of machine learning There are different libraries In which all the machine learning algorithms are there So if I want to make such an application Based on Hadoop that I have to use machine learning there Then I will use Apache Mahout there What is Mahout? See the Hadoop that we are using If you have seen its symbol, then what is its symbol? Elephant What is Mahout? This is a Hindi word Which runs the elephant sitting on top So actually Mahout is doing the same thing That you have to make your system scalable You have to put machine learning features in it So Mahout is used there Then Cloudera Now what I told you here That I have 4 phases here What is the first phase? Getting the data input Getting the data ingestion So to get the data ingestion, to get the data input I used flume, I used scoop So the data came inside Now if the data came inside, then who is managing it? Your HBase is managing it What is HBase? How do you store the data? What is the model of that data? So you defined it in HBase And who is managing it in action? It is managing your HDFS So it kept all the data in distributed form Now what is to be done with that data? That data has to be processed So who is doing that process? It is MapReduce Now there is more Now there is Storm Even Spark has come Which is 100 times faster than MapReduce So I will tell you that further So this is for data processing Now it generated some output It generated some output That output has to be analyzed properly Has to be seen properly Data has to be visualized In the form of tables, the data that came Or any raw data that came to me I have to show it properly So for analysis I have different Like Pig, Impala, Mahout We are using all of these here And finally, the user The user sitting here How will the user put his data? And how will he see that data? How will he search in such a big system? Because the clusters of Hadoop are very big So how will he search? So to search and explore his data Cloud Era is used So it provides a big platform Where you can manage data properly You can monitor things Such Apache Ambari also comes HUE also comes All your different components More also comes Then we get Uzi What is the purpose of Uzi? Basically it works on workflow Scheduling jobs Like in your whole system If I have to put alarm Put a clock At what time should a job be done? How much time should it be completed? Automation is done That this job should be executed at 5 in the evening So I can execute those things through Uzi Then comes Zookeeper Zookeeper means You can tell by the name That you have elephant, pig, all of these Who is managing all of these? Zookeeper So this is Zookeeper If I have to manage things on a very big level Then Zookeeper Here you can get a little confused That sir, the same was being done by Yarn It was also managing the same resources And Zookeeper is also doing the same work Doing proper monitoring Doing proper managing You can understand this by this That if I have to manage a laptop Then in a way you can use Yarn If you have a very big Hadoop Combining different ecosystems There are very big clusters Then in very big clusters You can use Zookeeper Means like in a normal laptop We use Windows So it is working properly there But if I talk on the server level Where different users are accessing Thousands and lakhs of users Then that purpose fails there Then I have to put extra features So Zookeeper In that case you can say that it will work Its work is the same as management So these different components Are used in your Hadoop ecosystem Thank you"
+}

@@ -1,0 +1,1979 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Dear students, welcome to Gate Smashers"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 2.0,
+            "end": 4.0,
+            "text": " In today's video, I am going to explain"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 4.0,
+            "end": 6.0,
+            "text": " Introduction to Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 6.0,
+            "end": 8.0,
+            "text": " The story of Hadoop starts"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 8.0,
+            "end": 10.0,
+            "text": " from the beginning of 21st century"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 10.0,
+            "end": 12.0,
+            "text": " Means if we talk about"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 12.0,
+            "end": 14.0,
+            "text": " 2001"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 14.0,
+            "end": 16.0,
+            "text": " So from there its story starts"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 16.0,
+            "end": 18.0,
+            "text": " When the internet"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 18.0,
+            "end": 20.0,
+            "text": " started becoming popular"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 20.0,
+            "end": 22.0,
+            "text": " Means at that time, the internet"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 22.0,
+            "end": 24.0,
+            "text": " was in the market and"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 24.0,
+            "end": 26.0,
+            "text": " there were a lot of users"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 26.0,
+            "end": 28.0,
+            "text": " who were increasing on a daily basis"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 28.0,
+            "end": 30.0,
+            "text": " So what happened because of that"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 30.0,
+            "end": 32.0,
+            "text": " Because of that, there was a big difference"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 32.0,
+            "end": 34.0,
+            "text": " on the data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 34.0,
+            "end": 36.0,
+            "text": " Means before that"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 36.0,
+            "end": 38.0,
+            "text": " What we were doing generally"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 38.0,
+            "end": 40.0,
+            "text": " We were storing data in rows and columns"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 40.0,
+            "end": 42.0,
+            "text": " Means it was a proper structured data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 42.0,
+            "end": 44.0,
+            "text": " And we were storing that only"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 44.0,
+            "end": 46.0,
+            "text": " And we were processing that only"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 46.0,
+            "end": 48.0,
+            "text": " and finding the answer"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 48.0,
+            "end": 50.0,
+            "text": " Now if my data is structured"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 50.0,
+            "end": 52.0,
+            "text": " Then I had a lot of good solutions"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 52.0,
+            "end": 54.0,
+            "text": " available so that I can easily"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 54.0,
+            "end": 56.0,
+            "text": " store the data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 56.0,
+            "end": 58.0,
+            "text": " The value of the data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 58.0,
+            "end": 60.0,
+            "text": " If we talk about the volume or"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 60.0,
+            "end": 62.0,
+            "text": " the size of the data, it was very limited"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 62.0,
+            "end": 64.0,
+            "text": " So I could store it in single storage devices"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 64.0,
+            "end": 66.0,
+            "text": " And I could process it"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 66.0,
+            "end": 68.0,
+            "text": " with single processing elements"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 68.0,
+            "end": 70.0,
+            "text": " So the work was going very easily"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 70.0,
+            "end": 72.0,
+            "text": " But as soon as the concept of internet came"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 72.0,
+            "end": 74.0,
+            "text": " So from there, the type of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 74.0,
+            "end": 76.0,
+            "text": " changed first"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 76.0,
+            "end": 78.0,
+            "text": " So in data, we started using"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 78.0,
+            "end": 80.0,
+            "text": " text data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 80.0,
+            "end": 82.0,
+            "text": " We started using images"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 82.0,
+            "end": 84.0,
+            "text": " Videos, emails"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 84.0,
+            "end": 86.0,
+            "text": " All these things became very popular"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 86.0,
+            "end": 88.0,
+            "text": " So when this change came in data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 88.0,
+            "end": 90.0,
+            "text": " So actually its size"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 90.0,
+            "end": 92.0,
+            "text": " and volume also increased"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 92.0,
+            "end": 94.0,
+            "text": " Because a huge amount of data started"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 94.0,
+            "end": 96.0,
+            "text": " being generated"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 96.0,
+            "end": 98.0,
+            "text": " Because if I talk about 2003 and 2004"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 98.0,
+            "end": 100.0,
+            "text": " So at that time I was in 9th and 10th class"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 100.0,
+            "end": 102.0,
+            "text": " So for the first time"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 102.0,
+            "end": 104.0,
+            "text": " I saw mobile for the first time"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 104.0,
+            "end": 106.0,
+            "text": " I saw it for the first time"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 106.0,
+            "end": 108.0,
+            "text": " Nokia 3310 and Nokia 1100"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 108.0,
+            "end": 110.0,
+            "text": " I started using it at that time"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 110.0,
+            "end": 112.0,
+            "text": " So in that we could send simple text messages"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 112.0,
+            "end": 114.0,
+            "text": " And then in 2004"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 114.0,
+            "end": 118.0,
+            "text": " Nokia 6600 had come in 2003"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 118.0,
+            "end": 120.0,
+            "text": " But it became very popular in 2004-05"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 120.0,
+            "end": 122.0,
+            "text": " And it had a camera"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 122.0,
+            "end": 124.0,
+            "text": " You can also do images with the camera"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 124.0,
+            "end": 126.0,
+            "text": " And at the same time"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 126.0,
+            "end": 128.0,
+            "text": " you can also make videos"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 128.0,
+            "end": 130.0,
+            "text": " So from there, a normal person"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 130.0,
+            "end": 132.0,
+            "text": " We were a simple medium family"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 132.0,
+            "end": 134.0,
+            "text": " And we also"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 134.0,
+            "end": 136.0,
+            "text": " started dealing with videos, images"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 136.0,
+            "end": 138.0,
+            "text": " and this type of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 138.0,
+            "end": 140.0,
+            "text": " on a daily basis"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 140.0,
+            "end": 142.0,
+            "text": " So in this world, it became so revolutionized"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 142.0,
+            "end": 144.0,
+            "text": " that all the people"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 144.0,
+            "end": 146.0,
+            "text": " started using different types of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 146.0,
+            "end": 148.0,
+            "text": " So that's why this type of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 148.0,
+            "end": 150.0,
+            "text": " we call Big Data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 150.0,
+            "end": 152.0,
+            "text": " So what happened?"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 152.0,
+            "end": 154.0,
+            "text": " Parallelly at the same time, if we talk about 2002"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 154.0,
+            "end": 156.0,
+            "text": " So at the same time"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 156.0,
+            "end": 158.0,
+            "text": " Dog Cutting, which is"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 158.0,
+            "end": 160.0,
+            "text": " called the father of Big Data or the father of Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 160.0,
+            "end": 162.0,
+            "text": " So that is Dog Cutting and Mike"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 162.0,
+            "end": 164.0,
+            "text": " Both of them started working on a project"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 164.0,
+            "end": 166.0,
+            "text": " That is Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 166.0,
+            "end": 168.0,
+            "text": " And basically what was its purpose?"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 168.0,
+            "end": 170.0,
+            "text": " How can we"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 170.0,
+            "end": 172.0,
+            "text": " store Big Data, large amount of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 172.0,
+            "end": 174.0,
+            "text": " easily"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 174.0,
+            "end": 176.0,
+            "text": " and process it"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 176.0,
+            "end": 178.0,
+            "text": " So they"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 178.0,
+            "end": 180.0,
+            "text": " started working on this thing in 2002"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 180.0,
+            "end": 182.0,
+            "text": " And then later"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 182.0,
+            "end": 184.0,
+            "text": " in 2008"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 184.0,
+            "end": 186.0,
+            "text": " Yahoo declared it as an open source"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 186.0,
+            "end": 188.0,
+            "text": " Hadoop project"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 188.0,
+            "end": 190.0,
+            "text": " And then in 2012"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 190.0,
+            "end": 192.0,
+            "text": " Apache made it available for the public"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 192.0,
+            "end": 194.0,
+            "text": " So then"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 194.0,
+            "end": 196.0,
+            "text": " it became popular by the name of Apache Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 196.0,
+            "end": 198.0,
+            "text": " And it is open source"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 198.0,
+            "end": 200.0,
+            "text": " and freely available"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 200.0,
+            "end": 202.0,
+            "text": " So let's ask you the purpose of Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 202.0,
+            "end": 204.0,
+            "text": " So Hadoop is an open"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 204.0,
+            "end": 206.0,
+            "text": " source framework"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 206.0,
+            "end": 208.0,
+            "text": " It is not a software"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 208.0,
+            "end": 210.0,
+            "text": " You can't say it is only a software like"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 210.0,
+            "end": 212.0,
+            "text": " RDBMS or like we are talking about"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 212.0,
+            "end": 214.0,
+            "text": " simple database, no"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 214.0,
+            "end": 216.0,
+            "text": " This is actually a whole framework"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 216.0,
+            "end": 218.0,
+            "text": " This is not just DBMS or this is not just a database"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 218.0,
+            "end": 220.0,
+            "text": " This is actually a whole framework"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 220.0,
+            "end": 222.0,
+            "text": " which allows"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 222.0,
+            "end": 224.0,
+            "text": " how to store data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 224.0,
+            "end": 226.0,
+            "text": " properly"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 226.0,
+            "end": 228.0,
+            "text": " and then how to"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 228.0,
+            "end": 230.0,
+            "text": " access that data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 230.0,
+            "end": 232.0,
+            "text": " And for this we use"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 232.0,
+            "end": 234.0,
+            "text": " distributed manner"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 234.0,
+            "end": 236.0,
+            "text": " Distributed manner means rather than keeping"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 236.0,
+            "end": 238.0,
+            "text": " all the data in a single area"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 238.0,
+            "end": 240.0,
+            "text": " in a single device, Hadoop says"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 240.0,
+            "end": 242.0,
+            "text": " that store that data in different"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 242.0,
+            "end": 244.0,
+            "text": " different areas, different different clusters"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 244.0,
+            "end": 246.0,
+            "text": " store it so that"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 246.0,
+            "end": 248.0,
+            "text": " it can be accessed parallelly"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 248.0,
+            "end": 250.0,
+            "text": " So this story is brought by Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 250.0,
+            "end": 252.0,
+            "text": " So its whole concept"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 252.0,
+            "end": 254.0,
+            "text": " and whole framework was initially"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 254.0,
+            "end": 256.0,
+            "text": " written in Java programming"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 256.0,
+            "end": 258.0,
+            "text": " But if you are comfortable in C++"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 258.0,
+            "end": 260.0,
+            "text": " Python, Java"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 260.0,
+            "end": 262.0,
+            "text": " then you can use its programs"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 262.0,
+            "end": 264.0,
+            "text": " in Hadoop framework"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 264.0,
+            "end": 266.0,
+            "text": " So see, if we talk here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 266.0,
+            "end": 268.0,
+            "text": " that there are many components in Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 268.0,
+            "end": 270.0,
+            "text": " There are many components in this"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 270.0,
+            "end": 272.0,
+            "text": " whole framework but"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 272.0,
+            "end": 274.0,
+            "text": " the two most basic components in the framework"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 274.0,
+            "end": 276.0,
+            "text": " that is HDFS"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 276.0,
+            "end": 278.0,
+            "text": " and MapReduce"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 278.0,
+            "end": 280.0,
+            "text": " These two you can say are the life of this system"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 280.0,
+            "end": 282.0,
+            "text": " Because HDFS is"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 282.0,
+            "end": 284.0,
+            "text": " Hadoop Distributed File System"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 284.0,
+            "end": 286.0,
+            "text": " Like we use in normal Windows"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 286.0,
+            "end": 288.0,
+            "text": " Linux file system"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 288.0,
+            "end": 290.0,
+            "text": " whose purpose is to manage files"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 290.0,
+            "end": 292.0,
+            "text": " So all these things are okay in local system"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 292.0,
+            "end": 294.0,
+            "text": " But when we use"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 294.0,
+            "end": 296.0,
+            "text": " the concept of Big Data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 296.0,
+            "end": 298.0,
+            "text": " where we are dealing with huge amount of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 298.0,
+            "end": 300.0,
+            "text": " So there we can't keep"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 300.0,
+            "end": 302.0,
+            "text": " one data in a single place"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 302.0,
+            "end": 304.0,
+            "text": " We have to"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 304.0,
+            "end": 306.0,
+            "text": " keep it in distributed manner"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 306.0,
+            "end": 308.0,
+            "text": " So for that HDFS"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 308.0,
+            "end": 310.0,
+            "text": " HDFS is specially"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 310.0,
+            "end": 312.0,
+            "text": " designed that rather than"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 312.0,
+            "end": 314.0,
+            "text": " keeping the data on a single area"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 314.0,
+            "end": 316.0,
+            "text": " Like you have a file"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 316.0,
+            "end": 318.0,
+            "text": " of 1280 MB"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 318.0,
+            "end": 320.0,
+            "text": " So what it has to do"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 320.0,
+            "end": 322.0,
+            "text": " It has to"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 322.0,
+            "end": 324.0,
+            "text": " not store this whole file"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 324.0,
+            "end": 326.0,
+            "text": " of 1280 MB in one place"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 326.0,
+            "end": 328.0,
+            "text": " What it has to do"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 328.0,
+            "end": 330.0,
+            "text": " First it has to divide"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " It has to divide"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " And it divides"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " by default 128 MB"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 336.0,
+            "end": 338.0,
+            "text": " So you can"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 338.0,
+            "end": 340.0,
+            "text": " guess from here that"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 340.0,
+            "end": 342.0,
+            "text": " In Oracle, in SQL Server"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 342.0,
+            "end": 344.0,
+            "text": " We partition 8 KB"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 344.0,
+            "end": 346.0,
+            "text": " We partition 16 KB"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 346.0,
+            "end": 348.0,
+            "text": " Or we partition 64 KB"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 348.0,
+            "end": 350.0,
+            "text": " or Kilobyte"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 350.0,
+            "end": 352.0,
+            "text": " Here one partition"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 352.0,
+            "end": 354.0,
+            "text": " is of 128 MB"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 354.0,
+            "end": 356.0,
+            "text": " So partition"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 356.0,
+            "end": 358.0,
+            "text": " is so big in itself"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 358.0,
+            "end": 360.0,
+            "text": " So obviously it deals with huge amount of data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 360.0,
+            "end": 362.0,
+            "text": " So this is how it partitions"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 362.0,
+            "end": 364.0,
+            "text": " And then what it does to these partitions"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 364.0,
+            "end": 366.0,
+            "text": " It saves them"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 366.0,
+            "end": 368.0,
+            "text": " in different places"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 368.0,
+            "end": 370.0,
+            "text": " Which we call data nodes"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " So in different places"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 372.0,
+            "end": 374.0,
+            "text": " it keeps these data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 374.0,
+            "end": 376.0,
+            "text": " in clusters"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 376.0,
+            "end": 378.0,
+            "text": " And for this it is not like"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 378.0,
+            "end": 380.0,
+            "text": " new devices are used"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 380.0,
+            "end": 382.0,
+            "text": " We use already existing commodity"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 382.0,
+            "end": 384.0,
+            "text": " hardware only"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 384.0,
+            "end": 386.0,
+            "text": " Means it has tried to save cost"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 386.0,
+            "end": 388.0,
+            "text": " And then when we"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 388.0,
+            "end": 390.0,
+            "text": " store it, then how do we"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 390.0,
+            "end": 392.0,
+            "text": " know which data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 392.0,
+            "end": 394.0,
+            "text": " is stored on which node"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 394.0,
+            "end": 396.0,
+            "text": " So for that there is a master node"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 396.0,
+            "end": 398.0,
+            "text": " In that master node"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 398.0,
+            "end": 400.0,
+            "text": " I will tell you separately when"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 400.0,
+            "end": 402.0,
+            "text": " I will explain HDFS and MapReduce"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 402.0,
+            "end": 404.0,
+            "text": " But still I am telling you an idea"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 404.0,
+            "end": 406.0,
+            "text": " So in this all the metadata"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 406.0,
+            "end": 408.0,
+            "text": " is stored in master node"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 408.0,
+            "end": 410.0,
+            "text": " Which tells which data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 410.0,
+            "end": 412.0,
+            "text": " is stored on which node, its location"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 412.0,
+            "end": 414.0,
+            "text": " Its file size, all its characteristics"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 414.0,
+            "end": 416.0,
+            "text": " So that is called a metadata"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 416.0,
+            "end": 418.0,
+            "text": " So it is stored in this place"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 418.0,
+            "end": 420.0,
+            "text": " Now here students can think"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 420.0,
+            "end": 422.0,
+            "text": " It is stored in different places"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 422.0,
+            "end": 424.0,
+            "text": " But let's say if one data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 424.0,
+            "end": 426.0,
+            "text": " node fails, there is corruption"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 426.0,
+            "end": 428.0,
+            "text": " in the data, there is a problem, then what will we do"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 428.0,
+            "end": 430.0,
+            "text": " This data is gone and how much is gone"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 430.0,
+            "end": 432.0,
+            "text": " 128 MB data is lost"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 432.0,
+            "end": 434.0,
+            "text": " So data loss cannot happen"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 434.0,
+            "end": 436.0,
+            "text": " So yes, data loss is not done here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 436.0,
+            "end": 438.0,
+            "text": " HDFS partitions and stores it"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 438.0,
+            "end": 440.0,
+            "text": " in different places"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 440.0,
+            "end": 442.0,
+            "text": " Along with that it uses the concept of"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 442.0,
+            "end": 444.0,
+            "text": " duplication or replication"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 444.0,
+            "end": 446.0,
+            "text": " Which we call, so what is the concept of replication"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 446.0,
+            "end": 448.0,
+            "text": " That this whole"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 448.0,
+            "end": 450.0,
+            "text": " block is kept here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 450.0,
+            "end": 452.0,
+            "text": " The whole data block is kept here and here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 452.0,
+            "end": 454.0,
+            "text": " Along with that the data I am keeping"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 454.0,
+            "end": 456.0,
+            "text": " here on this data node"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 456.0,
+            "end": 458.0,
+            "text": " Not one of it, at least"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 458.0,
+            "end": 460.0,
+            "text": " 2 to 3 copies"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " will be kept on different data nodes"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 462.0,
+            "end": 464.0,
+            "text": " So that in case of"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 464.0,
+            "end": 466.0,
+            "text": " failure, we can use"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 466.0,
+            "end": 468.0,
+            "text": " secondary data nodes"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 468.0,
+            "end": 470.0,
+            "text": " They are called secondary data nodes"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 470.0,
+            "end": 472.0,
+            "text": " One will be primary, where your"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 472.0,
+            "end": 474.0,
+            "text": " whole front phase is done, like"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 474.0,
+            "end": 476.0,
+            "text": " In any company, you go to any showroom"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 476.0,
+            "end": 478.0,
+            "text": " So showroom has a front phase"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 478.0,
+            "end": 480.0,
+            "text": " So in front phase, all the things are there"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 480.0,
+            "end": 482.0,
+            "text": " They also have a godown"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 482.0,
+            "end": 484.0,
+            "text": " That if let's say, if there is a problem here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 484.0,
+            "end": 486.0,
+            "text": " Then they will bring the thing from the godown"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 486.0,
+            "end": 488.0,
+            "text": " If it is over here, then they will bring the thing from the godown"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 488.0,
+            "end": 490.0,
+            "text": " So they have kept the godown separately"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 490.0,
+            "end": 492.0,
+            "text": " So the same thing is here, secondary data nodes"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 492.0,
+            "end": 494.0,
+            "text": " Where their copies are kept so that"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 494.0,
+            "end": 496.0,
+            "text": " In case of failure, we can pick it up from there"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 496.0,
+            "end": 498.0,
+            "text": " So see how powerful tool is designed here"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 498.0,
+            "end": 500.0,
+            "text": " Second thing"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 500.0,
+            "end": 502.0,
+            "text": " Now the data is stored"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 502.0,
+            "end": 504.0,
+            "text": " The data is stored in a properly distributed way"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 504.0,
+            "end": 506.0,
+            "text": " Now how to access it"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 506.0,
+            "end": 508.0,
+            "text": " So to access it"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 508.0,
+            "end": 510.0,
+            "text": " It is used here, that is a processing"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 510.0,
+            "end": 512.0,
+            "text": " element of a Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 512.0,
+            "end": 514.0,
+            "text": " Which we call MapReduce"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 514.0,
+            "end": 516.0,
+            "text": " This is a processing element of it"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 516.0,
+            "end": 518.0,
+            "text": " You can call it CPU, so what is its work"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 518.0,
+            "end": 520.0,
+            "text": " This query, if any user"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 520.0,
+            "end": 522.0,
+            "text": " writes a query that I want a particular data"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 522.0,
+            "end": 524.0,
+            "text": " So it can access"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 524.0,
+            "end": 526.0,
+            "text": " the data parallelly"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 526.0,
+            "end": 528.0,
+            "text": " And after accessing it, it finds out"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 528.0,
+            "end": 530.0,
+            "text": " And MapReduce does the concept"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 530.0,
+            "end": 532.0,
+            "text": " of key value pair"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 532.0,
+            "end": 534.0,
+            "text": " So it reduces a big problem"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 534.0,
+            "end": 536.0,
+            "text": " into small problems"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 536.0,
+            "end": 538.0,
+            "text": " and converts it into key value pairs"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 538.0,
+            "end": 540.0,
+            "text": " And finally it works like"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 540.0,
+            "end": 542.0,
+            "text": " divide and conquer"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 542.0,
+            "end": 544.0,
+            "text": " So I will tell you the whole story"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 544.0,
+            "end": 546.0,
+            "text": " But mainly what is MapReduce"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 546.0,
+            "end": 548.0,
+            "text": " Its processing element"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 548.0,
+            "end": 550.0,
+            "text": " Which actually converts the query"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 550.0,
+            "end": 552.0,
+            "text": " that the user asked"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 552.0,
+            "end": 554.0,
+            "text": " So these are the two main components"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 554.0,
+            "end": 556.0,
+            "text": " Other than this, there is Hive, Yarn,"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 556.0,
+            "end": 558.0,
+            "text": " There are many ZooKeeper, we will discuss them one by one"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 558.0,
+            "end": 560.0,
+            "text": " But if you want to ask an introduction to Hadoop"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 560.0,
+            "end": 562.0,
+            "text": " Ask about Hadoop, why it came, how it came"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 562.0,
+            "end": 564.0,
+            "text": " So I have explained it in this video"
+        },
+        {
+            "number": "2",
+            "title": "Introduction to Hadoop",
+            "start": 564.0,
+            "end": 566.0,
+            "text": " Thank you"
+        }
+    ],
+    "text": " Dear students, welcome to Gate Smashers In today's video, I am going to explain Introduction to Hadoop The story of Hadoop starts from the beginning of 21st century Means if we talk about 2001 So from there its story starts When the internet started becoming popular Means at that time, the internet was in the market and there were a lot of users who were increasing on a daily basis So what happened because of that Because of that, there was a big difference on the data Means before that What we were doing generally We were storing data in rows and columns Means it was a proper structured data And we were storing that only And we were processing that only and finding the answer Now if my data is structured Then I had a lot of good solutions available so that I can easily store the data The value of the data If we talk about the volume or the size of the data, it was very limited So I could store it in single storage devices And I could process it with single processing elements So the work was going very easily But as soon as the concept of internet came So from there, the type of data changed first So in data, we started using text data We started using images Videos, emails All these things became very popular So when this change came in data So actually its size and volume also increased Because a huge amount of data started being generated Because if I talk about 2003 and 2004 So at that time I was in 9th and 10th class So for the first time I saw mobile for the first time I saw it for the first time Nokia 3310 and Nokia 1100 I started using it at that time So in that we could send simple text messages And then in 2004 Nokia 6600 had come in 2003 But it became very popular in 2004-05 And it had a camera You can also do images with the camera And at the same time you can also make videos So from there, a normal person We were a simple medium family And we also started dealing with videos, images and this type of data on a daily basis So in this world, it became so revolutionized that all the people started using different types of data So that's why this type of data we call Big Data So what happened? Parallelly at the same time, if we talk about 2002 So at the same time Dog Cutting, which is called the father of Big Data or the father of Hadoop So that is Dog Cutting and Mike Both of them started working on a project That is Hadoop And basically what was its purpose? How can we store Big Data, large amount of data easily and process it So they started working on this thing in 2002 And then later in 2008 Yahoo declared it as an open source Hadoop project And then in 2012 Apache made it available for the public So then it became popular by the name of Apache Hadoop And it is open source and freely available So let's ask you the purpose of Hadoop So Hadoop is an open source framework It is not a software You can't say it is only a software like RDBMS or like we are talking about simple database, no This is actually a whole framework This is not just DBMS or this is not just a database This is actually a whole framework which allows how to store data properly and then how to access that data And for this we use distributed manner Distributed manner means rather than keeping all the data in a single area in a single device, Hadoop says that store that data in different different areas, different different clusters store it so that it can be accessed parallelly So this story is brought by Hadoop So its whole concept and whole framework was initially written in Java programming But if you are comfortable in C++ Python, Java then you can use its programs in Hadoop framework So see, if we talk here that there are many components in Hadoop There are many components in this whole framework but the two most basic components in the framework that is HDFS and MapReduce These two you can say are the life of this system Because HDFS is Hadoop Distributed File System Like we use in normal Windows Linux file system whose purpose is to manage files So all these things are okay in local system But when we use the concept of Big Data where we are dealing with huge amount of data So there we can't keep one data in a single place We have to keep it in distributed manner So for that HDFS HDFS is specially designed that rather than keeping the data on a single area Like you have a file of 1280 MB So what it has to do It has to not store this whole file of 1280 MB in one place What it has to do First it has to divide It has to divide And it divides by default 128 MB So you can guess from here that In Oracle, in SQL Server We partition 8 KB We partition 16 KB Or we partition 64 KB or Kilobyte Here one partition is of 128 MB So partition is so big in itself So obviously it deals with huge amount of data So this is how it partitions And then what it does to these partitions It saves them in different places Which we call data nodes So in different places it keeps these data in clusters And for this it is not like new devices are used We use already existing commodity hardware only Means it has tried to save cost And then when we store it, then how do we know which data is stored on which node So for that there is a master node In that master node I will tell you separately when I will explain HDFS and MapReduce But still I am telling you an idea So in this all the metadata is stored in master node Which tells which data is stored on which node, its location Its file size, all its characteristics So that is called a metadata So it is stored in this place Now here students can think It is stored in different places But let's say if one data node fails, there is corruption in the data, there is a problem, then what will we do This data is gone and how much is gone 128 MB data is lost So data loss cannot happen So yes, data loss is not done here HDFS partitions and stores it in different places Along with that it uses the concept of duplication or replication Which we call, so what is the concept of replication That this whole block is kept here The whole data block is kept here and here Along with that the data I am keeping here on this data node Not one of it, at least 2 to 3 copies will be kept on different data nodes So that in case of failure, we can use secondary data nodes They are called secondary data nodes One will be primary, where your whole front phase is done, like In any company, you go to any showroom So showroom has a front phase So in front phase, all the things are there They also have a godown That if let's say, if there is a problem here Then they will bring the thing from the godown If it is over here, then they will bring the thing from the godown So they have kept the godown separately So the same thing is here, secondary data nodes Where their copies are kept so that In case of failure, we can pick it up from there So see how powerful tool is designed here Second thing Now the data is stored The data is stored in a properly distributed way Now how to access it So to access it It is used here, that is a processing element of a Hadoop Which we call MapReduce This is a processing element of it You can call it CPU, so what is its work This query, if any user writes a query that I want a particular data So it can access the data parallelly And after accessing it, it finds out And MapReduce does the concept of key value pair So it reduces a big problem into small problems and converts it into key value pairs And finally it works like divide and conquer So I will tell you the whole story But mainly what is MapReduce Its processing element Which actually converts the query that the user asked So these are the two main components Other than this, there is Hive, Yarn, There are many ZooKeeper, we will discuss them one by one But if you want to ask an introduction to Hadoop Ask about Hadoop, why it came, how it came So I have explained it in this video Thank you"
+}

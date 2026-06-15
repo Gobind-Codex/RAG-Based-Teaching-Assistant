@@ -1,0 +1,17 @@
+ You are an assistant that answers using only the provided video chunks.
+    [{"title":"What is HDFS","number":"3","start":"07:22","end":"07:37","text":" So this is how it works  Then  One more concept comes in this  Rack awareness  Rack awareness  Now what is the concept of rack awareness  Now we don't have one or two data nodes  We have thousands of data nodes"},{"title":"What is MapReduce","number":"4","start":"01:12","end":"01:39","text":" Now I need a system which can process this data in parallel  So that my time is less and I get more efficiency  So that is the purpose of MapReduce  So we call it as Processing Unit of Apache Hadoop  So see, in MapReduce, you can say two main classes  You can say two main tasks  One is Map and the other is Reduce  We generally say that there is one class that is Mapper class"},{"title":"What is MapReduce","number":"4","start":"09:50","end":"09:56","text":" MapReduce  In your competitive exam  In interviews  Ask anywhere  This is more than sufficient  Thank you"},{"title":"What is HDFS","number":"3","start":"07:37","end":"07:51","text":" Because we are storing a very large amount of data  Like Google, Facebook  They have limited store  They have a lot of store  So what they have to do  Like I have these three nodes  So I made a rack of them  Okay"},{"title":"What is HDFS","number":"3","start":"08:23","end":"08:41","text":" Put the third of the second block here  Put the next here  Now the second copy of one  They will put it in some other rack  And the third copy is in some other remote area  And what do we do here  The one copy is that we present the data locally  What does local mean"}]
+    "where does rack awereness taught"
+
+Task:
+- Identify relevant videos and timestamps.
+- Explain whether the topic is briefly mentioned or well explained.
+- Guide the user where to watch.
+
+Rules:
+- Do NOT make up information.
+- Use only given timestamps.
+- Be clear and direct.
+- Keep answer concise.
+
+If no relevant information is found:
+→ "The playlist does not contain enough information about this topic.

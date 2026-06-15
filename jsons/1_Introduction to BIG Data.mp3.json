@@ -1,0 +1,1909 @@
+{
+    "chunks": [
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 0.0,
+            "end": 2.8000000000000003,
+            "text": " Hello friends, welcome to Gate Smashers."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 2.8000000000000003,
+            "end": 6.4,
+            "text": " In today's video, we are going to discuss the introduction to Big Data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 6.4,
+            "end": 9.4,
+            "text": " Big Data is one of the latest technologies"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 9.4,
+            "end": 13.6,
+            "text": " and as a computer science people, you must have definitely heard about Big Data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 13.6,
+            "end": 17.6,
+            "text": " But before understanding Big Data, you have to understand"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 17.6,
+            "end": 21.0,
+            "text": " where did this term come from and what was it before?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 21.0,
+            "end": 24.8,
+            "text": " So if we talk about Big Data, what was before Big Data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 24.8,
+            "end": 28.400000000000002,
+            "text": " It was a normal data term which we started calling Small Data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 28.4,
+            "end": 32.4,
+            "text": " But generally, Small Data was not a term, it was a term."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 32.4,
+            "end": 38.0,
+            "text": " And before Big Data, we generally used to talk about traditional data or traditional database."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 38.0,
+            "end": 40.4,
+            "text": " So where did the story start?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 40.4,
+            "end": 42.0,
+            "text": " From 1970."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 42.0,
+            "end": 50.2,
+            "text": " In 1970, the scientist E.F. Coode, who designed the whole database,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 50.2,
+            "end": 54.599999999999994,
+            "text": " and relational database, if we talk about RDBMS,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 54.6,
+            "end": 59.2,
+            "text": " he did a lot of points and a lot of evolution in it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 59.2,
+            "end": 65.8,
+            "text": " So if we talk about RDBMS, how do we store data there in the form of structured data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 65.8,
+            "end": 69.8,
+            "text": " What it means is that the first difference is mostly structured."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 69.8,
+            "end": 70.8,
+            "text": " What does it mean?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 70.8,
+            "end": 75.2,
+            "text": " Before storing data, I had to make a structure."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 75.2,
+            "end": 77.2,
+            "text": " So what did we use in RDBMS?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 77.2,
+            "end": 78.2,
+            "text": " Tables."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 78.2,
+            "end": 82.4,
+            "text": " If we talk about these tables, then we first made a structure in these tables"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 82.4,
+            "end": 84.80000000000001,
+            "text": " and then stored the data in it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 84.80000000000001,
+            "end": 86.80000000000001,
+            "text": " What does structured data mean?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 86.80000000000001,
+            "end": 91.80000000000001,
+            "text": " The data for which a proper format is available, a standard format is available,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 91.80000000000001,
+            "end": 93.4,
+            "text": " we call it structured data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 93.4,
+            "end": 96.80000000000001,
+            "text": " So whatever old data was there, if we talk about Excel files,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 96.80000000000001,
+            "end": 99.60000000000001,
+            "text": " then Excel files also have a fixed format."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 99.60000000000001,
+            "end": 107.4,
+            "text": " But the problem is that this mostly structured data is not used much in today's time."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 107.4,
+            "end": 110.4,
+            "text": " Meaning, if we talk about the whole world,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 110.4,
+            "end": 114.4,
+            "text": " whatever data exists, if we talk about the whole world,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 114.4,
+            "end": 118.4,
+            "text": " x amount of data exists, then in that out of x,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 118.4,
+            "end": 121.4,
+            "text": " only 10% of the data is structured in today's time."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 121.4,
+            "end": 125.4,
+            "text": " Meaning 90% of the data is in unstructured format."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 125.4,
+            "end": 127.4,
+            "text": " What do you get in unstructured?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 127.4,
+            "end": 131.4,
+            "text": " It comes in unstructured like photos, videos, text."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 131.4,
+            "end": 134.4,
+            "text": " Like you see the website, what happens in the website?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 134.4,
+            "end": 136.4,
+            "text": " There will be a website in which there will be only videos,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 136.4,
+            "end": 138.4,
+            "text": " there will be a website in which there will be only photos,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 138.4,
+            "end": 140.4,
+            "text": " there will be a website in which there will be a mixture of both,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 140.4,
+            "end": 142.4,
+            "text": " there will be text in between."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 142.4,
+            "end": 143.4,
+            "text": " Meaning what is it?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 143.4,
+            "end": 146.4,
+            "text": " That we have data in unstructured format."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 146.4,
+            "end": 148.4,
+            "text": " So what does this unstructured data mean?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 148.4,
+            "end": 154.4,
+            "text": " That there is no proper format, you have data, you want to store it directly,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 154.4,
+            "end": 157.4,
+            "text": " you don't want to make any structure for it first."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 157.4,
+            "end": 162.4,
+            "text": " So only for unstructured data, we have the term used, big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 162.4,
+            "end": 165.4,
+            "text": " And the normal data that we used for structured data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 165.4,
+            "end": 168.4,
+            "text": " which is now called small data because now big data has come,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 168.4,
+            "end": 171.4,
+            "text": " so obviously what will happen in its comparative?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 171.4,
+            "end": 172.4,
+            "text": " Small data will be there."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 172.4,
+            "end": 176.4,
+            "text": " But if anyone asks you what is big data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 176.4,
+            "end": 178.4,
+            "text": " So here what does big mean?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 178.4,
+            "end": 180.4,
+            "text": " Generally, size."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 180.4,
+            "end": 183.4,
+            "text": " Meaning the size of the data is very much,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 183.4,
+            "end": 186.4,
+            "text": " that is why we named it big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 186.4,
+            "end": 191.4,
+            "text": " So the first difference is that it deals with unstructured data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 191.4,
+            "end": 196.4,
+            "text": " The second point is here, store in MBs, GBs and Terabytes."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 196.4,
+            "end": 199.4,
+            "text": " Meaning to say that all the data we have structure,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 199.4,
+            "end": 203.4,
+            "text": " it generally started in KBs, after KBs we have in MBs,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 203.4,
+            "end": 209.4,
+            "text": " most of it in gigabytes and it is hardly possible that it is data in terabytes."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 209.4,
+            "end": 214.4,
+            "text": " But all our units were used up to this point to store structured data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 214.4,
+            "end": 220.4,
+            "text": " Now the data we have is not in terabytes, it is thousands of the terabytes."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 220.4,
+            "end": 223.4,
+            "text": " So what became thousands of the terabytes? Petabyte."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 223.4,
+            "end": 226.4,
+            "text": " What became thousands of the petabytes? Exabyte."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 226.4,
+            "end": 230.4,
+            "text": " What became thousands of the exabytes? Zettabyte, Yottabyte."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 230.4,
+            "end": 232.4,
+            "text": " So the units we use now,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 232.4,
+            "end": 237.4,
+            "text": " they are used because the volume, the size of the data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 237.4,
+            "end": 240.4,
+            "text": " we have very little here."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 240.4,
+            "end": 242.4,
+            "text": " And mainly what we have data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 242.4,
+            "end": 244.4,
+            "text": " It is in the form of big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 244.4,
+            "end": 246.4,
+            "text": " And if I tell you with a simple example,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 246.4,
+            "end": 251.4,
+            "text": " then Facebook, Google, if you talk about their database,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 251.4,
+            "end": 255.4,
+            "text": " then Facebook generates 4 petabytes of data daily."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 255.4,
+            "end": 261.4,
+            "text": " Meaning on a daily basis, they generate 4 petabytes of data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 261.4,
+            "end": 264.4,
+            "text": " Billions of the photographs, billions of the likes,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 264.4,
+            "end": 266.4,
+            "text": " they have more than 2 billion users."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 266.4,
+            "end": 269.4,
+            "text": " So this big data is being created,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 269.4,
+            "end": 271.4,
+            "text": " on whose basis is this data being created?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 271.4,
+            "end": 274.4,
+            "text": " That so much storage is available with you,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 274.4,
+            "end": 276.4,
+            "text": " what are you doing with all this data in that place?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 276.4,
+            "end": 277.4,
+            "text": " You are storing."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 277.4,
+            "end": 281.4,
+            "text": " So here the volume of the data we have is very large"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 281.4,
+            "end": 283.4,
+            "text": " comparative to the previous one."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 283.4,
+            "end": 286.4,
+            "text": " Next point is related to the velocity,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 286.4,
+            "end": 290.4,
+            "text": " meaning the speed, at what speed is the data increasing?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 290.4,
+            "end": 293.4,
+            "text": " If we talk about small data or structured data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 293.4,
+            "end": 295.4,
+            "text": " then the structured data that is increasing,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 295.4,
+            "end": 300.4,
+            "text": " it is increasing gradually, meaning at a moderately slow speed."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 300.4,
+            "end": 302.4,
+            "text": " But if we talk about big data here,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 302.4,
+            "end": 305.4,
+            "text": " then the big data that is increasing is happening exponentially."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 305.4,
+            "end": 309.4,
+            "text": " Exponentially means that on a daily basis,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 309.4,
+            "end": 313.4,
+            "text": " your data generation is very fast."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 313.4,
+            "end": 315.4,
+            "text": " And a simple example of this,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 315.4,
+            "end": 317.4,
+            "text": " like we saw the example of Facebook,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 317.4,
+            "end": 319.4,
+            "text": " so if we talk about Facebook,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 319.4,
+            "end": 324.4,
+            "text": " then more than 350 million photos are being uploaded on a daily basis."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 324.4,
+            "end": 329.4,
+            "text": " The total 250 billion photos have been uploaded so far."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 329.4,
+            "end": 331.4,
+            "text": " If we talk about likes,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 331.4,
+            "end": 335.4,
+            "text": " then more than 4 million likes are happening on a daily basis on Facebook."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 335.4,
+            "end": 339.4,
+            "text": " So this much data is being created with such a velocity,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 339.4,
+            "end": 342.4,
+            "text": " obviously this is also a big challenge in itself."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 342.4,
+            "end": 345.4,
+            "text": " And if we understand this with a simple example,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 345.4,
+            "end": 347.4,
+            "text": " then if in this world,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 347.4,
+            "end": 350.4,
+            "text": " X amount of data is available at the present time,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 350.4,
+            "end": 351.4,
+            "text": " in the whole world,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 351.4,
+            "end": 354.4,
+            "text": " because it is very difficult to measure it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 354.4,
+            "end": 358.4,
+            "text": " But if we talk about X amount of data that is available in this world,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 358.4,
+            "end": 363.4,
+            "text": " then the 90% creation of this X amount of data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 363.4,
+            "end": 369.4,
+            "text": " means the 90% of this whole X is made in the last 4-5 years."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 369.4,
+            "end": 371.4,
+            "text": " Means in the last 5-6 years,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 371.4,
+            "end": 374.4,
+            "text": " 90% of your data has been generated."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 374.4,
+            "end": 379.4,
+            "text": " That is, only 10% of the data was there from the old time to 2010-2011."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 379.4,
+            "end": 383.4,
+            "text": " After that, all the data has been generated now."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 383.4,
+            "end": 385.4,
+            "text": " So obviously you can guess from here"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 385.4,
+            "end": 388.4,
+            "text": " that how fast the data is being generated."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 388.4,
+            "end": 389.4,
+            "text": " You see for yourself,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 389.4,
+            "end": 392.4,
+            "text": " if we talk about the gadgets that we use today,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 392.4,
+            "end": 393.4,
+            "text": " like mobile phones,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 393.4,
+            "end": 395.4,
+            "text": " you go anywhere,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 395.4,
+            "end": 397.4,
+            "text": " so how many selfies we take today,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 397.4,
+            "end": 399.4,
+            "text": " how much data we generate ourselves,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 399.4,
+            "end": 403.4,
+            "text": " means how many photos we are taking in a day,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 403.4,
+            "end": 405.4,
+            "text": " means how much data is being generated,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 405.4,
+            "end": 409.4,
+            "text": " some of them are put on selected com on Facebook, Instagram,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 409.4,
+            "end": 413.4,
+            "text": " that is, how much data is being generated on a daily basis."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 413.4,
+            "end": 415.4,
+            "text": " And if we talk about Facebook,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 415.4,
+            "end": 420.4,
+            "text": " then more than 300-400 petabytes of data has already been created on Facebook."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 420.4,
+            "end": 424.4,
+            "text": " And 4 petabytes are being created on a daily basis."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 424.4,
+            "end": 427.4,
+            "text": " And they are handling this amount of data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 427.4,
+            "end": 428.4,
+            "text": " Same for Google,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 428.4,
+            "end": 429.4,
+            "text": " same for YouTube,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 429.4,
+            "end": 431.4,
+            "text": " because they have a collaboration anyway."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 431.4,
+            "end": 434.4,
+            "text": " So they are dealing with this huge amount of data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 434.4,
+            "end": 436.4,
+            "text": " Then how we store the data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 436.4,
+            "end": 439.4,
+            "text": " If we talk about centralized, means small data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 439.4,
+            "end": 443.4,
+            "text": " then we generally store small data in a centralized format."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 443.4,
+            "end": 449.4,
+            "text": " Like the data of universities or colleges is mostly in a structured form."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 449.4,
+            "end": 451.4,
+            "text": " So there is attendance data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 451.4,
+            "end": 452.4,
+            "text": " there is a library system,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 452.4,
+            "end": 454.4,
+            "text": " so to save this data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 454.4,
+            "end": 457.4,
+            "text": " you can use a simple centralized environment."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 457.4,
+            "end": 460.4,
+            "text": " Means your data is locally with you."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 460.4,
+            "end": 463.4,
+            "text": " But if we talk about big data here,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 463.4,
+            "end": 466.4,
+            "text": " then Facebook cannot keep all the data in one place."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 466.4,
+            "end": 469.4,
+            "text": " Because they have their data centers all over the world."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 469.4,
+            "end": 472.4,
+            "text": " And they distribute all the data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 472.4,
+            "end": 474.4,
+            "text": " Means in different areas,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 474.4,
+            "end": 478.4,
+            "text": " Google also distributes data in different areas."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 478.4,
+            "end": 481.4,
+            "text": " The data is present globally."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 481.4,
+            "end": 482.4,
+            "text": " Because if we keep it in one place,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 482.4,
+            "end": 485.4,
+            "text": " then obviously there can be a single point of failure."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 485.4,
+            "end": 487.4,
+            "text": " You will have the entire network,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 487.4,
+            "end": 489.4,
+            "text": " all the traffic will come in one place."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 489.4,
+            "end": 491.4,
+            "text": " But to avoid that,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 491.4,
+            "end": 494.4,
+            "text": " they distribute their data globally."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 494.4,
+            "end": 496.4,
+            "text": " Then if we talk about software,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 496.4,
+            "end": 501.4,
+            "text": " we generally used SQL Server in structured data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 501.4,
+            "end": 503.4,
+            "text": " Microsoft has SQL Server."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 503.4,
+            "end": 506.4,
+            "text": " Oracle has 10G, 11G, 12C."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 506.4,
+            "end": 511.4,
+            "text": " These were basically designed to deal with structured data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 511.4,
+            "end": 515.4,
+            "text": " To manage them, to store them, to query them."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 515.4,
+            "end": 518.4,
+            "text": " But as soon as our data became big data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 518.4,
+            "end": 522.4,
+            "text": " then these software will not be able to work properly."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 522.4,
+            "end": 523.4,
+            "text": " Why?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 523.4,
+            "end": 526.4,
+            "text": " Because of processing power, storage capacity."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 526.4,
+            "end": 527.4,
+            "text": " Because all these things have increased."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 527.4,
+            "end": 529.4,
+            "text": " Your data capacity has increased."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 529.4,
+            "end": 532.4,
+            "text": " And along with that, your processing power."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 532.4,
+            "end": 537.4,
+            "text": " How to process all the data you have in that amount of data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 537.4,
+            "end": 540.4,
+            "text": " Now Google's data is such a huge amount of data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 540.4,
+            "end": 543.4,
+            "text": " There are trillions of web pages there."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 543.4,
+            "end": 546.4,
+            "text": " How much data do you have in so many web pages?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 546.4,
+            "end": 547.4,
+            "text": " Within the seconds,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 547.4,
+            "end": 549.4,
+            "text": " seconds is also said a lot."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 549.4,
+            "end": 551.4,
+            "text": " Your data is less than a second."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 551.4,
+            "end": 553.4,
+            "text": " It quickly searches and brings it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 553.4,
+            "end": 556.4,
+            "text": " So how fast Google crawlers search data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 556.4,
+            "end": 560.4,
+            "text": " So here I have a lot of processing speed."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 560.4,
+            "end": 564.4,
+            "text": " So here we use the concept of Hadoop MapReduce."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 564.4,
+            "end": 566.4,
+            "text": " They use Spark, they use BigQuery."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 566.4,
+            "end": 568.4,
+            "text": " All these projects,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 568.4,
+            "end": 570.4,
+            "text": " Hadoop, Spark, BigQuery, are of them."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 570.4,
+            "end": 572.4,
+            "text": " Facebook, Google, they have made it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 572.4,
+            "end": 573.4,
+            "text": " Twitter has made it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 573.4,
+            "end": 575.4,
+            "text": " And what did they do now?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 575.4,
+            "end": 576.4,
+            "text": " They opened it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 576.4,
+            "end": 579.4,
+            "text": " And after opening, now all this has come under Apache."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 579.4,
+            "end": 581.4,
+            "text": " So you can use them."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 581.4,
+            "end": 582.4,
+            "text": " And especially if I talk,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 582.4,
+            "end": 585.4,
+            "text": " if you belong to the computer science field."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 585.4,
+            "end": 588.4,
+            "text": " And at the time of today, if we talk about placements,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 588.4,
+            "end": 590.4,
+            "text": " then from the point of view of placements,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 590.4,
+            "end": 593.4,
+            "text": " all these technologies are very important."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 593.4,
+            "end": 595.4,
+            "text": " And in the coming time,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 595.4,
+            "end": 598.4,
+            "text": " they are creating jobs in the market."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 598.4,
+            "end": 600.4,
+            "text": " So if you work on these technologies,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 600.4,
+            "end": 602.4,
+            "text": " like Hadoop is based on Java."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 602.4,
+            "end": 604.4,
+            "text": " Spark is based on Python."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 604.4,
+            "end": 606.4,
+            "text": " If you learn these,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 606.4,
+            "end": 608.4,
+            "text": " then definitely you will have a lot of benefit."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 608.4,
+            "end": 611.4,
+            "text": " So these technologies are used in big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 611.4,
+            "end": 612.4,
+            "text": " Here single node,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 612.4,
+            "end": 614.4,
+            "text": " single node means one server is enough."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 614.4,
+            "end": 617.4,
+            "text": " There is small data, there is less traffic."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 617.4,
+            "end": 619.4,
+            "text": " So we can also work with single node."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 619.4,
+            "end": 620.4,
+            "text": " But Facebook,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 620.4,
+            "end": 623.4,
+            "text": " Facebook has more than 80,000 servers."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 623.4,
+            "end": 625.4,
+            "text": " To manage so many servers,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 625.4,
+            "end": 627.4,
+            "text": " to manage so much traffic,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 627.4,
+            "end": 630.4,
+            "text": " billions of queries are going on a daily basis."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 630.4,
+            "end": 635.4,
+            "text": " Means if obviously 2.3 billion people use Facebook,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 635.4,
+            "end": 638.4,
+            "text": " then millions of them definitely access daily."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 638.4,
+            "end": 641.4,
+            "text": " And spend so much time there."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 641.4,
+            "end": 643.4,
+            "text": " So to handle so much traffic,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 643.4,
+            "end": 644.4,
+            "text": " not single node,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 644.4,
+            "end": 646.4,
+            "text": " cluster computing is needed here."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 646.4,
+            "end": 649.4,
+            "text": " Means multi-node clusters work."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 649.4,
+            "end": 651.4,
+            "text": " So this is the basic introduction of big data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 651.4,
+            "end": 654.4,
+            "text": " which will give you an overview of what big data is."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 654.4,
+            "end": 657.4,
+            "text": " And if we talk about all the technologies,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 657.4,
+            "end": 659.4,
+            "text": " like data science,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 659.4,
+            "end": 661.4,
+            "text": " data mining,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 661.4,
+            "end": 663.4,
+            "text": " artificial intelligence,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 663.4,
+            "end": 665.4,
+            "text": " for all these technologies,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 665.4,
+            "end": 667.4,
+            "text": " what we need first of all?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 667.4,
+            "end": 668.4,
+            "text": " We need data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 668.4,
+            "end": 670.4,
+            "text": " Means you should have so much data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 670.4,
+            "end": 673.4,
+            "text": " on which you can mine and get some important facts."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 673.4,
+            "end": 675.4,
+            "text": " You can visualize it,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 675.4,
+            "end": 676.4,
+            "text": " you can train it,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 676.4,
+            "end": 677.4,
+            "text": " you can make it an expert."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 677.4,
+            "end": 678.4,
+            "text": " So for this,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 678.4,
+            "end": 680.4,
+            "text": " it is important to generate data first."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 680.4,
+            "end": 682.4,
+            "text": " And you have a lot of examples,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 682.4,
+            "end": 685.4,
+            "text": " a lot of examples are available to you."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 685.4,
+            "end": 687.4,
+            "text": " If we talk about a simple example,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 687.4,
+            "end": 688.4,
+            "text": " Amazon too."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 688.4,
+            "end": 690.4,
+            "text": " So Amazon at this time,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 690.4,
+            "end": 692.4,
+            "text": " because Jeff Bezos,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 692.4,
+            "end": 693.4,
+            "text": " you must have heard that"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 693.4,
+            "end": 695.4,
+            "text": " he is the number one rich man in the world."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 695.4,
+            "end": 696.4,
+            "text": " So obviously,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 696.4,
+            "end": 697.4,
+            "text": " on whose basis is he made?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 697.4,
+            "end": 698.4,
+            "text": " So much data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 698.4,
+            "end": 700.4,
+            "text": " they have generated on the backend."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 700.4,
+            "end": 701.4,
+            "text": " No production,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 701.4,
+            "end": 703.4,
+            "text": " they did not set up a factory,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 703.4,
+            "end": 705.4,
+            "text": " nor did they set up a factory."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 705.4,
+            "end": 706.4,
+            "text": " They are just doing what?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 706.4,
+            "end": 707.4,
+            "text": " They are intermediators."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 707.4,
+            "end": 708.4,
+            "text": " There is stuff here,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 708.4,
+            "end": 709.4,
+            "text": " there are users here,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 709.4,
+            "end": 710.4,
+            "text": " users order goods."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 710.4,
+            "end": 712.4,
+            "text": " And on the basis of that,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 712.4,
+            "end": 715.4,
+            "text": " but they are generating such a huge amount of data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 715.4,
+            "end": 716.4,
+            "text": " Thousands, crores,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 716.4,
+            "end": 719.4,
+            "text": " billions of transactions are happening on a daily basis."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 719.4,
+            "end": 721.4,
+            "text": " So by generating such a huge amount of data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 721.4,
+            "end": 724.4,
+            "text": " they are mining it and finding out important facts."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 724.4,
+            "end": 726.4,
+            "text": " How to retain customers?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 726.4,
+            "end": 730.4,
+            "text": " How do we find out important facts on running data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 730.4,
+            "end": 731.4,
+            "text": " Streamline data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 731.4,
+            "end": 733.4,
+            "text": " all these points come under big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 733.4,
+            "end": 734.4,
+            "text": " And because of this,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 734.4,
+            "end": 736.4,
+            "text": " it is very popular at the time of today."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 736.4,
+            "end": 738.4,
+            "text": " So this is the basic introduction of big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 738.4,
+            "end": 740.4,
+            "text": " And the comparative of this,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 740.4,
+            "end": 741.4,
+            "text": " which we used to use before,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 741.4,
+            "end": 743.4,
+            "text": " traditional data or normal data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 743.4,
+            "end": 744.4,
+            "text": " Thank you."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 745.4,
+            "end": 746.4,
+            "text": " Thank you."
+        }
+    ],
+    "text": " Hello friends, welcome to Gate Smashers. In today's video, we are going to discuss the introduction to Big Data. Big Data is one of the latest technologies and as a computer science people, you must have definitely heard about Big Data. But before understanding Big Data, you have to understand where did this term come from and what was it before? So if we talk about Big Data, what was before Big Data? It was a normal data term which we started calling Small Data. But generally, Small Data was not a term, it was a term. And before Big Data, we generally used to talk about traditional data or traditional database. So where did the story start? From 1970. In 1970, the scientist E.F. Coode, who designed the whole database, and relational database, if we talk about RDBMS, he did a lot of points and a lot of evolution in it. So if we talk about RDBMS, how do we store data there in the form of structured data? What it means is that the first difference is mostly structured. What does it mean? Before storing data, I had to make a structure. So what did we use in RDBMS? Tables. If we talk about these tables, then we first made a structure in these tables and then stored the data in it. What does structured data mean? The data for which a proper format is available, a standard format is available, we call it structured data. So whatever old data was there, if we talk about Excel files, then Excel files also have a fixed format. But the problem is that this mostly structured data is not used much in today's time. Meaning, if we talk about the whole world, whatever data exists, if we talk about the whole world, x amount of data exists, then in that out of x, only 10% of the data is structured in today's time. Meaning 90% of the data is in unstructured format. What do you get in unstructured? It comes in unstructured like photos, videos, text. Like you see the website, what happens in the website? There will be a website in which there will be only videos, there will be a website in which there will be only photos, there will be a website in which there will be a mixture of both, there will be text in between. Meaning what is it? That we have data in unstructured format. So what does this unstructured data mean? That there is no proper format, you have data, you want to store it directly, you don't want to make any structure for it first. So only for unstructured data, we have the term used, big data. And the normal data that we used for structured data, which is now called small data because now big data has come, so obviously what will happen in its comparative? Small data will be there. But if anyone asks you what is big data? So here what does big mean? Generally, size. Meaning the size of the data is very much, that is why we named it big data. So the first difference is that it deals with unstructured data. The second point is here, store in MBs, GBs and Terabytes. Meaning to say that all the data we have structure, it generally started in KBs, after KBs we have in MBs, most of it in gigabytes and it is hardly possible that it is data in terabytes. But all our units were used up to this point to store structured data. Now the data we have is not in terabytes, it is thousands of the terabytes. So what became thousands of the terabytes? Petabyte. What became thousands of the petabytes? Exabyte. What became thousands of the exabytes? Zettabyte, Yottabyte. So the units we use now, they are used because the volume, the size of the data, we have very little here. And mainly what we have data? It is in the form of big data. And if I tell you with a simple example, then Facebook, Google, if you talk about their database, then Facebook generates 4 petabytes of data daily. Meaning on a daily basis, they generate 4 petabytes of data. Billions of the photographs, billions of the likes, they have more than 2 billion users. So this big data is being created, on whose basis is this data being created? That so much storage is available with you, what are you doing with all this data in that place? You are storing. So here the volume of the data we have is very large comparative to the previous one. Next point is related to the velocity, meaning the speed, at what speed is the data increasing? If we talk about small data or structured data, then the structured data that is increasing, it is increasing gradually, meaning at a moderately slow speed. But if we talk about big data here, then the big data that is increasing is happening exponentially. Exponentially means that on a daily basis, your data generation is very fast. And a simple example of this, like we saw the example of Facebook, so if we talk about Facebook, then more than 350 million photos are being uploaded on a daily basis. The total 250 billion photos have been uploaded so far. If we talk about likes, then more than 4 million likes are happening on a daily basis on Facebook. So this much data is being created with such a velocity, obviously this is also a big challenge in itself. And if we understand this with a simple example, then if in this world, X amount of data is available at the present time, in the whole world, because it is very difficult to measure it. But if we talk about X amount of data that is available in this world, then the 90% creation of this X amount of data, means the 90% of this whole X is made in the last 4-5 years. Means in the last 5-6 years, 90% of your data has been generated. That is, only 10% of the data was there from the old time to 2010-2011. After that, all the data has been generated now. So obviously you can guess from here that how fast the data is being generated. You see for yourself, if we talk about the gadgets that we use today, like mobile phones, you go anywhere, so how many selfies we take today, how much data we generate ourselves, means how many photos we are taking in a day, means how much data is being generated, some of them are put on selected com on Facebook, Instagram, that is, how much data is being generated on a daily basis. And if we talk about Facebook, then more than 300-400 petabytes of data has already been created on Facebook. And 4 petabytes are being created on a daily basis. And they are handling this amount of data. Same for Google, same for YouTube, because they have a collaboration anyway. So they are dealing with this huge amount of data. Then how we store the data? If we talk about centralized, means small data, then we generally store small data in a centralized format. Like the data of universities or colleges is mostly in a structured form. So there is attendance data, there is a library system, so to save this data, you can use a simple centralized environment. Means your data is locally with you. But if we talk about big data here, then Facebook cannot keep all the data in one place. Because they have their data centers all over the world. And they distribute all the data. Means in different areas, Google also distributes data in different areas. The data is present globally. Because if we keep it in one place, then obviously there can be a single point of failure. You will have the entire network, all the traffic will come in one place. But to avoid that, they distribute their data globally. Then if we talk about software, we generally used SQL Server in structured data. Microsoft has SQL Server. Oracle has 10G, 11G, 12C. These were basically designed to deal with structured data. To manage them, to store them, to query them. But as soon as our data became big data, then these software will not be able to work properly. Why? Because of processing power, storage capacity. Because all these things have increased. Your data capacity has increased. And along with that, your processing power. How to process all the data you have in that amount of data? Now Google's data is such a huge amount of data. There are trillions of web pages there. How much data do you have in so many web pages? Within the seconds, seconds is also said a lot. Your data is less than a second. It quickly searches and brings it. So how fast Google crawlers search data. So here I have a lot of processing speed. So here we use the concept of Hadoop MapReduce. They use Spark, they use BigQuery. All these projects, Hadoop, Spark, BigQuery, are of them. Facebook, Google, they have made it. Twitter has made it. And what did they do now? They opened it. And after opening, now all this has come under Apache. So you can use them. And especially if I talk, if you belong to the computer science field. And at the time of today, if we talk about placements, then from the point of view of placements, all these technologies are very important. And in the coming time, they are creating jobs in the market. So if you work on these technologies, like Hadoop is based on Java. Spark is based on Python. If you learn these, then definitely you will have a lot of benefit. So these technologies are used in big data. Here single node, single node means one server is enough. There is small data, there is less traffic. So we can also work with single node. But Facebook, Facebook has more than 80,000 servers. To manage so many servers, to manage so much traffic, billions of queries are going on a daily basis. Means if obviously 2.3 billion people use Facebook, then millions of them definitely access daily. And spend so much time there. So to handle so much traffic, not single node, cluster computing is needed here. Means multi-node clusters work. So this is the basic introduction of big data, which will give you an overview of what big data is. And if we talk about all the technologies, like data science, data mining, artificial intelligence, for all these technologies, what we need first of all? We need data. Means you should have so much data, on which you can mine and get some important facts. You can visualize it, you can train it, you can make it an expert. So for this, it is important to generate data first. And you have a lot of examples, a lot of examples are available to you. If we talk about a simple example, Amazon too. So Amazon at this time, because Jeff Bezos, you must have heard that he is the number one rich man in the world. So obviously, on whose basis is he made? So much data, they have generated on the backend. No production, they did not set up a factory, nor did they set up a factory. They are just doing what? They are intermediators. There is stuff here, there are users here, users order goods. And on the basis of that, but they are generating such a huge amount of data. Thousands, crores, billions of transactions are happening on a daily basis. So by generating such a huge amount of data, they are mining it and finding out important facts. How to retain customers? How do we find out important facts on running data? Streamline data, all these points come under big data. And because of this, it is very popular at the time of today. So this is the basic introduction of big data. And the comparative of this, which we used to use before, traditional data or normal data. Thank you. Thank you."
+}

@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 0.0,
+            "end": 28.400000000000002,
+            "text": " Hello friends, welcome to Gate Smashers.  In today's video, we are going to discuss the introduction to Big Data.  Big Data is one of the latest technologies  and as a computer science people, you must have definitely heard about Big Data.  But before understanding Big Data, you have to understand  where did this term come from and what was it before?  So if we talk about Big Data, what was before Big Data?  It was a normal data term which we started calling Small Data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 28.4,
+            "end": 65.8,
+            "text": " But generally, Small Data was not a term, it was a term.  And before Big Data, we generally used to talk about traditional data or traditional database.  So where did the story start?  From 1970.  In 1970, the scientist E.F. Coode, who designed the whole database,  and relational database, if we talk about RDBMS,  he did a lot of points and a lot of evolution in it.  So if we talk about RDBMS, how do we store data there in the form of structured data?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 65.8,
+            "end": 86.80000000000001,
+            "text": " What it means is that the first difference is mostly structured.  What does it mean?  Before storing data, I had to make a structure.  So what did we use in RDBMS?  Tables.  If we talk about these tables, then we first made a structure in these tables  and then stored the data in it.  What does structured data mean?"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 86.80000000000001,
+            "end": 118.4,
+            "text": " The data for which a proper format is available, a standard format is available,  we call it structured data.  So whatever old data was there, if we talk about Excel files,  then Excel files also have a fixed format.  But the problem is that this mostly structured data is not used much in today's time.  Meaning, if we talk about the whole world,  whatever data exists, if we talk about the whole world,  x amount of data exists, then in that out of x,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 118.4,
+            "end": 140.4,
+            "text": " only 10% of the data is structured in today's time.  Meaning 90% of the data is in unstructured format.  What do you get in unstructured?  It comes in unstructured like photos, videos, text.  Like you see the website, what happens in the website?  There will be a website in which there will be only videos,  there will be a website in which there will be only photos,  there will be a website in which there will be a mixture of both,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 140.4,
+            "end": 165.4,
+            "text": " there will be text in between.  Meaning what is it?  That we have data in unstructured format.  So what does this unstructured data mean?  That there is no proper format, you have data, you want to store it directly,  you don't want to make any structure for it first.  So only for unstructured data, we have the term used, big data.  And the normal data that we used for structured data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 165.4,
+            "end": 186.4,
+            "text": " which is now called small data because now big data has come,  so obviously what will happen in its comparative?  Small data will be there.  But if anyone asks you what is big data?  So here what does big mean?  Generally, size.  Meaning the size of the data is very much,  that is why we named it big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 186.4,
+            "end": 223.4,
+            "text": " So the first difference is that it deals with unstructured data.  The second point is here, store in MBs, GBs and Terabytes.  Meaning to say that all the data we have structure,  it generally started in KBs, after KBs we have in MBs,  most of it in gigabytes and it is hardly possible that it is data in terabytes.  But all our units were used up to this point to store structured data.  Now the data we have is not in terabytes, it is thousands of the terabytes.  So what became thousands of the terabytes? Petabyte."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 223.4,
+            "end": 246.4,
+            "text": " What became thousands of the petabytes? Exabyte.  What became thousands of the exabytes? Zettabyte, Yottabyte.  So the units we use now,  they are used because the volume, the size of the data,  we have very little here.  And mainly what we have data?  It is in the form of big data.  And if I tell you with a simple example,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 246.4,
+            "end": 274.4,
+            "text": " then Facebook, Google, if you talk about their database,  then Facebook generates 4 petabytes of data daily.  Meaning on a daily basis, they generate 4 petabytes of data.  Billions of the photographs, billions of the likes,  they have more than 2 billion users.  So this big data is being created,  on whose basis is this data being created?  That so much storage is available with you,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 274.4,
+            "end": 295.4,
+            "text": " what are you doing with all this data in that place?  You are storing.  So here the volume of the data we have is very large  comparative to the previous one.  Next point is related to the velocity,  meaning the speed, at what speed is the data increasing?  If we talk about small data or structured data,  then the structured data that is increasing,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 295.4,
+            "end": 319.4,
+            "text": " it is increasing gradually, meaning at a moderately slow speed.  But if we talk about big data here,  then the big data that is increasing is happening exponentially.  Exponentially means that on a daily basis,  your data generation is very fast.  And a simple example of this,  like we saw the example of Facebook,  so if we talk about Facebook,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 319.4,
+            "end": 347.4,
+            "text": " then more than 350 million photos are being uploaded on a daily basis.  The total 250 billion photos have been uploaded so far.  If we talk about likes,  then more than 4 million likes are happening on a daily basis on Facebook.  So this much data is being created with such a velocity,  obviously this is also a big challenge in itself.  And if we understand this with a simple example,  then if in this world,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 347.4,
+            "end": 374.4,
+            "text": " X amount of data is available at the present time,  in the whole world,  because it is very difficult to measure it.  But if we talk about X amount of data that is available in this world,  then the 90% creation of this X amount of data,  means the 90% of this whole X is made in the last 4-5 years.  Means in the last 5-6 years,  90% of your data has been generated."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 374.4,
+            "end": 395.4,
+            "text": " That is, only 10% of the data was there from the old time to 2010-2011.  After that, all the data has been generated now.  So obviously you can guess from here  that how fast the data is being generated.  You see for yourself,  if we talk about the gadgets that we use today,  like mobile phones,  you go anywhere,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 395.4,
+            "end": 420.4,
+            "text": " so how many selfies we take today,  how much data we generate ourselves,  means how many photos we are taking in a day,  means how much data is being generated,  some of them are put on selected com on Facebook, Instagram,  that is, how much data is being generated on a daily basis.  And if we talk about Facebook,  then more than 300-400 petabytes of data has already been created on Facebook."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 420.4,
+            "end": 439.4,
+            "text": " And 4 petabytes are being created on a daily basis.  And they are handling this amount of data.  Same for Google,  same for YouTube,  because they have a collaboration anyway.  So they are dealing with this huge amount of data.  Then how we store the data?  If we talk about centralized, means small data,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 439.4,
+            "end": 463.4,
+            "text": " then we generally store small data in a centralized format.  Like the data of universities or colleges is mostly in a structured form.  So there is attendance data,  there is a library system,  so to save this data,  you can use a simple centralized environment.  Means your data is locally with you.  But if we talk about big data here,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 463.4,
+            "end": 485.4,
+            "text": " then Facebook cannot keep all the data in one place.  Because they have their data centers all over the world.  And they distribute all the data.  Means in different areas,  Google also distributes data in different areas.  The data is present globally.  Because if we keep it in one place,  then obviously there can be a single point of failure."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 485.4,
+            "end": 506.4,
+            "text": " You will have the entire network,  all the traffic will come in one place.  But to avoid that,  they distribute their data globally.  Then if we talk about software,  we generally used SQL Server in structured data.  Microsoft has SQL Server.  Oracle has 10G, 11G, 12C."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 506.4,
+            "end": 529.4,
+            "text": " These were basically designed to deal with structured data.  To manage them, to store them, to query them.  But as soon as our data became big data,  then these software will not be able to work properly.  Why?  Because of processing power, storage capacity.  Because all these things have increased.  Your data capacity has increased."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 529.4,
+            "end": 551.4,
+            "text": " And along with that, your processing power.  How to process all the data you have in that amount of data?  Now Google's data is such a huge amount of data.  There are trillions of web pages there.  How much data do you have in so many web pages?  Within the seconds,  seconds is also said a lot.  Your data is less than a second."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 551.4,
+            "end": 572.4,
+            "text": " It quickly searches and brings it.  So how fast Google crawlers search data.  So here I have a lot of processing speed.  So here we use the concept of Hadoop MapReduce.  They use Spark, they use BigQuery.  All these projects,  Hadoop, Spark, BigQuery, are of them.  Facebook, Google, they have made it."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 572.4,
+            "end": 588.4,
+            "text": " Twitter has made it.  And what did they do now?  They opened it.  And after opening, now all this has come under Apache.  So you can use them.  And especially if I talk,  if you belong to the computer science field.  And at the time of today, if we talk about placements,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 588.4,
+            "end": 606.4,
+            "text": " then from the point of view of placements,  all these technologies are very important.  And in the coming time,  they are creating jobs in the market.  So if you work on these technologies,  like Hadoop is based on Java.  Spark is based on Python.  If you learn these,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 606.4,
+            "end": 623.4,
+            "text": " then definitely you will have a lot of benefit.  So these technologies are used in big data.  Here single node,  single node means one server is enough.  There is small data, there is less traffic.  So we can also work with single node.  But Facebook,  Facebook has more than 80,000 servers."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 623.4,
+            "end": 644.4,
+            "text": " To manage so many servers,  to manage so much traffic,  billions of queries are going on a daily basis.  Means if obviously 2.3 billion people use Facebook,  then millions of them definitely access daily.  And spend so much time there.  So to handle so much traffic,  not single node,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 644.4,
+            "end": 663.4,
+            "text": " cluster computing is needed here.  Means multi-node clusters work.  So this is the basic introduction of big data,  which will give you an overview of what big data is.  And if we talk about all the technologies,  like data science,  data mining,  artificial intelligence,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 663.4,
+            "end": 677.4,
+            "text": " for all these technologies,  what we need first of all?  We need data.  Means you should have so much data,  on which you can mine and get some important facts.  You can visualize it,  you can train it,  you can make it an expert."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 677.4,
+            "end": 692.4,
+            "text": " So for this,  it is important to generate data first.  And you have a lot of examples,  a lot of examples are available to you.  If we talk about a simple example,  Amazon too.  So Amazon at this time,  because Jeff Bezos,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 692.4,
+            "end": 703.4,
+            "text": " you must have heard that  he is the number one rich man in the world.  So obviously,  on whose basis is he made?  So much data,  they have generated on the backend.  No production,  they did not set up a factory,"
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 703.4,
+            "end": 715.4,
+            "text": " nor did they set up a factory.  They are just doing what?  They are intermediators.  There is stuff here,  there are users here,  users order goods.  And on the basis of that,  but they are generating such a huge amount of data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 715.4,
+            "end": 733.4,
+            "text": " Thousands, crores,  billions of transactions are happening on a daily basis.  So by generating such a huge amount of data,  they are mining it and finding out important facts.  How to retain customers?  How do we find out important facts on running data?  Streamline data,  all these points come under big data."
+        },
+        {
+            "number": "1",
+            "title": "Introduction to BIG Data.mp3",
+            "start": 733.4,
+            "end": 746.4,
+            "text": " And because of this,  it is very popular at the time of today.  So this is the basic introduction of big data.  And the comparative of this,  which we used to use before,  traditional data or normal data.  Thank you.  Thank you."
+        }
+    ],
+    "text": " Hello friends, welcome to Gate Smashers. In today's video, we are going to discuss the introduction to Big Data. Big Data is one of the latest technologies and as a computer science people, you must have definitely heard about Big Data. But before understanding Big Data, you have to understand where did this term come from and what was it before? So if we talk about Big Data, what was before Big Data? It was a normal data term which we started calling Small Data. But generally, Small Data was not a term, it was a term. And before Big Data, we generally used to talk about traditional data or traditional database. So where did the story start? From 1970. In 1970, the scientist E.F. Coode, who designed the whole database, and relational database, if we talk about RDBMS, he did a lot of points and a lot of evolution in it. So if we talk about RDBMS, how do we store data there in the form of structured data? What it means is that the first difference is mostly structured. What does it mean? Before storing data, I had to make a structure. So what did we use in RDBMS? Tables. If we talk about these tables, then we first made a structure in these tables and then stored the data in it. What does structured data mean? The data for which a proper format is available, a standard format is available, we call it structured data. So whatever old data was there, if we talk about Excel files, then Excel files also have a fixed format. But the problem is that this mostly structured data is not used much in today's time. Meaning, if we talk about the whole world, whatever data exists, if we talk about the whole world, x amount of data exists, then in that out of x, only 10% of the data is structured in today's time. Meaning 90% of the data is in unstructured format. What do you get in unstructured? It comes in unstructured like photos, videos, text. Like you see the website, what happens in the website? There will be a website in which there will be only videos, there will be a website in which there will be only photos, there will be a website in which there will be a mixture of both, there will be text in between. Meaning what is it? That we have data in unstructured format. So what does this unstructured data mean? That there is no proper format, you have data, you want to store it directly, you don't want to make any structure for it first. So only for unstructured data, we have the term used, big data. And the normal data that we used for structured data, which is now called small data because now big data has come, so obviously what will happen in its comparative? Small data will be there. But if anyone asks you what is big data? So here what does big mean? Generally, size. Meaning the size of the data is very much, that is why we named it big data. So the first difference is that it deals with unstructured data. The second point is here, store in MBs, GBs and Terabytes. Meaning to say that all the data we have structure, it generally started in KBs, after KBs we have in MBs, most of it in gigabytes and it is hardly possible that it is data in terabytes. But all our units were used up to this point to store structured data. Now the data we have is not in terabytes, it is thousands of the terabytes. So what became thousands of the terabytes? Petabyte. What became thousands of the petabytes? Exabyte. What became thousands of the exabytes? Zettabyte, Yottabyte. So the units we use now, they are used because the volume, the size of the data, we have very little here. And mainly what we have data? It is in the form of big data. And if I tell you with a simple example, then Facebook, Google, if you talk about their database, then Facebook generates 4 petabytes of data daily. Meaning on a daily basis, they generate 4 petabytes of data. Billions of the photographs, billions of the likes, they have more than 2 billion users. So this big data is being created, on whose basis is this data being created? That so much storage is available with you, what are you doing with all this data in that place? You are storing. So here the volume of the data we have is very large comparative to the previous one. Next point is related to the velocity, meaning the speed, at what speed is the data increasing? If we talk about small data or structured data, then the structured data that is increasing, it is increasing gradually, meaning at a moderately slow speed. But if we talk about big data here, then the big data that is increasing is happening exponentially. Exponentially means that on a daily basis, your data generation is very fast. And a simple example of this, like we saw the example of Facebook, so if we talk about Facebook, then more than 350 million photos are being uploaded on a daily basis. The total 250 billion photos have been uploaded so far. If we talk about likes, then more than 4 million likes are happening on a daily basis on Facebook. So this much data is being created with such a velocity, obviously this is also a big challenge in itself. And if we understand this with a simple example, then if in this world, X amount of data is available at the present time, in the whole world, because it is very difficult to measure it. But if we talk about X amount of data that is available in this world, then the 90% creation of this X amount of data, means the 90% of this whole X is made in the last 4-5 years. Means in the last 5-6 years, 90% of your data has been generated. That is, only 10% of the data was there from the old time to 2010-2011. After that, all the data has been generated now. So obviously you can guess from here that how fast the data is being generated. You see for yourself, if we talk about the gadgets that we use today, like mobile phones, you go anywhere, so how many selfies we take today, how much data we generate ourselves, means how many photos we are taking in a day, means how much data is being generated, some of them are put on selected com on Facebook, Instagram, that is, how much data is being generated on a daily basis. And if we talk about Facebook, then more than 300-400 petabytes of data has already been created on Facebook. And 4 petabytes are being created on a daily basis. And they are handling this amount of data. Same for Google, same for YouTube, because they have a collaboration anyway. So they are dealing with this huge amount of data. Then how we store the data? If we talk about centralized, means small data, then we generally store small data in a centralized format. Like the data of universities or colleges is mostly in a structured form. So there is attendance data, there is a library system, so to save this data, you can use a simple centralized environment. Means your data is locally with you. But if we talk about big data here, then Facebook cannot keep all the data in one place. Because they have their data centers all over the world. And they distribute all the data. Means in different areas, Google also distributes data in different areas. The data is present globally. Because if we keep it in one place, then obviously there can be a single point of failure. You will have the entire network, all the traffic will come in one place. But to avoid that, they distribute their data globally. Then if we talk about software, we generally used SQL Server in structured data. Microsoft has SQL Server. Oracle has 10G, 11G, 12C. These were basically designed to deal with structured data. To manage them, to store them, to query them. But as soon as our data became big data, then these software will not be able to work properly. Why? Because of processing power, storage capacity. Because all these things have increased. Your data capacity has increased. And along with that, your processing power. How to process all the data you have in that amount of data? Now Google's data is such a huge amount of data. There are trillions of web pages there. How much data do you have in so many web pages? Within the seconds, seconds is also said a lot. Your data is less than a second. It quickly searches and brings it. So how fast Google crawlers search data. So here I have a lot of processing speed. So here we use the concept of Hadoop MapReduce. They use Spark, they use BigQuery. All these projects, Hadoop, Spark, BigQuery, are of them. Facebook, Google, they have made it. Twitter has made it. And what did they do now? They opened it. And after opening, now all this has come under Apache. So you can use them. And especially if I talk, if you belong to the computer science field. And at the time of today, if we talk about placements, then from the point of view of placements, all these technologies are very important. And in the coming time, they are creating jobs in the market. So if you work on these technologies, like Hadoop is based on Java. Spark is based on Python. If you learn these, then definitely you will have a lot of benefit. So these technologies are used in big data. Here single node, single node means one server is enough. There is small data, there is less traffic. So we can also work with single node. But Facebook, Facebook has more than 80,000 servers. To manage so many servers, to manage so much traffic, billions of queries are going on a daily basis. Means if obviously 2.3 billion people use Facebook, then millions of them definitely access daily. And spend so much time there. So to handle so much traffic, not single node, cluster computing is needed here. Means multi-node clusters work. So this is the basic introduction of big data, which will give you an overview of what big data is. And if we talk about all the technologies, like data science, data mining, artificial intelligence, for all these technologies, what we need first of all? We need data. Means you should have so much data, on which you can mine and get some important facts. You can visualize it, you can train it, you can make it an expert. So for this, it is important to generate data first. And you have a lot of examples, a lot of examples are available to you. If we talk about a simple example, Amazon too. So Amazon at this time, because Jeff Bezos, you must have heard that he is the number one rich man in the world. So obviously, on whose basis is he made? So much data, they have generated on the backend. No production, they did not set up a factory, nor did they set up a factory. They are just doing what? They are intermediators. There is stuff here, there are users here, users order goods. And on the basis of that, but they are generating such a huge amount of data. Thousands, crores, billions of transactions are happening on a daily basis. So by generating such a huge amount of data, they are mining it and finding out important facts. How to retain customers? How do we find out important facts on running data? Streamline data, all these points come under big data. And because of this, it is very popular at the time of today. So this is the basic introduction of big data. And the comparative of this, which we used to use before, traditional data or normal data. Thank you. Thank you."
+}

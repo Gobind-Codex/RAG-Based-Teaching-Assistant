@@ -1,0 +1,250 @@
+{
+    "chunks": [
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 0.0,
+            "end": 22.0,
+            "text": " Dear students, Welcome to Gate Smashers  In today's video I am going to explain  MapReduce which is one of the core component of Apache Hadoop  As I told you in the last video about HDFS  What is the purpose of HDFS  That my big data, large amount of data  Instead of storing it in one place  I am storing it in a distributed way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 22.0,
+            "end": 42.0,
+            "text": " Means I am partitioning it in different places and storing it  So when my processing unit will come  Processing unit means that data is stored  Now what to do after storing it  We have to extract some important information or insights from it  So who will extract it?  The processing unit will extract it  Means the one who will process this data"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 42.0,
+            "end": 72.0,
+            "text": " So the processing unit should also be such  Which can process this whole data in a distributed way  So for that purpose, MapReduce was specially designed  So what is MapReduce?  MapReduce performs the processing of large amount of data set  In a distributed and parallel manner  Data is already distributed  Data is already stored in a distributed way by HDFS"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 72.0,
+            "end": 99.0,
+            "text": " Now I need a system which can process this data in parallel  So that my time is less and I get more efficiency  So that is the purpose of MapReduce  So we call it as Processing Unit of Apache Hadoop  So see, in MapReduce, you can say two main classes  You can say two main tasks  One is Map and the other is Reduce  We generally say that there is one class that is Mapper class"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 99.0,
+            "end": 121.0,
+            "text": " And another class that is Reduce  Because this works on divide and conquer approach  Maybe if you have heard in the algorithm  What is divide and conquer approach?  That I have a very big problem  First you divide it in small partitions, small portions  Keep dividing it, keep dividing it  Till it comes on a very small level"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 121.0,
+            "end": 149.0,
+            "text": " When it is split, divided  Finally, what we do is process it and then reduce it  Reduce means combine the intermediate results and generate the final output  So what is the work of Mapper?  To solve the big problem in small problems  And then convert them into key value pairs  Means what is the key and what is its value?  So it converts the data into key value pair after splitting"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 149.0,
+            "end": 178.0,
+            "text": " Then after that, it is processed  Whatever we write, whatever program we write here  So based on that program, whatever work I have to do, that work will be performed  But it will be parallel to all the split we have done on all the programs  And then the intermediate result will come  What will we do to that result?  By combining, which is called reducer class  By reducing the reducer, the intermediate result converts it into the final result"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 178.0,
+            "end": 198.0,
+            "text": " I will explain this to you with real life example here, don't worry  Then another important point comes here  That two main daemons come here who work on the background  What are daemons?  Those processes that work on the background  So there we have a job tracker and a task tracker  So what is the job tracker?  It is the boss"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 198.0,
+            "end": 219.0,
+            "text": " Here the job tracker is the boss  Whose work is to schedule the process  That which job will be scheduled, where will it be scheduled  Provide resources  Means this is the operating system kind of  This is the boss who manages all the things  And the one who actually works is your task tracker  Like we did in HDFS, this is the name node"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 219.0,
+            "end": 235.0,
+            "text": " So what is the purpose of the name node?  It is a kind of boss who stores all the metadata  Who tells which data to be stored where  But where is the data stored?  In the data node  I am telling you the same thing here  That you will be clear from my diagram  What is the job tracker here?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 235.0,
+            "end": 252.0,
+            "text": " It works like a master node  Works like a boss  Like HDFS, what is this HDFS component?  What is this? Map reduce component  So here this is the master  You can say this is your slave node  Whose actual work is to do  This is the employee"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 252.0,
+            "end": 271.0,
+            "text": " Like this is the employee of the company who is actually working  And this is the boss, the master who is managing all the things  Like in HDFS, the name node and data node are the same thing here  So what is its job?  Its job is to schedule things  That which thing will be scheduled at what time  Provide resources  Provide resources"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 271.0,
+            "end": 286.0,
+            "text": " The resources I need  The resources that the task tracker needs  It provides  Monitoring along with it  Means things are running properly or not  Any fault has occurred  Any task tracker is not working  So all these things are managed"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 286.0,
+            "end": 308.0,
+            "text": " All this is your job tracker  And then the task tracker actually works  Where the data is lying  Now here is a very important point  That we say that how do we parallel access such a large amount of data?  So a very important concept comes here  What usually happens is that my data  We have kept it on different data nodes here in this way"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 308.0,
+            "end": 330.0,
+            "text": " What do we do here?  Like you have any question from any of the billets  That you have to find out state-wise of dominoes  At which place most of it is sold  Okay  So if I have to find out this thing here  Then there are more than 1500 outlets all over India of dominoes  How much sale will be there on a daily basis?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 330.0,
+            "end": 354.0,
+            "text": " So if I have to find out  At which particular state has the most sale at the month end  So what I have to do  First of all, that data has to be kept in a parallel distributed way  And here we keep that data in the local disk  We do not keep it far in the remote disk  We keep the data in the local disk, in the nearby disk  What is the reason for that?"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 354.0,
+            "end": 371.0,
+            "text": " Network utilization  Because the farther you keep it here  We have a formula  Propagation delay in the network  Propagation delay which is distance upon velocity  So propagation delay is directly proportional to distance  The farther we keep the data, the more delay will be there  So what we do"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 371.0,
+            "end": 390.0,
+            "text": " We keep the data local  You can say that the data node is storing the data here  And the processing unit is going to the data nodes itself  And processing  Generally what happens  That we call the data to the processing unit  Like it happens in our laptop  Data is called to RAM"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 390.0,
+            "end": 407.0,
+            "text": " CPU then works on it  What is here?  Here is the opposite  Here your processing unit  It goes to the data nodes and works parallelly  So that you do not have to call the data again and again  Because the more data you call again and again  The more delay you will have"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 407.0,
+            "end": 422.0,
+            "text": " So that's why this is a very important concept  So we keep the data locally  Then  Now here the different  Here I tell you with an example  How it is actually working  So I have brought an example of word count  All the examples you will get"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 422.0,
+            "end": 438.0,
+            "text": " All similar kind of examples will be found  Whenever you see online  I have brought a very good example for you  Let's say there is a paragraph  Your paragraph is given here  Now what is in this paragraph  A good cook could cook as much as cookies  As a good cook who would cook cookies"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 438.0,
+            "end": 451.0,
+            "text": " I have brought this tongue twister  So that you can understand the story well  So see what is the first input  We have this input  What do we have to do with this input  Split  The first thing to do is to divide  To split"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 451.0,
+            "end": 467.0,
+            "text": " So I broke it into four pieces  And what did you do here  You can say that data was put on node 1  This data was put on node 2  This data was put on node 3  This data was put on node 4  You can say it this way  That we have kept the data in different places in the local disk"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 467.0,
+            "end": 475.0,
+            "text": " Okay  Now this was my first work  Splitting  Then came the mapping  What did I tell in mapping  Key value pair  So what is here  Key and value"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 475.0,
+            "end": 485.0,
+            "text": " See first pick this  Pick only this portion  A  How many times has A come  A is the key here  And value means how many times has A come  Its count has come once  So key value"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 485.0,
+            "end": 497.0,
+            "text": " Good key value cook  Key value  Good cook key value  Okay  In the same way we wrote all the key values  Key value in this way  Which thing has come how many times in this particular place  This is done"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 497.0,
+            "end": 511.0,
+            "text": " This work is happening parallel  All this work is happening parallel  Means this is doing a different task tracker on a different machine  This is different task tracker  This is different and this is different  So see how big the concept of parallel processing is going on here  With which efficiency will get a lot  Then"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 511.0,
+            "end": 523.0,
+            "text": " Now this happened here  Then shuffling  What is the funda of shuffling  That we will compare all these together  We will shuffle  So after shuffling, they call me shuffling here  They also call ordering  You can take it as you like"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 523.0,
+            "end": 536.0,
+            "text": " So what did we do in shuffling here  Combining all the places where A was  We have written it by combining it in this way  So what is here  A  What is written here  A1,1  Because A is also here"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 536.0,
+            "end": 547.0,
+            "text": " And my one A is also here  So the key is the same  So why repeat the key again and again  Why write A1, A1  So the key is the same  A11  I wrote here twice  Because it came twice"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 547.0,
+            "end": 558.0,
+            "text": " Okay  So we checked here like this  Same cook  Cook is also here  If it is in different places  So everywhere  In this way we combined by shuffling  So an intermediate result came"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 558.0,
+            "end": 568.0,
+            "text": " What did the intermediate result do further  Reduce  What did we do by reducing  Counted  So how many times is A  Twice  Good twice  Cook is four times"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 568.0,
+            "end": 578.0,
+            "text": " So in this way  Intermediate result  What is also happening  Your is being executed parallelly  And finally  My final result  Final  By further reducing it"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 578.0,
+            "end": 590.0,
+            "text": " Converted it into one output  And from which we got to know  That my input  How many times which word has come in it  So this work  Parallelly  MapReduce works in this way  So this is all about the"
+        },
+        {
+            "number": "4",
+            "title": "What is MapReduce",
+            "start": 590.0,
+            "end": 596.0,
+            "text": " MapReduce  In your competitive exam  In interviews  Ask anywhere  This is more than sufficient  Thank you"
+        }
+    ],
+    "text": " Dear students, Welcome to Gate Smashers In today's video I am going to explain MapReduce which is one of the core component of Apache Hadoop As I told you in the last video about HDFS What is the purpose of HDFS That my big data, large amount of data Instead of storing it in one place I am storing it in a distributed way Means I am partitioning it in different places and storing it So when my processing unit will come Processing unit means that data is stored Now what to do after storing it We have to extract some important information or insights from it So who will extract it? The processing unit will extract it Means the one who will process this data So the processing unit should also be such Which can process this whole data in a distributed way So for that purpose, MapReduce was specially designed So what is MapReduce? MapReduce performs the processing of large amount of data set In a distributed and parallel manner Data is already distributed Data is already stored in a distributed way by HDFS Now I need a system which can process this data in parallel So that my time is less and I get more efficiency So that is the purpose of MapReduce So we call it as Processing Unit of Apache Hadoop So see, in MapReduce, you can say two main classes You can say two main tasks One is Map and the other is Reduce We generally say that there is one class that is Mapper class And another class that is Reduce Because this works on divide and conquer approach Maybe if you have heard in the algorithm What is divide and conquer approach? That I have a very big problem First you divide it in small partitions, small portions Keep dividing it, keep dividing it Till it comes on a very small level When it is split, divided Finally, what we do is process it and then reduce it Reduce means combine the intermediate results and generate the final output So what is the work of Mapper? To solve the big problem in small problems And then convert them into key value pairs Means what is the key and what is its value? So it converts the data into key value pair after splitting Then after that, it is processed Whatever we write, whatever program we write here So based on that program, whatever work I have to do, that work will be performed But it will be parallel to all the split we have done on all the programs And then the intermediate result will come What will we do to that result? By combining, which is called reducer class By reducing the reducer, the intermediate result converts it into the final result I will explain this to you with real life example here, don't worry Then another important point comes here That two main daemons come here who work on the background What are daemons? Those processes that work on the background So there we have a job tracker and a task tracker So what is the job tracker? It is the boss Here the job tracker is the boss Whose work is to schedule the process That which job will be scheduled, where will it be scheduled Provide resources Means this is the operating system kind of This is the boss who manages all the things And the one who actually works is your task tracker Like we did in HDFS, this is the name node So what is the purpose of the name node? It is a kind of boss who stores all the metadata Who tells which data to be stored where But where is the data stored? In the data node I am telling you the same thing here That you will be clear from my diagram What is the job tracker here? It works like a master node Works like a boss Like HDFS, what is this HDFS component? What is this? Map reduce component So here this is the master You can say this is your slave node Whose actual work is to do This is the employee Like this is the employee of the company who is actually working And this is the boss, the master who is managing all the things Like in HDFS, the name node and data node are the same thing here So what is its job? Its job is to schedule things That which thing will be scheduled at what time Provide resources Provide resources The resources I need The resources that the task tracker needs It provides Monitoring along with it Means things are running properly or not Any fault has occurred Any task tracker is not working So all these things are managed All this is your job tracker And then the task tracker actually works Where the data is lying Now here is a very important point That we say that how do we parallel access such a large amount of data? So a very important concept comes here What usually happens is that my data We have kept it on different data nodes here in this way What do we do here? Like you have any question from any of the billets That you have to find out state-wise of dominoes At which place most of it is sold Okay So if I have to find out this thing here Then there are more than 1500 outlets all over India of dominoes How much sale will be there on a daily basis? So if I have to find out At which particular state has the most sale at the month end So what I have to do First of all, that data has to be kept in a parallel distributed way And here we keep that data in the local disk We do not keep it far in the remote disk We keep the data in the local disk, in the nearby disk What is the reason for that? Network utilization Because the farther you keep it here We have a formula Propagation delay in the network Propagation delay which is distance upon velocity So propagation delay is directly proportional to distance The farther we keep the data, the more delay will be there So what we do We keep the data local You can say that the data node is storing the data here And the processing unit is going to the data nodes itself And processing Generally what happens That we call the data to the processing unit Like it happens in our laptop Data is called to RAM CPU then works on it What is here? Here is the opposite Here your processing unit It goes to the data nodes and works parallelly So that you do not have to call the data again and again Because the more data you call again and again The more delay you will have So that's why this is a very important concept So we keep the data locally Then Now here the different Here I tell you with an example How it is actually working So I have brought an example of word count All the examples you will get All similar kind of examples will be found Whenever you see online I have brought a very good example for you Let's say there is a paragraph Your paragraph is given here Now what is in this paragraph A good cook could cook as much as cookies As a good cook who would cook cookies I have brought this tongue twister So that you can understand the story well So see what is the first input We have this input What do we have to do with this input Split The first thing to do is to divide To split So I broke it into four pieces And what did you do here You can say that data was put on node 1 This data was put on node 2 This data was put on node 3 This data was put on node 4 You can say it this way That we have kept the data in different places in the local disk Okay Now this was my first work Splitting Then came the mapping What did I tell in mapping Key value pair So what is here Key and value See first pick this Pick only this portion A How many times has A come A is the key here And value means how many times has A come Its count has come once So key value Good key value cook Key value Good cook key value Okay In the same way we wrote all the key values Key value in this way Which thing has come how many times in this particular place This is done This work is happening parallel All this work is happening parallel Means this is doing a different task tracker on a different machine This is different task tracker This is different and this is different So see how big the concept of parallel processing is going on here With which efficiency will get a lot Then Now this happened here Then shuffling What is the funda of shuffling That we will compare all these together We will shuffle So after shuffling, they call me shuffling here They also call ordering You can take it as you like So what did we do in shuffling here Combining all the places where A was We have written it by combining it in this way So what is here A What is written here A1,1 Because A is also here And my one A is also here So the key is the same So why repeat the key again and again Why write A1, A1 So the key is the same A11 I wrote here twice Because it came twice Okay So we checked here like this Same cook Cook is also here If it is in different places So everywhere In this way we combined by shuffling So an intermediate result came What did the intermediate result do further Reduce What did we do by reducing Counted So how many times is A Twice Good twice Cook is four times So in this way Intermediate result What is also happening Your is being executed parallelly And finally My final result Final By further reducing it Converted it into one output And from which we got to know That my input How many times which word has come in it So this work Parallelly MapReduce works in this way So this is all about the MapReduce In your competitive exam In interviews Ask anywhere This is more than sufficient Thank you"
+}
