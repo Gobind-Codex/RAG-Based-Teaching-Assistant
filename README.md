@@ -1,12 +1,5 @@
-# Projects
-Machine learning &amp; data science projects with real-world applications
-## 📌 About This Repository
-This repository contains a collection of my machine learning and data science projects. Each project focuses on applying theoretical concepts to real-world problems, including:
+"RAG-based Teaching Assistant that combines vector search and LLMs to deliver accurate, context-aware answers from custom knowledge sources." 🚀
 
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Machine Learning Model Building  
-- Evaluation and Optimization  
-- AI Applications (e.g., RAG systems)
+Or even shorter:
 
-Each folder includes a dedicated README with details and instructions.
+"AI-powered RAG Teaching Assistant for intelligent question answering using LLMs and vector search."
